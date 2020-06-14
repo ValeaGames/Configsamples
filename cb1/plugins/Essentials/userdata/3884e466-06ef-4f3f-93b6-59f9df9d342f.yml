@@ -1,0 +1,29 @@
+lastAccountName: leDansyl
+timestamps:
+  login: 1591125396017
+  lastteleport: 1591127958346
+  logout: 1591128193319
+ipAddress: 81.217.45.190
+lastlocation:
+  world: plotworld
+  x: -131.48750001192093
+  y: 58.0
+  z: 20.910712406110513
+  yaw: -80.85667
+  pitch: 6.372244
+money: '499.0'
+logoutlocation:
+  world: farmwelt
+  x: 34.73826235441231
+  y: 83.55235680934295
+  z: -1672.980990107578
+  yaw: -279.97644
+  pitch: 33.36028
+homes:
+  home:
+    world: farmwelt
+    x: 2814.699999988079
+    y: 11.200000047683716
+    z: -351.30000001192093
+    yaw: -273.5869
+    pitch: 13.957794

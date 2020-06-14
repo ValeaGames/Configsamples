@@ -1,0 +1,20 @@
+lastAccountName: devCore
+timestamps:
+  login: 1591455058459
+  logout: 1591455052449
+ipAddress: 127.0.0.1
+lastlocation:
+  world: plotworld
+  x: 61.0
+  y: 65.0
+  z: 256.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: plotworld
+  x: 122.95750751126587
+  y: 68.0
+  z: 319.2511709517495
+  yaw: 88.0
+  pitch: 1.0
+money: '0.0'

@@ -1,0 +1,20 @@
+lastAccountName: Sams43
+timestamps:
+  login: 1591449967724
+  logout: 1591450046936
+ipAddress: 84.136.104.190
+lastlocation:
+  world: plotworld
+  x: 61.0
+  y: 65.0
+  z: 256.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: plotworld
+  x: 148.31264958664542
+  y: 65.5
+  z: 233.8857232242888
+  yaw: -0.89952725
+  pitch: 26.249971
+money: '2500'

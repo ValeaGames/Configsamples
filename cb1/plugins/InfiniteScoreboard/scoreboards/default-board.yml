@@ -1,0 +1,59 @@
+#This is where you create the scoreboard, the first section will always be the title.
+#Every section after that will be a line displayed on the scoreboard. You can have a max
+#of 15 lines display due to the limitations of minecraft.
+board:
+  #This is the first section, it will always be the title of the scoreboard.
+  #You can also use placeholders here if you want.
+  title:
+    lines:
+      - "&l&aValea Games"
+    # The time between updates in ticks (20 ticks is 1 second.)
+    # NEVER CHANGE THIS TO 1 IT WILL CAUSE LAG
+    interval: 5
+  # This section is the first line, here you set the data of that line. It doesn't matter what the name of the section is, as long
+  # as there is no other section with the exact same name
+
+  1:
+    lines:
+      - " "
+    interval: 200
+    score: 8
+  2:
+    lines:
+      - "&a&lWillkommen %player_name%"
+      - "&2&lWillkommen %player_name%"
+    interval: 5
+    # This is the red number at the end of the scoreboard (It cannot be empty)
+    score: 7
+  3:
+    lines:
+      - " "
+    interval: 20
+    score: 6
+  4:
+    lines:
+      - "&aYour world:"
+      - "&aYour balance:"
+    interval: 60
+    score: 5
+  5:
+    lines:
+      - "  &2%player_world% / 300"
+      - "  &2%vault_eco_balance_commas%"
+    interval: 60
+    score: 4
+  6:
+    lines:
+      - " "
+    interval: 200
+    score: 3
+  7:
+    lines:
+      - "&eThanks for using ISB %infinitescoreboard_version%"
+    interval: 1
+    score: 2
+  8:
+    lines:
+      - "&7infiniteplugins.com"
+    interval: 1
+    score: 1

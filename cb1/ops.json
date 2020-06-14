@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "cb42b057-5f9e-403d-bb77-e62de5eeaab7",
+    "name": "YukiHai",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "1f9e5193-9829-40e9-91e7-b7bb750c535f",
+    "name": "PxxLLL",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d8e4973c-57ad-4aad-92cc-c03a07366d41",
+    "name": "BlueNori",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "6fbdf575-3a8c-4b72-ad71-ee605651a524",
+    "name": "HobbitCode",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

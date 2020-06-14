@@ -1,0 +1,20 @@
+lastAccountName: WazzalaKing
+timestamps:
+  login: 1591549571254
+  logout: 1591549884482
+ipAddress: 95.90.176.170
+lastlocation:
+  world: plotworld
+  x: 61.0
+  y: 65.0
+  z: 256.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: plotworld
+  x: 87.98036743040406
+  y: 167.0
+  z: 284.1487012589219
+  yaw: 274.79114
+  pitch: 43.873203
+money: '2500'

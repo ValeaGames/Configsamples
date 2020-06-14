@@ -1,0 +1,15 @@
+data:
+  plotworld:-25:63:494:
+    radius: 3
+    enabled: true
+  plotworld:135:63:-108:
+    radius: 3
+    enabled: true
+  plotworld:32:64:8:
+    enabled: false
+  plotworld:33:64:8:
+    enabled: false
+  plotworld:429:57:377:
+    enabled: false
+  plotworld:532:63:348:
+    radius: 1

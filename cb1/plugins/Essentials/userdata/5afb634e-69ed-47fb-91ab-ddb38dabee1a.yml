@@ -1,0 +1,21 @@
+lastAccountName: Stuglie
+timestamps:
+  login: 1591484660749
+  lastteleport: 1591485169482
+  logout: 1591485325804
+ipAddress: 80.228.208.207
+lastlocation:
+  world: farmwelt
+  x: 467.86109116687885
+  y: 67.0
+  z: -1572.2075397100402
+  yaw: -124.66504
+  pitch: 76.79998
+money: '500.0'
+logoutlocation:
+  world: plotworld
+  x: 99.69999998807907
+  y: 193.23625880389991
+  z: 331.30000001192093
+  yaw: -92.41736
+  pitch: 5.3999343

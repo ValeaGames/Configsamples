@@ -1,0 +1,213 @@
+reasons:
+  '1':
+    name: Hacking
+    display: Hacking
+    permission: dkbans.ban.reason.hacking
+    aliases:
+    - hacks
+    - hacker
+    hidden: false
+    historytype: NETWORK
+    durations:
+      '1':
+        type: NETWORK
+        time: 30
+        unit: DAYS
+      '2':
+        type: NETWORK
+        time: 60
+        unit: DAYS
+      '3':
+        type: NETWORK
+        time: 90
+        unit: DAYS
+      '4':
+        type: NETWORK
+        time: -1
+        unit: DAYS
+    points:
+      points: 30
+      divider: 0.0
+      durations:
+        '0':
+          type: NETWORK
+          time: -2
+          unit: DAYS
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10
+  '2':
+    name: Provocation
+    display: Provocation
+    permission: dkbans.ban.reason.provocation
+    aliases:
+    - provocation
+    - provo
+    hidden: false
+    historytype: CHAT
+    durations:
+      '1':
+        type: CHAT
+        time: 30
+        unit: MINUTES
+      '2':
+        type: CHAT
+        time: 4
+        unit: HOURS
+      '3':
+        type: CHAT
+        time: 10
+        unit: DAYS
+      '4':
+        type: CHAT
+        time: 30
+        unit: DAYS
+      '5':
+        type: NETWORK
+        time: 10
+        unit: DAYS
+      '6':
+        type: NETWORK
+        time: 30
+        unit: DAYS
+    points:
+      points: 7
+      divider: 2.0
+      durations:
+        '0':
+          type: CHAT
+          time: 30
+          unit: MINUTES
+        '50':
+          type: NETWORK
+          time: -2
+          unit: MINUTES
+        '5':
+          type: CHAT
+          time: -2
+          unit: MINUTES
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10
+  '3':
+    name: Insult
+    display: Insult
+    permission: dkbans.ban.reason.insult
+    aliases:
+    - insult
+    hidden: false
+    historytype: CHAT
+    durations:
+      '1':
+        type: CHAT
+        time: 5
+        unit: HOURS
+      '2':
+        type: CHAT
+        time: 1
+        unit: DAYS
+      '3':
+        type: CHAT
+        time: 10
+        unit: DAYS
+      '4':
+        type: CHAT
+        time: 30
+        unit: DAYS
+      '5':
+        type: NETWORK
+        time: 10
+        unit: DAYS
+      '6':
+        type: NETWORK
+        time: 30
+        unit: DAYS
+    points:
+      points: 9
+      divider: 0.0
+      durations:
+        '0':
+          type: CHAT
+          time: 5
+          unit: MINUTES
+        '40':
+          type: NETWORK
+          time: -2
+          unit: MINUTES
+        '9':
+          type: CHAT
+          time: -2
+          unit: MINUTES
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10
+  '4':
+    name: Spam/Promotion
+    display: Spam/Promotion
+    permission: dkbans.ban.reason.promotion
+    aliases:
+    - spam
+    - spamming
+    hidden: false
+    historytype: NETWORK
+    durations:
+      '1':
+        type: NETWORK
+        time: 3
+        unit: DAYS
+      '2':
+        type: NETWORK
+        time: 10
+        unit: DAYS
+      '3':
+        type: NETWORK
+        time: 30
+        unit: DAYS
+      '4':
+        type: NETWORK
+        time: -1
+        unit: DAYS
+    points:
+      points: 9
+      divider: 3.0
+      durations:
+        '0':
+          type: NETWORK
+          time: 5
+          unit: MINUTES
+        '9':
+          type: NETWORK
+          time: -2
+          unit: MINUTES
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10
+  '5':
+    name: Permanently
+    display: Permanently
+    permission: dkbans.ban.reason.permanent
+    aliases:
+    - perma
+    - perm
+    hidden: false
+    historytype: NETWORK
+    durations:
+      '1':
+        type: NETWORK
+        time: -1
+        unit: DAYS
+    points:
+      points: 60
+      divider: 0.0
+      durations:
+        '0':
+          type: NETWORK
+          time: 5
+          unit: MINUTES
+        '9':
+          type: NETWORK
+          time: -2
+          unit: MINUTES
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10

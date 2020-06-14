@@ -1,0 +1,48 @@
+reasons:
+  '1':
+    name: Hacking
+    display: Hacking
+    permission: dkbans.report.reason.hacking
+    aliases:
+    - hacks
+    - hacker
+    hidden: false
+    forbanreason: 1
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10
+  '2':
+    name: Provocation
+    display: Provocation
+    permission: dkbans.report.reason.provocation
+    aliases:
+    - provocation
+    - provo
+    hidden: false
+    forbanreason: 2
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10
+  '3':
+    name: Insult
+    display: Insult
+    permission: dkbans.report.reason.insult
+    aliases:
+    - insult
+    hidden: false
+    forbanreason: 3
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10
+  '4':
+    name: Spam/Provocation
+    display: Spam/Promotion
+    permission: dkbans.report.reason.promotion
+    aliases:
+    - spam
+    - spamming
+    hidden: false
+    forbanreason: 4
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10

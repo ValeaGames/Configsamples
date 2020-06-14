@@ -1,0 +1,20 @@
+lastAccountName: GamingLPyt
+timestamps:
+  login: 1591451749140
+  logout: 1591451977988
+ipAddress: 194.140.113.167
+lastlocation:
+  world: plotworld
+  x: 61.0
+  y: 65.0
+  z: 256.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: plotworld
+  x: 166.25617778290078
+  y: 65.0
+  z: 352.8924863500848
+  yaw: -144.17004
+  pitch: 18.271769
+money: '2500'

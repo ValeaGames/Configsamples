@@ -1,0 +1,21 @@
+lastAccountName: liljanna
+timestamps:
+  login: 1591464478405
+  logout: 1591464589385
+  lastteleport: 1591464551473
+ipAddress: 84.153.120.201
+lastlocation:
+  world: plotworld
+  x: 121.79544431971826
+  y: 65.79941220625838
+  z: 375.2803387157106
+  yaw: -357.7724
+  pitch: 34.941536
+logoutlocation:
+  world: plotworld
+  x: 78.51551321468942
+  y: 185.2707108699665
+  z: 354.5537131521335
+  yaw: 13.01115
+  pitch: 55.880566
+money: '500.0'

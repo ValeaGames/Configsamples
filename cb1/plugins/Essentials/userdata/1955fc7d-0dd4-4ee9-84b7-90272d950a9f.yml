@@ -1,0 +1,54 @@
+lastlocation:
+  world: plotworld
+  x: 117.61305200932026
+  y: 67.0
+  z: 319.2358581838308
+  yaw: 91.15004
+  pitch: 4.2999997
+timestamps:
+  lastteleport: 1592086634842
+  logout: 1592087445210
+  login: 1592086579452
+  jail: 0
+afk: false
+logoutlocation:
+  world: plotworld
+  x: -20.53717898280353
+  y: 66.5
+  z: -506.0695469735418
+  yaw: 18.600035
+  pitch: -8.100023
+lastAccountName: 101ProCraft
+ipAddress: 2.200.102.235
+godmode: false
+money: '4440.0'
+jailed: false
+homes:
+  a:
+    world: plotworld_nether
+    x: -739.5681652529643
+    y: 47.0
+    z: -808.1904201658855
+    yaw: -95.11865
+    pitch: 29.100021
+  home:
+    world: farmwelt
+    x: -1010.2027044121498
+    y: 64.0
+    z: -3496.596552202617
+    yaw: -334.83618
+    pitch: 18.449965
+  m:
+    world: farmwelt
+    x: 345.56910403161214
+    y: 12.0
+    z: -1600.561502988819
+    yaw: -94.78467
+    pitch: 21.599932
+  sand:
+    world: farmwelt
+    x: 3927.9697700284282
+    y: 75.0
+    z: -4602.288468826884
+    yaw: -182.12253
+    pitch: 19.349913

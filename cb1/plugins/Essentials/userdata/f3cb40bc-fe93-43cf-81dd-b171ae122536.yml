@@ -1,0 +1,50 @@
+lastAccountName: BEAR_Alola
+timestamps:
+  login: 1592153645872
+  logout: 1592155228030
+  lastteleport: 1592154877316
+  kits:
+    firework: 1590866678724
+  lastheal: 1592071681687
+  jail: 0
+ipAddress: 77.189.49.61
+lastlocation:
+  world: ADMINWORLD
+  x: -388.5531954432456
+  y: 4.0
+  z: -341.62868201234943
+  yaw: 174.93085
+  pitch: 5.850008
+logoutlocation:
+  world: plotworld
+  x: -79.69999998807907
+  y: 77.0
+  z: -397.4032415460822
+  yaw: 271.41992
+  pitch: 33.300007
+money: '10095685534.80'
+homes:
+  grab:
+    world: plotworld
+    x: -3546.699999988079
+    y: 62.0
+    z: 1743.300000011921
+    yaw: -92.82251
+    pitch: -40.05001
+  zw_lftausend:
+    world: farmwelt
+    x: 12150.631741490572
+    y: 383.3728659151755
+    z: -8569.108014465333
+    yaw: 182.74457
+    pitch: 85.94999
+  kill:
+    world: plotworld
+    x: -3559.0883322623545
+    y: 65.0
+    z: 1759.0911733259604
+    yaw: 309.15005
+    pitch: 64.2
+afk: false
+godmode: false
+jailed: false

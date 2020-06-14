@@ -1,0 +1,21 @@
+lastAccountName: DieSpigotPlugins
+timestamps:
+  login: 1591886838940
+  logout: 1591896919855
+  lastteleport: 1591888513873
+ipAddress: 46.94.191.71
+lastlocation:
+  world: plotworld
+  x: 235.04508041391372
+  y: 67.5648819300349
+  z: 194.81889098929577
+  yaw: 329.2522
+  pitch: 21.878426
+logoutlocation:
+  world: plotworld
+  x: 123.66623839645467
+  y: 68.0
+  z: 318.4211429812055
+  yaw: -303.62177
+  pitch: 5.5393887
+money: '2050.0'

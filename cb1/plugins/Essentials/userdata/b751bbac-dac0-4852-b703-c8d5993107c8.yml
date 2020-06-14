@@ -1,0 +1,20 @@
+lastAccountName: Blackboy24
+timestamps:
+  login: 1591643315328
+  logout: 1591643379048
+ipAddress: 156.67.134.104
+lastlocation:
+  world: plotworld
+  x: 61.0
+  y: 65.0
+  z: 256.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: plotworld
+  x: 198.88402357097402
+  y: 65.0
+  z: 246.5837923689129
+  yaw: 184.64978
+  pitch: -34.200073
+money: '2500'

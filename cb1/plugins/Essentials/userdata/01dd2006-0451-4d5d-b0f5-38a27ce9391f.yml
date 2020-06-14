@@ -1,0 +1,21 @@
+lastAccountName: HonigCrafter
+timestamps:
+  login: 1591216311276
+  lastteleport: 1591216675034
+  logout: 1591217202906
+ipAddress: 79.206.196.63
+lastlocation:
+  world: plotworld
+  x: -176.41697989386228
+  y: 65.0
+  z: 350.4420508704868
+  yaw: 130.394
+  pitch: 5.827198
+logoutlocation:
+  world: farmwelt
+  x: 461.63159191448415
+  y: 57.0
+  z: -1507.1825593218307
+  yaw: -228.39807
+  pitch: 39.004795
+money: '500.0'

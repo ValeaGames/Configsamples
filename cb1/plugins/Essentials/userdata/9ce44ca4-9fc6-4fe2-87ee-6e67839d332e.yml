@@ -1,0 +1,20 @@
+lastAccountName: ManuGun
+timestamps:
+  login: 1591542213888
+  logout: 1591542222758
+ipAddress: 94.134.180.101
+lastlocation:
+  world: plotworld
+  x: 61.0
+  y: 65.0
+  z: 256.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: plotworld
+  x: 217.9691347728463
+  y: 88.11813584628717
+  z: 290.297064852357
+  yaw: 236.55066
+  pitch: 13.199884
+money: '2500'

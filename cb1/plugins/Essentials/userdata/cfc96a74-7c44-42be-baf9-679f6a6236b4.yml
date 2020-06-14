@@ -1,0 +1,31 @@
+lastAccountName: duschnixHD
+timestamps:
+  login: 1591550704688
+  lastteleport: 1591042235461
+  logout: 1591550744578
+ipAddress: 178.201.196.101
+lastlocation:
+  world: plotworld
+  x: 123.59181258938871
+  y: 68.0
+  z: 319.51774224308474
+  yaw: 175.59569
+  pitch: 22.536755
+homes:
+  home:
+    world: farmwelt
+    x: 387.0959409445122
+    y: 58.0
+    z: 4366.068713853263
+    yaw: -348.5465
+    pitch: 56.04638
+money: '510.0'
+godmode: false
+logoutlocation:
+  world: plotworld
+  x: 121.03209770292374
+  y: 68.0
+  z: 323.3203084307757
+  yaw: -12.421783
+  pitch: 11.074139
+afk: false

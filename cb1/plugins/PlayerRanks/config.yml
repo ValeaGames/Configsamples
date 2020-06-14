@@ -1,0 +1,79 @@
+ranks:
+  Owner:
+    prefix: §4§lOwner §7| §f
+    suffix: ''
+    chat_format: '&7%player% &8» §r%message%'
+    priority: 1
+    default: false
+  Orga:
+    prefix: §4Orga §7| §f
+    suffix: ''
+    chat_format: '&7%player% &8» §r%message%'
+    priority: 4
+    default: false
+  Admin:
+    prefix: §c§lAdmin §7| §f
+    suffix: ''
+    chat_format: '&7%player% &8» §r%message%'
+    priority: 5
+    default: false
+  Mod:
+    prefix: §2§lMod §7| §f
+    suffix: ''
+    chat_format: '&7%player% &8» §r%message%'
+    priority: 6
+    default: false
+  Support:
+    prefix: §1Sup §7| §f
+    suffix: ''
+    chat_format: '&7%player% &8» §r%message%'
+    priority: 7
+    default: false
+  DevL:
+    prefix: §b§LDEV-L §7| §f
+    suffix: ''
+    chat_format: '&7%player% &8» §r%message%'
+    priority: 2
+    default: false
+  Buddy:
+    prefix: §3Buddy §7| §f
+    suffix: ''
+    chat_format: '&7%player% &8» §r%message%'
+    priority: 10
+    default: false
+  Spieler:
+    prefix: §7Spieler §7| §f
+    suffix: ''
+    chat_format: '&7%player% &8» §r%message%'
+    priority: 99
+    default: false
+  Dev:
+    prefix: §b§lDEV §7| §f
+    suffix: ''
+    chat_format: '&7%player% &8» §r%message%'
+    priority: 3
+    default: false
+  TMOD:
+    prefix: §aT-MOD §7| §f
+    suffix: ''
+    chat_format: '&7%player% &8» §r%message%'
+    priority: 8
+    default: false
+  Alpha:
+    prefix: §d§lAlpha §7| §f
+    suffix: ''
+    chat_format: '&7%player% &8» §r%message%'
+    priority: 11
+    default: false
+  Diamond:
+    prefix: §b§lDia §7| §f
+    suffix: ''
+    chat_format: '&7%player% &8» §r%message%'
+    priority: 80
+    default: false
+  KING:
+    prefix: §6§lKing §7| §f
+    suffix: ''
+    chat_format: '&7%player% &8» §r%message%'
+    priority: 70
+    default: false

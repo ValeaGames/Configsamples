@@ -1,0 +1,21 @@
+lastAccountName: EliteFour
+timestamps:
+  login: 1591484741763
+  lastteleport: 1591484995051
+  logout: 1591485308979
+ipAddress: 109.98.104.139
+lastlocation:
+  world: plotworld
+  x: 51.59417154090656
+  y: 65.0
+  z: 363.82495533890943
+  yaw: 264.21463
+  pitch: 4.520274
+money: '1000.0'
+logoutlocation:
+  world: plotworld
+  x: 43.67120051756338
+  y: 73.92241925548818
+  z: 388.80084195775714
+  yaw: -158.50507
+  pitch: 11.584668

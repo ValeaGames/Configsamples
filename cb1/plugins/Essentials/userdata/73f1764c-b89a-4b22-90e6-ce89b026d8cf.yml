@@ -1,0 +1,22 @@
+lastAccountName: Alyankovic
+timestamps:
+  login: 1591223859040
+  logout: 1591225320139
+  lastteleport: 1588633204475
+ipAddress: 88.130.48.196
+lastlocation:
+  world: plotworld
+  x: 119.9918500931656
+  y: 68.0
+  z: 319.45543459533053
+  yaw: 270.25006
+  pitch: 11.350003
+logoutlocation:
+  world: plotworld
+  x: -73.826633062861
+  y: 56.0
+  z: -37.442681517984894
+  yaw: 160.94464
+  pitch: 19.799932
+afk: false
+money: '250006470.0'

@@ -1,0 +1,21 @@
+lastAccountName: Aimha
+timestamps:
+  login: 1591537532663
+  lastteleport: 1591537897208
+  logout: 1591538094396
+ipAddress: 79.246.173.60
+lastlocation:
+  world: plotworld
+  x: -189.51073044837648
+  y: 65.5
+  z: -149.84197043827174
+  yaw: 34.011196
+  pitch: 90.0
+logoutlocation:
+  world: plotworld
+  x: 150.30000001192093
+  y: 54.0
+  z: 321.51249998807907
+  yaw: 100.92083
+  pitch: 50.93941
+money: '500.0'

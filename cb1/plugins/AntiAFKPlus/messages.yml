@@ -1,0 +1,21 @@
+# AntiAFK+ Messages
+
+PREFIX: '&6[AntiAFK+]'
+NO_PERM: '&cDu hast keine Rechte für diesen Befehl'
+ERROR_AMOUNT_TO_SMALL: '&cDie Nummer ist zu klein'
+ERROR_AMOUNT_TO_BIG: '&cDie Nummer ist zu Groß'
+ERROR_AMOUNT_NOT_VALID: '&cDas ist eine falsche Zahl'
+RELOAD: §aReload complete
+CHANGE_FAILS: §eWrite Fail Amount in Chat
+CHANGED_FAILS: §eChanged Fails to §7%placeholder%
+CHANGE_CMD: §eWrite the Command in Chat (without &7/&e)
+CHANGED_CMD: §eAdded Command §7%placeholder%
+CHANGE_MSG: §eWrite the Message in Chat
+CHANGED_MSG: §eAdded Message §7%placeholder%
+CHANGE_SOUND: §eWrite the Sound Name in Chat
+CHANGED_SOUND: §eAdded Sound §7%placeholder%
+CHANGE_BUNGEE: §eWrite the Server Name in Chat
+CHANGED_BUNGEE: '§eAdded Send to Server: §7%placeholder%'
+CHANGE_CHECK_DELAY: §eWrite the new Check Delay in Chat
+CHANGED_CHECK_DELAY: §eChanged Check Delay to §7%placeholder%s
+ADD_WORLD: §eWrite the World Name in Chat

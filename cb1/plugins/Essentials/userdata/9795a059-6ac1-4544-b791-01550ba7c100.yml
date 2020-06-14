@@ -1,0 +1,24 @@
+lastAccountName: Aspiirin
+timestamps:
+  login: 1592050572357
+  logout: 1592054587664
+  jail: 0
+ipAddress: 46.91.74.69
+lastlocation:
+  world: plotworld
+  x: 464.56585864530416
+  y: 119.0
+  z: 426.11104274093543
+  yaw: -254.41064
+  pitch: 0.14977574
+logoutlocation:
+  world: plotworld
+  x: 177.71140057058955
+  y: 131.0
+  z: 371.29817259343844
+  yaw: -190.99985
+  pitch: 37.900066
+money: '411130.0'
+godmode: false
+jailed: false
+afk: false

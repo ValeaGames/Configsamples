@@ -1,0 +1,36 @@
+lastAccountName: Skrylor
+timestamps:
+  login: 1591807043073
+  lastteleport: 1591808087648
+  logout: 1591808184673
+ipAddress: 92.217.166.57
+lastlocation:
+  world: plotworld_nether
+  x: -713.8842834550939
+  y: 58.0
+  z: -1911.5243904361932
+  yaw: 0.8715753
+  pitch: -25.65022
+homes:
+  home:
+    world: plotworld_nether
+    x: -810.274311016057
+    y: 61.0
+    z: -1711.300000011921
+    yaw: 6.4056396
+    pitch: 1.6496476
+  spawner:
+    world: plotworld_nether
+    x: -809.9438696185932
+    y: 63.0
+    z: -1706.699999988079
+    yaw: 158.8118
+    pitch: 23.999695
+money: '2020.0'
+logoutlocation:
+  world: plotworld
+  x: -55.16407669347278
+  y: 65.0
+  z: -133.59307392112805
+  yaw: -25.199749
+  pitch: 21.149982

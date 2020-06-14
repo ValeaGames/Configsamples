@@ -1,0 +1,45 @@
+# _____       __ _       _ _         _____                    _                         _
+#|_   _|     / _(_)     (_) |       /  ___|                  | |                       | |
+#  | | _ __ | |_ _ _ __  _| |_ ___  \ `--.  ___ ___  _ __ ___| |__   ___   __ _ _ __ __| |
+#  | || '_ \|  _| | '_ \| | __/ _ \  `--. \/ __/ _ \| '__/ _ \ '_ \ / _ \ / _` | '__/ _` |
+# _| || | | | | | | | | | | ||  __/ /\__/ / (_| (_) | | |  __/ |_) | (_) | (_| | | | (_| |
+# \___/_| |_|_| |_|_| |_|_|\__\___| \____/ \___\___/|_|  \___|_.__/ \___/ \__,_|_|  \__,_|
+#
+#                         Created by Infinite Plugins
+
+# Discord support server: https://discord.gg/HcETRXp
+
+# Do not change this unless you know what you are doing
+version: "3"
+
+# Should the plugin check if there are updates available?
+check-updates: true
+
+# The permissions configuration section.
+permissions:
+# Required for reloading the configurations.
+admin: "infinite.scoreboard.admin"
+# Required for toggling the scoreboards.
+toggle: "infinite.scoreboard.toggle"
+# Required changing your own scoreboard.
+display: "infinite.scoreboard.display"
+
+# Force scoreboard to be toggled off
+# when a player joins.
+disable-on-join: false
+
+# If you don't add a world here in will not have a scoreboard in that world!
+worlds:
+  plotworld:
+    - admin-board
+    - default-board
+  farmwelt:
+    - admin-board
+    - default-board
+  plotworld_nether:
+    - admin-board
+    - nether-board
+
+# If you want a board to be only visible if the user has a permissions add it here.
+board-permissions:
+  admin-board: infinitescoreboard.board.admin

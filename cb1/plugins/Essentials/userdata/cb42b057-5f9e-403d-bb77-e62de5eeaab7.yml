@@ -1,0 +1,25 @@
+timestamps:
+  lastteleport: 1592153781005
+  logout: 0
+  login: 1592157630415
+  kits:
+    color: 1592156266982
+lastlocation:
+  world: plotworld
+  x: 117.77517273190678
+  y: 65.0
+  z: 331.0230614453321
+  yaw: 105.6979
+  pitch: 14.499998
+afk: false
+logoutlocation:
+  world: plotworld
+  x: 109.29025633120978
+  y: 65.0
+  z: 320.64191727595176
+  yaw: 132.30371
+  pitch: 18.898737
+lastAccountName: YukiHai
+ipAddress: 213.47.128.113
+money: '322050.0'
+godmode: false

@@ -1,0 +1,24 @@
+lastlocation:
+  world: plotworld
+  x: 149.94873982311503
+  y: 70.90782479659839
+  z: 297.5239855364952
+  yaw: -223.93774
+  pitch: 3.7499754
+timestamps:
+  lastteleport: 1592157348855
+  logout: 0
+  login: 1592157640696
+godmode: false
+logoutlocation:
+  world: plotworld
+  x: 127.48772664102755
+  y: 70.86880400148299
+  z: 318.1991532186071
+  yaw: 240.70006
+  pitch: 44.05004
+lastAccountName: BlueNori
+ipAddress: 77.182.203.36
+afk: false
+money: '9999999871670.0'
+homes: {}

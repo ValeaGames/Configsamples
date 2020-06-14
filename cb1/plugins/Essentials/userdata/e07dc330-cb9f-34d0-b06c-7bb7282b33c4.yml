@@ -1,0 +1,19 @@
+lastAccountName: Owner
+timestamps:
+  login: 1591021857793
+  logout: 1591021870908
+ipAddress: 127.0.0.1
+lastlocation:
+  world: plotworld
+  x: 61.0
+  y: 65.0
+  z: 256.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: plotworld
+  x: 123.87630617913369
+  y: 74.00133597911214
+  z: 295.21681366449167
+  yaw: 56.999817
+  pitch: 46.19992

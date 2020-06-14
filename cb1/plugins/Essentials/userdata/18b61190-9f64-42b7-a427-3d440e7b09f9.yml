@@ -1,0 +1,22 @@
+lastAccountName: Blackboy024
+timestamps:
+  login: 1591641379044
+  logout: 1591642201723
+  lastteleport: 1591608715123
+ipAddress: 156.67.134.104
+lastlocation:
+  world: plotworld
+  x: 123.46578496642363
+  y: 90.35464884362834
+  z: 396.40115239557963
+  yaw: -252.05006
+  pitch: 33.54998
+money: '2230.0'
+logoutlocation:
+  world: plotworld
+  x: 811.792872420069
+  y: 65.67647087614428
+  z: -146.46910272835066
+  yaw: 274.5005
+  pitch: 32.850006
+godmode: false

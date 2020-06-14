@@ -1,0 +1,24 @@
+lastAccountName: Kalletik
+timestamps:
+  login: 1592157737778
+  lastteleport: 1592148097670
+  logout: 1592157719171
+  jail: 0
+ipAddress: 94.223.66.125
+lastlocation:
+  world: ADMINWORLD
+  x: 182.24897837340248
+  y: 6.0
+  z: 168.1612761791468
+  yaw: 127.27624
+  pitch: 8.675654
+logoutlocation:
+  world: plotworld
+  x: 119.83643955792043
+  y: 68.0
+  z: 321.06816129683773
+  yaw: 148.29993
+  pitch: -5.44998
+money: '3830.0'
+jailed: false
+homes: {}

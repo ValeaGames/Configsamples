@@ -1,0 +1,21 @@
+lastAccountName: D0ppe1gaenger
+timestamps:
+  login: 1591543414658
+  lastteleport: 1591543662550
+  logout: 1591544669146
+ipAddress: 85.0.222.79
+lastlocation:
+  world: plotworld
+  x: 124.61131802084441
+  y: 65.0
+  z: 263.9596801043445
+  yaw: 182.39922
+  pitch: 23.849922
+money: '1000'
+logoutlocation:
+  world: plotworld
+  x: 242.52850840832215
+  y: 66.29673560066871
+  z: 528.1813047779162
+  yaw: 181.00098
+  pitch: 18.849901

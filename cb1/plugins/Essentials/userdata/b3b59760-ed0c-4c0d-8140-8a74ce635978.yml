@@ -1,0 +1,20 @@
+lastAccountName: StubbiGamer1
+timestamps:
+  login: 1591436580330
+  logout: 1591436742029
+ipAddress: 213.225.4.252
+lastlocation:
+  world: plotworld
+  x: 61.0
+  y: 65.0
+  z: 256.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: plotworld
+  x: 501.7285863794943
+  y: 67.49390748022948
+  z: 400.3690848196761
+  yaw: -1.0995483
+  pitch: 18.100176
+money: '1000.0'

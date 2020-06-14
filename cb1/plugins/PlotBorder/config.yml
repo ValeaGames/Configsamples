@@ -1,0 +1,259 @@
+#Don't change!
+version : "1.0"
+
+#Max 6 rows
+gui-border-rows: 2
+gui-wall-rows: 2
+
+gui-border-title: '&6Rand'
+gui-wall-title: '&6Wand'
+#Cooldown in seconds
+cooldown: 20
+
+#Messages
+cooldown-m-border: '&cBitte warte %time% sekunden bevor du den Rand ändern willst'
+cooldown-m-wall: '&cBitte warte %time% sekunden, bevor du die Wand wieder ändern Willst'
+not-your-plot: '&cDu bist nicht der Plot Owner!'
+not-on-plot: '&cDu bist nicht in einem Plot!'
+border-changed: '&aRand geändert zu %name%!'
+wall-changed: '&aWand geändert zu %name%!'
+no-permission: '&cDu hast keine Rechte dafür'
+
+#Stay on the newest version to get better features!
+#Enable or disable automatic ingame update notification on join
+update-notify: true
+
+#If some blocks don't work change the option in the settings.yml of plotsquared to ->"prevent-unsafe: false"
+wall-items:
+  1:
+    permission: wall.pdiorite
+    display-material: '1:4'
+    material: '1:4'
+    displayname: '&aPolierter Dioriet'
+    lore:
+      - ''
+  2:
+    permission: wall.goldore
+    display-material: 14
+    material: 14
+    displayname: '&cGold Erz'
+    lore:
+      - ''
+  3:
+    permission: wall.diamant
+    display-material: 57    
+    material: 57
+    displayname: '&cDiamant Block'
+    lore:
+      - ''
+  4:
+    permission: wall.goldblock
+    display-material: 41
+    material: 41
+    displayname: 'Gold Block'
+    lore:
+     - ''
+  5:
+    permission: wall.glowstone
+    display-material: 89
+    material: 89
+    displayname: '&bGlowstone'
+    lore:
+      - ''
+  6:
+    permission: wall.seelaterne
+    display-material: 169
+    material: 169
+    displayname: '&aSee Laterne'
+    lore:
+      - ''
+  7:
+    permission: wall.lava
+    display-material: 327
+    material: lava
+    displayname: '&cLava'
+    lore:
+      - ''
+  8:
+    permission: wall.purpurblock
+    display-material: 201
+    material: 201
+    displayname: '&cPurpur Block'
+    lore:
+      - ''
+  9:
+    permission: wall.smaragde
+    display-material: 133
+    material: 133
+    displayname: 'Smaragde'
+    lore:
+     - ''
+  10:
+    permission: wall.water
+    display-material: 326
+    material: water
+    displayname: '&bWater'
+    lore:
+      - ''
+  11:
+    permission: wall.quartz
+    display-material: 155
+    material: 155
+    displayname: '&bQuartz'
+    lore:
+      - ''
+  12:
+    permission: wall.bglass
+    display-material: '95:11'
+    material: '95:11'
+    displayname: '&bBlaues Glass'
+    lore:
+      - ''    
+  13:
+    permission: wall.pglass
+    display-material: '95:6'
+    material: '95:6'
+    displayname: '&bPinkes Glass'
+    lore:
+      - ''  
+  14:
+    permission: wall.hgglass
+    display-material: '95:5'
+    material: '95:5'
+    displayname: '&bHell Grünes Glass'
+    lore:
+      - ''  
+  15:
+    permission: wall.bedrock
+    display-material: 7
+    material: 7
+    displayname: '&bBedrock'
+    lore:
+      - ''        
+border-items:
+  1:
+    permission: border.air
+    display-material: 166
+    material: AIR
+    displayname: '&cAir'
+    lore:
+      - ''
+  2:
+    permission: border.stoneslab
+    display-material: 44
+    material: 44
+    displayname: '&cSteinstufe'
+    lore:
+      - ''
+  3:
+    permission: border.sandstoneslab
+    display-material: '44:1'
+    material: '44:1'
+    displayname: '&cSandstein Stufe'
+    lore:
+      - ''
+  4:
+    permission: border.enchantmanttable
+    display-material: 116
+    material: 116
+    displayname: '&cZaubertisch'
+    lore:
+      - ''
+  5:
+    permission: border.cobbleslab
+    display-material: '44:3'
+    material: '44:3'
+    displayname: '&cBruchstein Stufe'
+    lore:
+      - ''
+  6:
+    permission: border.brickslab
+    display-material: '44:4'
+    material: '44:4'
+    displayname: '&cZiegelstein Stufe'
+    lore:
+      - ''
+  7:
+    permission: border.stonebrickslab
+    display-material: '44:5'
+    material: '44:5'
+    displayname: '&cSteinziegel Stufe'
+    lore:
+      - ''
+  8:
+    permission: border.netherbrickslab
+    display-material: '44:6'
+    material: '44:6'
+    displayname: '&cNetherziegelstein Stufe'
+    lore:
+      - ''
+  9:
+    permission: border.quartzslab
+    display-material: '44:7'
+    material: '44:7'
+    displayname: '&cQuartz Stufe'
+    lore:
+      - ''
+  10:
+    permission: border.oakwoodslab
+    display-material: 126
+    material: 126
+    displayname: '&cEichenholz Stufe'
+    lore:
+      - ''
+  11:
+    permission: border.spurcewoodslab
+    display-material: '126:1'
+    material: '126:1'
+    displayname: '&cFichtenholz Stufe'
+    lore:
+      - ''
+  12:
+    permission: border.birchwoodslab
+    display-material: '126:2'
+    material: '126:2'
+    displayname: '&cBirkenholz Stufe'
+    lore:
+      - ''
+  13:
+    permission: border.junglewoodslab
+    display-material: '126:3'
+    material: '126:3'
+    displayname: '&cJungelholz Stufe'
+    lore:
+      - ''
+  14:
+    permission: border.acaciawoodslab
+    display-material: '126:4'
+    material: '126:4'
+    displayname: '&cAkazienholz Stufe'
+    lore:
+      - ''
+  15:
+    permission: border.darkoakwoodslab
+    display-material: '126:5'
+    material: '126:5'
+    displayname: '&cDunkeleichenholz Stufe'
+    lore:
+      - ''
+  16:
+    permission: border.redsandstoneslab
+    display-material: 182
+    material: 182
+    displayname: '&cRote Sandsteinstufe'
+    lore:
+      - ''
+  17:
+    permission: border.purpurslab
+    display-material: 205
+    material: 205
+    displayname: '&cPurpur Stufe'
+    lore:
+      - ''
+  18:
+    permission: border.endportalframe
+    display-material: 120
+    material: 120
+    displayname: '&cEndportalrahmen'
+    lore:
+      - ''     

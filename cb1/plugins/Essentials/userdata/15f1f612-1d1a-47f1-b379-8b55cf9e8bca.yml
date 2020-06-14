@@ -1,0 +1,29 @@
+lastAccountName: SeriousEric
+timestamps:
+  login: 1591199646960
+  logout: 1591205591857
+  lastteleport: 1591204224222
+ipAddress: 77.22.254.176
+lastlocation:
+  world: plotworld
+  x: 362.7927609670686
+  y: 64.0
+  z: 374.96853256558643
+  yaw: 103.66504
+  pitch: 8.700084
+logoutlocation:
+  world: plotworld
+  x: 364.44991206653157
+  y: 64.0
+  z: 377.011661818251
+  yaw: -347.40057
+  pitch: 16.49997
+money: '10880.0'
+homes:
+  home:
+    world: farmwelt
+    x: 258.5216996476893
+    y: 65.0
+    z: -1948.0782140081394
+    yaw: 178.78632
+    pitch: 60.000023

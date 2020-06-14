@@ -1,0 +1,22 @@
+lastAccountName: HobbitCode
+timestamps:
+  login: 1591888721096
+  logout: 1591889163799
+  lastteleport: 1591795055281
+ipAddress: 91.141.1.157
+lastlocation:
+  world: plotworld
+  x: 122.95750751126587
+  y: 68.0
+  z: 319.2511709517495
+  yaw: 116.04999
+  pitch: 20.199999
+money: '21514.0'
+logoutlocation:
+  world: plotworld
+  x: 136.65978036248424
+  y: 67.1070764671931
+  z: 322.37821501695026
+  yaw: -0.95010114
+  pitch: 18.249983
+afk: false

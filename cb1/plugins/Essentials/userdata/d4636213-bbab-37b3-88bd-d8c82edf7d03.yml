@@ -1,0 +1,20 @@
+lastAccountName: 1WhiteWolf15
+timestamps:
+  login: 1591451994757
+  logout: 1591452067928
+ipAddress: 127.0.0.1
+lastlocation:
+  world: plotworld
+  x: 61.0
+  y: 65.0
+  z: 256.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: plotworld
+  x: 128.8583373674501
+  y: 71.50132005126119
+  z: 318.2980497389055
+  yaw: -278.11395
+  pitch: 22.56795
+money: '2500'

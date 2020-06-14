@@ -1,0 +1,31 @@
+lastlocation:
+  world: ADMINWORLD
+  x: 192.57627446494553
+  y: 11.0
+  z: 175.9046048394718
+  yaw: 171.16176
+  pitch: 32.10065
+afk: false
+timestamps:
+  logout: 0
+  lastteleport: 1592156615808
+  login: 1592157630832
+logoutlocation:
+  world: plotworld
+  x: 2815.199915799222
+  y: 65.0
+  z: 3944.7634730781715
+  yaw: -86.8938
+  pitch: 2.2497897
+lastAccountName: PxxLLL
+ipAddress: 37.201.170.108
+money: '9999999353593.8000000000000000002'
+godmode: false
+homes:
+  events:
+    world: ADMINWORLD
+    x: 162.1840180461799
+    y: 36.91369461312419
+    z: 212.55312457555968
+    yaw: -105.27319
+    pitch: 34.199787

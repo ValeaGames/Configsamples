@@ -1,0 +1,41 @@
+EnableAutoUpdater: true
+PluginAutoUpdate: 3600
+TabAutoUpdate: 3
+TagAutoUpdate: 3
+Header:
+  text: '&5ValeaGames.de!'
+  use: true
+Footer:
+  text: '&5ValeaGames.de!'
+  use: true
+HideGM3: false
+Join:
+  Title:
+    text: '&5Willkommen auf'
+    subtext: '&5ValeaGames.de!'
+    fadein: 5
+    stay: 20
+    fadeout: 5
+    use: true
+  Actionbar:
+    text: '&5VielSpaß!'
+    use: true
+RandomColors:
+- '&0'
+- '&1'
+- '&2'
+- '&3'
+- '&4'
+- '&5'
+- '&6'
+- '&7'
+- '&8'
+- '&9'
+- '&a'
+- '&b'
+- '&c'
+- '&d'
+- '&e'
+- '&f'
+UseExternalScoreboard: false
+ConfigVersion: 3.0.0-pre5

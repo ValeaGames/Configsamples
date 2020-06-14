@@ -1,0 +1,203 @@
+bungeecord: true
+storage:
+  type: MYSQL
+  folder: plugins/DKBans/data/
+  host: localhost
+  port: '3306'
+  user: bansuser
+  ssl: false
+  password: bans.IlC++pfdU.@
+  database: dkbans
+  maxConnections: 10
+  mongodb:
+    authentication: false
+    authdb: admin
+    srv: false
+ban:
+  mode: TEMPLATE
+  points:
+    separate:
+      chatandnetwork: true
+    chat:
+      duration:
+        time: 3
+        unit: HOURS
+      permanently: 200
+    network:
+      duration:
+        time: 1
+        unit: DAYS
+      permanently: 80
+  allowOfflineBan: false
+reasons:
+  showonlypremitted: true
+unban:
+  mode: SELF
+kick:
+  mode: SELF
+report:
+  mode: TEMPLATE
+  controls: true
+  delay: 900000
+  autocommand:
+    onproxy: false
+    enter: []
+    exit: []
+warn:
+  mode: TEMPLATE
+  staffname: WarnManager
+  autoban:
+    count: 5
+    banforlastreason: true
+    reason: Warns
+    duration:
+      time: 30
+      unit: DAYS
+    points: 20
+    type: NETWORK
+date:
+  format: dd.MM.yyyy HH:mm
+servergroup:
+  split: '-'
+joinme:
+  enabled: false
+  cooldown: 120000
+  timeout: 300000
+  disabledservers:
+    equals: false
+    list:
+    - lobby
+player:
+  onjoin:
+    chatclear: true
+    teamchatinfo: true
+    reportinfo: true
+    reportsize: true
+  saveip: true
+  save:
+    onlinesession: true
+  color:
+    liveupdate: true
+    default: '&8'
+    console: '&4'
+    colors:
+    - dkbans.color.admin:&4
+    - dkbans.color.developer:&b
+    - dkbans.color.mod:&c
+    - dkbans.color.supporter:&9
+    - dkbans.color.builder:&3
+    - dkbans.color.youtuber:&5
+    - dkbans.color.premium:&6
+tabcomplete:
+  block:
+    enabled: true
+  options:
+  - dkbans.ban:/ban
+  - dkbans.kick:/kick
+  - /report
+chat:
+  block:
+    plugin: true
+    repeat: true
+  delay: 500
+  filter:
+    enabled: true
+    repeat:
+      matchespercent: 40
+    autoban:
+      count: 8
+      banid:
+        message: 3
+        promotion: 4
+  autoban:
+    enabled: true
+  firstJoinDelay:
+    enabled: false
+    time: 600
+  log:
+    enabled: true
+    autodelete:
+      enabled: true
+      indays: 7
+autobroadcast:
+  enabled: true
+  sorted: true
+  delay: 8
+ipban:
+  onlynewplayers: true
+  reason:
+    duration:
+      time: 365
+      unit: DAYS
+    reason: AltAccount
+    staff: AltManager
+    points: 40
+  onban:
+    enabled: true
+    duration:
+      time: 24
+      unit: HOURS
+network:
+  sync: true
+command:
+  ban:
+    enabled: true
+  unban:
+    enabled: true
+  baninfo:
+    enabled: true
+  broadcast:
+    enabled: true
+  chatlog:
+    enabled: true
+  filter:
+    enabled: true
+  help:
+    enabled: true
+  history:
+    enabled: true
+  ipinfo:
+    enabled: true
+  joinme:
+    enabled: true
+  Jumpto:
+    enabled: true
+  kick:
+    enabled: true
+  networkstats:
+    enabled: true
+  onlinetime:
+    enabled: true
+  ping:
+    enabled: true
+  playerinfo:
+    enabled: true
+  report:
+    enabled: true
+  reports:
+    enabled: true
+  resethistory:
+    enabled: true
+  teamchat:
+    enabled: true
+  tempban:
+    enabled: true
+  tempmute:
+    enabled: true
+  staffstats:
+    enabled: true
+  ipban:
+    enabled: true
+  ipunban:
+    enabled: true
+  warn:
+    enabled: true
+  unwarn:
+    enabled: true
+  edit:
+    enabled: true
+  myhistorypoints:
+    enabled: true
+  notify:
+    enabled: true
+  fallbackKick: true

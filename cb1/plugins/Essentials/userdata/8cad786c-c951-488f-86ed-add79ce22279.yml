@@ -1,0 +1,50 @@
+lastAccountName: WolfgangVanColt
+timestamps:
+  login: 1592131698580
+  lastteleport: 1592133284450
+  logout: 1592134699313
+ipAddress: 95.90.250.8
+lastlocation:
+  world: plotworld
+  x: -116.07296202790363
+  y: 58.0
+  z: -69.88728500319743
+  yaw: -153.60217
+  pitch: 18.149988
+money: '23700.0'
+logoutlocation:
+  world: farmwelt
+  x: 510.30000001192093
+  y: 18.0
+  z: -1478.8577729200624
+  yaw: -239.72119
+  pitch: -13.800146
+homes:
+  dorf:
+    world: farmwelt
+    x: 1247.300000011921
+    y: 67.0
+    z: -2255.300000011921
+    yaw: -90.147705
+    pitch: 17.400011
+  dorf2:
+    world: farmwelt
+    x: 4216.297555725379
+    y: 65.0
+    z: -2351.2296080656056
+    yaw: -118.67885
+    pitch: 35.549988
+  dorf3:
+    world: farmwelt
+    x: 1247.300000011921
+    y: 67.0
+    z: -2255.300000011921
+    yaw: -90.147705
+    pitch: 17.400011
+  bbhaus:
+    world: farmwelt
+    x: 265.9780042574324
+    y: 65.0
+    z: -1052.112306677514
+    yaw: 39.114014
+    pitch: 25.199747

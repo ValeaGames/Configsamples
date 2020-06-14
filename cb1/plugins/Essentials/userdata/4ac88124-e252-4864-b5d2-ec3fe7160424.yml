@@ -1,0 +1,22 @@
+lastAccountName: Tabo
+timestamps:
+  login: 1591472108896
+  lastteleport: 1591472585600
+  logout: 1591473640783
+ipAddress: 62.216.205.164
+lastlocation:
+  world: plotworld
+  x: 426.38295419590224
+  y: 65.0
+  z: 287.54674873421317
+  yaw: -0.097396195
+  pitch: 22.710306
+logoutlocation:
+  world: plotworld
+  x: 419.61438116480457
+  y: 65.0
+  z: 283.6030512443268
+  yaw: -108.51184
+  pitch: 8.946288
+money: '191.0'
+godmode: false

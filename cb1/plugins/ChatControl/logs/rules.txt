@@ -1,0 +1,122 @@
+[03.05.2020 20:02:46] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gamemode 1
+[03.05.2020 21:55:37] 101ProCraft: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gamemode 1
+[03.05.2020 22:24:09] 101ProCraft: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gamemode 1
+[04.05.2020 11:06:42] 101ProCraft: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 0
+[04.05.2020 11:06:45] 101ProCraft: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[04.05.2020 14:39:50] 101ProCraft: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 0
+[04.05.2020 14:40:01] 101ProCraft: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[04.05.2020 14:44:31] 101ProCraft: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[04.05.2020 16:45:06] 101ProCraft: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[04.05.2020 16:49:45] 101ProCraft: Rule {ID=/op,Match='^/op\b'} caught message: /op 101ProCraft
+[04.05.2020 16:50:55] 101ProCraft: Rule {ID=/op,Match='^/op\b'} caught message: /op
+[05.05.2020 11:15:30] 101ProCraft: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[05.05.2020 16:56:50] 101ProCraft: Rule {ID=/op,Match='^/op\b'} caught message: /op 101ProCraft
+[05.05.2020 17:16:01] 101ProCraft: Rule {ID=/op,Match='^/op\b'} caught message: /op
+[05.05.2020 17:21:53] 101ProCraft: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[05.05.2020 17:24:52] 101ProCraft: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[05.05.2020 17:37:52] 101ProCraft: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[05.05.2020 18:01:51] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[05.05.2020 18:05:51] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[05.05.2020 20:58:48] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[06.05.2020 14:38:43] YukiHai: Rule {ID=/op,Match='^/op\b'} caught message: /op y
+[06.05.2020 14:44:21] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[06.05.2020 16:25:01] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[06.05.2020 17:38:13] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm1
+[06.05.2020 17:38:17] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[06.05.2020 19:05:50] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[06.05.2020 19:18:41] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 0
+[06.05.2020 19:18:59] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 0
+[07.05.2020 12:06:42] bluefighter_10: Rule {ID=/op,Match='^/op\b'} caught message: /op
+[07.05.2020 12:09:39] bluefighter_10: Rule {ID=/op,Match='^/op\b'} caught message: /op
+[07.05.2020 18:25:16] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[07.05.2020 18:28:04] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[07.05.2020 18:35:02] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[07.05.2020 19:19:27] 1WhiteWolf15: Rule {ID=/op,Match='^/op\b'} caught message: /op 101ProCraft
+[16.05.2020 00:41:36] itsQuexxi: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 0
+[16.05.2020 00:46:29] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[18.05.2020 17:27:23] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[24.05.2020 23:50:20] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[29.05.2020 18:52:48] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[30.05.2020 20:13:53] duschnixHD: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm
+[30.05.2020 20:15:52] duschnixHD: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 0
+[30.05.2020 20:40:34] BEAR_Alola: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[30.05.2020 20:50:04] duschnixHD: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm
+[30.05.2020 21:01:15] duschnixHD: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm
+[30.05.2020 23:20:37] duschnixHD: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[30.05.2020 23:30:58] duschnixHD: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm
+[30.05.2020 23:50:36] duschnixHD: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm
+[30.05.2020 23:55:08] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[31.05.2020 00:02:03] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[31.05.2020 00:20:27] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[31.05.2020 00:20:32] duschnixHD: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[31.05.2020 11:23:32] duschnixHD: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm
+[31.05.2020 17:02:18] BEAR_Alola: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 0
+[31.05.2020 17:02:24] BEAR_Alola: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[31.05.2020 17:04:19] BEAR_Alola: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 0
+[31.05.2020 19:08:14] duschnixHD: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm
+[31.05.2020 19:13:05] duschnixHD: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 0
+[31.05.2020 19:18:02] duschnixHD: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 0
+[31.05.2020 21:19:12] duschnixHD: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm
+[31.05.2020 21:25:03] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[31.05.2020 21:27:08] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[31.05.2020 21:27:42] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[31.05.2020 21:28:10] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[31.05.2020 21:29:04] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[31.05.2020 21:29:39] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[31.05.2020 21:30:24] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[31.05.2020 21:30:28] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 0
+[31.05.2020 21:31:01] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[31.05.2020 21:31:38] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[31.05.2020 21:33:29] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[31.05.2020 21:34:04] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 2
+[31.05.2020 21:35:32] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[31.05.2020 21:35:47] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 2
+[31.05.2020 21:50:32] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 3
+[31.05.2020 21:51:41] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[31.05.2020 22:25:28] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 3
+[31.05.2020 22:33:26] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[31.05.2020 23:31:58] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[01.06.2020 18:41:34] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[01.06.2020 19:04:37] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[01.06.2020 21:07:54] BlueNori: Rule {ID=/op,Match='^/op\b'} caught message: /op bluenori
+[01.06.2020 21:08:13] BlueNori: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[01.06.2020 23:03:48] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[01.06.2020 23:18:27] Alyankovic: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gamemode
+[02.06.2020 19:27:03] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[03.06.2020 21:56:43] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[03.06.2020 22:33:21] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[03.06.2020 23:09:39] 1WhiteWolf15: Rule {ID=/op,Match='^/op\b'} caught message: /op 1WhiteWolf15
+[04.06.2020 18:26:44] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[04.06.2020 18:49:38] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[04.06.2020 19:03:36] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[04.06.2020 19:04:08] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[04.06.2020 19:06:21] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gamemode creative
+[04.06.2020 19:06:34] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 2
+[04.06.2020 19:06:36] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 3
+[04.06.2020 19:06:39] 1WhiteWolf15: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 0
+[05.06.2020 16:44:35] Joko5555: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gamemode 1
+[06.06.2020 15:57:31] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm
+[06.06.2020 17:42:33] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[06.06.2020 19:06:55] FernadeZTV: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[06.06.2020 20:00:57] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[06.06.2020 20:08:50] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1 bitte essen
+[07.06.2020 21:27:25] Blackboy024: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[07.06.2020 21:35:15] Blackboy024: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 3
+[07.06.2020 21:40:24] AdminEvil2020: Rule {ID=/op,Match='^/op\b'} caught message: /op
+[07.06.2020 21:41:26] AdminEvil2020: Rule {ID=/op,Match='^/op\b'} caught message: /op adminevil2020
+[07.06.2020 21:53:24] Blackboy024: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[07.06.2020 21:57:45] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[07.06.2020 22:17:25] Blackboy024: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 3
+[07.06.2020 22:37:34] Blackboy024: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gamemode creative
+[07.06.2020 23:24:51] MeLoveMinekraft: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gamemode 1
+[07.06.2020 23:41:43] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[07.06.2020 23:48:49] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[08.06.2020 16:03:53] BlueNori: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[08.06.2020 16:04:44] BlueNori: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 3
+[08.06.2020 18:54:58] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[08.06.2020 19:05:41] bluefighter_10: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[11.06.2020 15:41:35] Jan7483h: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gamemode 1
+[13.06.2020 13:41:13] Aspiirin: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[13.06.2020 13:42:18] Aspiirin: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1
+[13.06.2020 13:42:26] Aspiirin: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gamemode 1
+[13.06.2020 21:55:40] hinzufugen: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 3

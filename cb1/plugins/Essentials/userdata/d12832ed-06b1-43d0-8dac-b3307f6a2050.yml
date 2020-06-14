@@ -1,0 +1,20 @@
+lastAccountName: E9_Sandro
+timestamps:
+  login: 1591113906256
+  logout: 1591114132533
+ipAddress: 217.255.25.205
+lastlocation:
+  world: plotworld
+  x: 61.0
+  y: 65.0
+  z: 256.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: plotworld
+  x: 131.33312550781432
+  y: 65.0
+  z: 321.1968709854248
+  yaw: 307.5598
+  pitch: 24.983631
+money: '2500'

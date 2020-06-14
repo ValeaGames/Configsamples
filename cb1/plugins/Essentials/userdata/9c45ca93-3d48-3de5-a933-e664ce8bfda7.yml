@@ -1,0 +1,20 @@
+lastAccountName: Minecraft
+timestamps:
+  login: 1591451972384
+  logout: 1591451988619
+ipAddress: 127.0.0.1
+lastlocation:
+  world: plotworld
+  x: 61.0
+  y: 65.0
+  z: 256.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: plotworld
+  x: 131.02182161468556
+  y: 65.0
+  z: 308.0802433009798
+  yaw: -134.43935
+  pitch: -19.442522
+money: '2500'

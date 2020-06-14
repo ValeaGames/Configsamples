@@ -1,0 +1,55 @@
+reasons:
+  '1':
+    name: Provocation
+    display: Provocation
+    permission: dkbans.warn.reason.provocation
+    aliases:
+    - provocation
+    - provo
+    hidden: false
+    points:
+      points: 3
+      type: CHAT
+    autoban:
+      count: 3
+      banid: 2
+    kickcount: 2
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10
+  '2':
+    name: Insult
+    display: Insult
+    permission: dkbans.warn.reason.insult
+    aliases:
+    - insult
+    hidden: false
+    points:
+      points: 4
+      type: CHAT
+    autoban:
+      count: 3
+      banid: 3
+    kickcount: 2
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10
+  '3':
+    name: Spam/promotion
+    display: Spam/Promotion
+    permission: dkbans.warn.reason.promotion
+    aliases:
+    - spamming
+    - spam
+    - promotion
+    hidden: false
+    points:
+      points: 8
+      type: NETWORK
+    autoban:
+      count: 2
+      banid: 4
+    kickcount: 2
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10

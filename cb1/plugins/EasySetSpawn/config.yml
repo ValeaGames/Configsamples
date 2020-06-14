@@ -1,0 +1,64 @@
+teleport-to-spawn-on:
+  first-join: true
+  join: true
+  respawn: true
+  void-fall: true
+teleport-delay-in-seconds: 3
+check-version:
+  enabled: false
+  warning-message: '&6[EasySetSpawn] &7 Neue Version verfügbar.'
+metrics: true
+disable-spawn-command-in-pvp:
+  enabled: false
+  warning-message: ''
+options:
+  set-gamemode-on-join:
+    enabled: false
+    gamemode: 0
+  set-fly-on-join:
+    enabled: false
+    fly: false
+  set-max-health-on-join: true
+  set-max-food-level-on-join: true
+spawn-command:
+  message-enabled: true
+  message: '&7Du bist am Spawn.'
+  need-permission: false
+messages:
+  no-permission: '&cDu hast keine Rechte dazu!.'
+  teleported-other-player: '&7%target% wurde zum Spawn teleportiert.'
+  spawn-not-set: '&cSpawn wurde nicht gesetzt.'
+  player-not-found: '&cSpieler nicht gefunden.'
+  spawn-successfully-set: '&7Spawn gesetzt.'
+  config-reloaded: '&7Reloaded.'
+  console-use-command: '&cNur spieler können der Befehl ausführen.'
+  teleport-delay: '&6Teleport startet in %seconds% sekunden. Bitte nicht bewegen!'
+  player-move: '&cTeleport wurde abgebrochen.'
+broadcast:
+  player-join:
+    enabled: false
+    message: '&6%player% joined the server!'
+    hide: false
+  player-quit:
+    enabled: false
+    message: '&6%player% left the server!'
+    hide: false
+  first-join:
+    enabled: false
+    message: '&6%player% joined the server for the first time!'
+join-message:
+  enabled: false
+  text:
+  - '&6Welcome, %player%!'
+first-join-message:
+  enabled: false
+  text:
+  - '&6Welcome, %player%!'
+config-version: '3.1'
+spawn:
+  world: plotworld
+  x: 122.95750751126587
+  y: 68.0
+  z: 319.2511709517495
+  yaw: 88.64976
+  pitch: 1.9499217

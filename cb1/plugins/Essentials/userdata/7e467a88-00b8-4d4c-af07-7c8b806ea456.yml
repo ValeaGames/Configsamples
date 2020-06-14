@@ -1,0 +1,21 @@
+lastAccountName: hinzufugen
+timestamps:
+  login: 1592083820267
+  lastteleport: 1592081855491
+  logout: 1592085913280
+ipAddress: 2.203.193.135
+lastlocation:
+  world: plotworld
+  x: 531.4331127910409
+  y: 65.0
+  z: 351.36407355154586
+  yaw: 99.9126
+  pitch: 15.300005
+logoutlocation:
+  world: plotworld
+  x: 537.7540271927621
+  y: 65.0
+  z: 356.9525979624223
+  yaw: 181.64986
+  pitch: -11.850068
+money: '2240.0'

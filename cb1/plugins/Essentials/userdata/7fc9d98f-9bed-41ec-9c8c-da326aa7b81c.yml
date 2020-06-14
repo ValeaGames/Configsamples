@@ -1,0 +1,27 @@
+lastlocation:
+  world: ADMINWORLD
+  x: 195.94332455937501
+  y: 11.513558453661865
+  z: 149.3038808225411
+  yaw: -239.11475
+  pitch: 24.243008
+timestamps:
+  lastteleport: 1592156975042
+  logout: 0
+  login: 1592157633698
+  jail: 0
+logoutlocation:
+  world: plotworld
+  x: 125.14947163683071
+  y: 69.00133597911214
+  z: 323.11086957433486
+  yaw: -192.86377
+  pitch: -28.950022
+lastAccountName: bluefighter_10
+ipAddress: 46.128.246.211
+godmode: false
+afk: false
+money: '10000908329.0'
+homes: {}
+jailed: false
+teleportenabled: true

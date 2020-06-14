@@ -1,0 +1,42 @@
+Fly-Booster:
+  fly_message: '[PLAYER] &ahat den &b&lFly-Booster &afuer &e&l15 Minuten &aaktiviert!'
+  time_in_sec: 900
+Break-Booster:
+  break_message: '[PLAYER] &ahat den &b&lBreak-Booster &afuer &e&l15 Minuten &aaktiviert!'
+  time_in_sec: 900
+Drop-Booster:
+  drop_message: '[PLAYER] &ahat den &b&lDrop-Booster &afuer &e&l10 Minuten &aaktiviert!'
+  time_in_sec: 600
+Xp-Booster:
+  xp_message: '[PLAYER] &ahat den &b&lXP-Booster &afuer &e&l10 Minuten &aaktiviert!'
+  time_in_sec: 600
+Mob-Booster:
+  mob_message: '[PLAYER] &ahat den &b&lMob-Booster &afuer &e&l10 Minuten &aaktiviert!'
+  time_in_sec: 600
+Bonusbooster:
+  message: '&aDu hast den &b&lBonusBooster &aerhalten'
+  booster: 2
+  time_in_sec: 1209600
+  time_not_over: '&cErst am &e[DATE] &cum &e[TIME] &cist der &b&lBonusbooster &awieder
+    verfuegbar!!!'
+  no_perm: '&cDu hast keine Rechte diesen Befehl auszufuehren!'
+Booster-Shop:
+  not_enough_money: '&cDu hast nicht genug Geld!'
+  Block_1:
+    block_message_1: '&a1 Booster'
+    block_message_2: '&6Preis: &71000 Dollar'
+    block_price: 10000000000000000000
+    booster: 1
+    buy_message: '&aDu hast dir &c&l1 &b&lBooster &agekauft.'
+  Block_2:
+    block_message_1: '&a10 Booster'
+    block_message_2: '&6Preis: &78000 Dollar'
+    block_price: 80000000000000000000
+    booster: 10
+    buy_message: '&aDu hast dir &c&l10 &b&lBooster &agekauft.'
+  Block_3:
+    block_message_1: '&a100 Booster'
+    block_message_2: '&6Preis: &750000 Dollar'
+    block_price: 5000000000000000000000000
+    booster: 100
+    buy_message: '&aDu hast dir &c&l100 &b&lBooster &agekauft.'

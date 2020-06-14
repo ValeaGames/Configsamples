@@ -1,0 +1,24 @@
+lastAccountName: MoritzValea
+timestamps:
+  login: 1590944345870
+  lastteleport: 1590943641660
+  logout: 1590947434083
+  jail: 0
+ipAddress: 94.114.178.233
+lastlocation:
+  world: plotworld
+  x: 402.49214201316744
+  y: 65.0
+  z: 288.7371464921165
+  yaw: 195.58667
+  pitch: 13.765886
+logoutlocation:
+  world: plotworld
+  x: 441.5078391681818
+  y: 67.0
+  z: 283.8981670999483
+  yaw: 61.862305
+  pitch: 20.736877
+money: '20.0'
+jailed: false
+godmode: false

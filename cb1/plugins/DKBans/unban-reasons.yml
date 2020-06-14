@@ -1,0 +1,80 @@
+reasons:
+  '1':
+    name: falseban
+    display: False ban
+    permission: dkbans.unban.reason.falsban
+    aliases:
+    - 'false'
+    hidden: false
+    notforbanid: []
+    bantype: ALL
+    points:
+      remove:
+        points: 0
+        all: true
+      maximal: 120
+      divider: 0.0
+    duration:
+      divider: 0.0
+      remove:
+        time: -1
+        unit: DAYS
+      maximal:
+        time: -1
+        unit: DAYS
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10
+  '2':
+    name: acceptedrequest
+    display: Accepted unban request
+    permission: dkbans.unban.reason.acceptedrequest
+    aliases:
+    - accepted
+    hidden: false
+    notforbanid: []
+    bantype: ALL
+    points:
+      remove:
+        points: 0
+        all: true
+      maximal: 100
+      divider: 1.5
+    duration:
+      divider: 2.0
+      remove:
+        time: -1
+        unit: DAYS
+      maximal:
+        time: -1
+        unit: DAYS
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10
+  '3':
+    name: -3days
+    display: -3 Days
+    permission: dkbans.unban.reason.falsban
+    aliases:
+    - -3days
+    hidden: false
+    notforbanid:
+    - 5
+    bantype: ALL
+    points:
+      remove:
+        points: 4
+        all: true
+      maximal: 30
+      divider: 0.0
+    duration:
+      divider: 0.0
+      remove:
+        time: 3
+        unit: DAYS
+      maximal:
+        time: -1
+        unit: DAYS
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10

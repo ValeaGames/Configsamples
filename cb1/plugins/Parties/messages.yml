@@ -1,0 +1,416 @@
+#
+# Nachrichten-Konfigurationsdatei
+#
+# Du findest eine Liste verfügbarer Tags hier: https://alessiodp.com/docs/parties/placeholders/
+#
+
+# / = = = = = = = = = = = = = = = = \
+# |          Clannachrichten        |
+# \ = = = = = = = = = = = = = = = = /
+parties:
+  # Special tags:
+  # => %version%     = Neue Version gefunden
+  # => %thisversion% = Version installiert
+  update-available: "&9Neue Clanversion gefunden: %version% (aktuell: %thisversion%)"
+  # Special tag:
+  # => %config%      = Die Konfigurationsdatei ist veraltet
+  configuration-outdated: "&cDie Konfigurationsdatei '%config%' von Clans ist veraltet!"
+  common-messages:
+    invalid-command: "&cFalscher Befehl"
+    configuration-reloaded: "&aKonfiguration neu geladen"
+    not-in-party: "&cDu bist nicht im Clan"
+    already-in-party: "&cDu bist bereits im Clan!"
+    party-not-found: "&cDer Clan %party% existiert nicht"
+    party-full: "&cDer Clan ist voll!"
+  permissions:
+    # Special tag:
+    # => %permission%   = Fehlende Rechte
+    no-permission: "&cDu hast keine Berechtigung für diesen Befehl"
+    no-permission-in-party-general: "&cDein Clanrang hat keinen Zugang zu diesem Befehl"
+    no-permission-in-party-rank: "&cDu musst %rank_name% sein um diesen Befehl auszuführen"
+  out-party: "Aus dem Clan gegangen"
+  list:
+    player-online-format: "&b%player%"
+    player-offline-format: "&7%player%"
+    player-separator: "&7, "
+    player-empty: "&7Niemand"
+    player-unknown: "&6Unbekannt"
+    missing-value: "&7Fehlend"
+
+
+
+# / = = = = = = = = = = = = = = = = \
+# |     Hauptbefehlsnachrichten     |
+# \ = = = = = = = = = = = = = = = = /
+main-commands:
+  accept:
+    broadcast: "&b&l%player% tritt dem Clan bei"
+    accepted: "&aDu hast die Einladung angenommen"
+    accept-receipt: "&a%player% hat deine Einladung akzeptiert"
+    no-invite: "&cDu hast keine austehende Einladung"
+    no-exists: "&cDie Einladung existiert nicht mehr."
+    multiple-invites: "&cWähle einen Clan zum beitreten:"
+    multiple-invites-party: '[{"text":"%party%","color":"aqua"},{"text":" - Klicke zum beitreten","color":"gray","clickEvent":{"action":"run_command","value":"/clan accept %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Einladung akzeptiert","color":"gold"}]}}}]'
+    wrong-command: "&cFalscher Befehl: Nutze &7/clan accept [Clan]"
+
+  chat:
+    enabled: "&aDer Chat wurde zu Clan geändert"
+    disabled: "&aDer Chat wurde zu öffentlich geändert"
+    wrong-command: "&cFalscher Befehl: Nutze &7/clan chat [on/off]"
+
+  create:
+    created: '[{"text":"Du hast einen Clan erstellt: %party%.\n","color":"aqua","bold":true},{"text":"Nutze ","color":"aqua","bold":false},{"text":"/clan invite","color":"gray","clickEvent":{"action":"suggest_command","value":"/clan invite "}},{"text":" um deine Freunde einzuladen.","color":"aqua"}]'
+    created-fixed: "&b&lDu hast den festen Clan %party% erstellt"
+    name-already-exists: "&cDer Clan Name %party% existiert bereits, bitte wähle einen anderen Namen."
+    name-too-long: "&cDer Clanname ist zu lang!"
+    name-too-short: "&cDer Clanname ist zu kurz!"
+    invalid-name: "&cUnzulässige Buchstaben. Nutze: a-Z oder 0-9."
+    censored: "&cDer Clan verfügt über zensierte Wörter!"
+    wrong-command: "&cFalscher Befehl: Nutze &7/clan create <Name>"
+
+  delete:
+    deleted: "&aDer Clan %party% wurde gelöscht"
+    deleted-silently: "&aDer Clan %party% wurde leise gelöscht"
+    broadcast: "&6&lDein Clan wurde gelöscht"
+    wrong-command: "&cFalscher Befehl: Nutze &7/clan delete <Clan> [silent]"
+
+  deny:
+    denied: "&7Du hast die Einladung abgelehnt"
+    deny-receipt: "&7%player% lehnte die Einladung ab"
+    no-invite: "&cDu hast keine austehtenden Einladungen"
+    no-exists: "&cDie Einladung existiert nicht mehr"
+    multiple-invites: "&cWähle einen Clan zum beitreten aus:"
+    multiple-invites-party: '[{"text":"%party%","color":"aqua"},{"text":" - Klicke hier zum ablehnen","color":"gray","clickEvent":{"action":"run_command","value":"/clan deny %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Einladung abgelehnt","color":"gold"}]}}}]'
+    wrong-command: "&cFalscher Befehl: Nutze &7/clan deny [Name]"
+
+  ignore:
+    start-ignore: "&7Ignoriere Einladungen von dem Clan %party%"
+    stop-ignore: "&7Du hast aufgehört %party% zu ignorieren"
+    ignore-list:
+      header: "&b&lListe der ignorierten Clans:"
+      party-prefix: "&c"
+      separator: "&7, "
+      empty: "&7Keine"
+    wrong-command: "&cFalsche Variablen: Nutze &7/clan ignore [Clan]"
+
+  info:
+    # Special tags:
+    # => %list_RANK%           = Die Liste der Spieler dieses Ranges
+    #                            Beispiel: %list_member%, %list_moderator% (%list_leader% ist einzigartig)
+    # => %list_RANK_number%    = Die Anzahl der Spieler dieses Ranges
+    # => %list_RANK_online%    = Aktive Spieler dieses Ranges
+    # => %online%              = Liste der aktiven Spieler
+    # => %online_number%        = Anzahl der aktiven Spieler
+    content:
+    - "&b============ &l%party%'s Info &r&b============"
+    - "&b&lBeschreibung&r&7: %desc%"
+    - "&b&lMotd&r&7: %motd%"
+    - "&bChef&7: %list_leader%"
+    - "&bMods&7: %list_moderator%"
+    - "&bMitglieder&7: %list_member%"
+    - "&bAktive Spieler&7: %online_number%"
+
+  invite:
+    sent: "&bDu hast %player% in den Clan eingeladen"
+    player-invited: '[{"text":"%player% hat dich in den Clan %party% eingeladen.\n","color":"aqua"},{"text":"Do you want ","color":"aqua"},{"text":"accept","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/party accept %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Accept the invitation","color":"gold"}]}}},{"text":" or ","color":"aqua","bold":false},{"text":"deny","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/party deny %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Deny the invitation","color":"gold"}]}}},{"text":"?\n","color":"aqua","bold":false},{"text":"You can use ","color":"aqua"},{"text":"/party <accept/deny>","color":"gray"},{"text":" to choose.","color":"aqua"}]'
+    timeout:
+      noresponse: "&7%player% lehnte deine Anfage ab"
+      timeout: "&7Du hast die Einladung vom Clan %party% nicht angenommen"
+    revoke:
+      sent-revoked: "&7Zurückgenommene Einladung an %player%"
+      player-invite-revoked: "&7Die Einladung von %party% wurde widerrufen"
+    cooldown:
+      global: "&cDu musst noch %seconds% Sekunden warten bevor du einen anderen Spieler einlädst"
+      individual: "&cDu musst noch %seconds% Sekunden warten bevor du den gleichen Spieler einlädst"
+    player-offline: "&cDu kannst nur aktive Spieler einladen"
+    player-no-permission: "&c%player% hat nicht die Erlaubnis beizutreten"
+    player-in-party: "&c%player% ist schon in einem Clan"
+    already-invited: "&c%player% wurde schon eingeladen"
+    wrong-command: "&cFalsche Variablen: Nutze &7/clan invite <Name>"
+
+  kick:
+    sent: "&aDu hast %player% aus dem Clan geworfen!"
+    player-kicked: "&bDu wurdest aus dem Clan %party% geworfen"
+    broadcast: "&b&l%player% wurde aus dem Clan geworfen"
+    broadcast-disband: "&b&lDer Clan wurde aufgelöst da der Chef gekickt wurde"
+    player-higher-rank: "&cDu kannst deinen Vorgesetzeten nicht aus dem Clan werfen!"
+    player-not-in-party: "&c%player% ist nicht in deinem Clan"
+    player-not-in-other-party: "&c%player% ist in keinem Clan"
+    players-conflict:
+      # Special tags:
+      # => %username%                       = Der Name des Spielers
+      # => %rank%                           = Der Rang
+      # => %list_players%                   = Liste jedes Spielers
+      # => %number%                         = Nummer des Spielers
+      # => %lastloginapi_last_logout_date%  = Das Datum der Letzen Abmeldung (siehe LastLoginAPI Plugin)
+      content:
+      - "&cEinige Spieler wurden mit diesem Namen gefunden:"
+      - "%list_players%"
+      - "&cNutze '&7/clan kick <Benutzername> <Zahl>&c' um den richtigen Spieler aus dem Clan zu werfen"
+      player: '{"text":"","extra":[{"text":"[%number%] ","color":"gray"},{"text":"%username%","color":"gold"},{"text":" [","color":"gray"},{"text":"%party%","color":"aqua"},{"text":"]: last login %lastloginapi_last_logout_date%","color":"gray"}],"clickEvent":{"action":"run_command","value":"/clan kick %username% %number%"},"hoverEvent":{"action":"show_text","value":{"text":"Kick this player","color":"gold"}}}'
+    wrong-command: "&cFalsche Variablen: Nutze &7/clan kick <Name>"
+
+  leave:
+    left: "&b&lDu hast den CLan %party% verlassen"
+    broadcast: "&b&l%player% hat den Clan verlassen"
+    party-disbanded: "&6&lDer Clan wurde aufgelöst da der Chef den Clan verlassen hat"
+
+  p:
+    # Special tag:
+    # => %seconds%   = Verbleibende Zeit in Sekunden
+    cooldown: "&cDu musst noch %seconds% Sekunden warten"
+    censored: "&cDie Nachricht beinhaltet zensierte Wörter!"
+    wrong-command: "&cFalsche Variablen: Nutze &7/p <Nachricht>"
+
+  rank:
+    # Special tag:
+    # => %rank_name%   = Vom Spieler geschriebener Rang
+    changed: "&aDer Rang von %player% wurde in %rank_name% gewechselt"
+    broadcast: ""
+    wrong-rank: "&cDer Rang '%rank_name%' existiert nicht!"
+    same-rank: "&c%player% hat schon den Rang %rank_name%!"
+    low-rank: "&cDu kannst keine Spieler mit einem gleichwertigen oder höheren Rang als deinem bearbeiten!"
+    to-higher-rank: "&cDu kannst nicht in einen Rang befördert werden, der deinem entspricht oder höher ist!"
+    fixed-leader: "&cDu kannst niemanden zum Chef einer festen Partei machen!"
+    changing-yourself: "&cDu kannst deinen eigenen Rang nicht ändern!"
+    player-not-in-party: "&c%player% ist nicht in deinem Clan"
+    player-not-in-other-party: "&c%player% hat keinen Clan"
+    players-conflict:
+      # Special tags:
+      # => %username%                       = Der Name des Spielers
+      # => %rank%                           = Der Rang
+      # => %list_players%                   = Liste jedes Spielers
+      # => %number%                         = Die Nummer des Spielers
+      # => %lastloginapi_last_logout_date%  = The last logout date (See LastLoginAPI plugin)
+      content:
+        - "&cEinige Spieler wurden mit diesem Namen gefunden:"
+        - "%list_players%"
+        - "&cNutze '&7/clan rank <Benutzername> <Rang> <Nummer>&c' um den Rang des richtigen Spielers zu aktivieren"
+      player: '{"text":"","extra":[{"text":"[%number%] ","color":"gray"},{"text":"%username%","color":"gold"},{"text":" [","color":"gray"},{"text":"%party%","color":"aqua"},{"text":"]: last login %lastloginapi_last_logout_date%","color":"gray"}],"clickEvent":{"action":"run_command","value":"/party rank %username% %rank% %number%"},"hoverEvent":{"action":"show_text","value":{"text":"Change rank of this player","color":"gold"}}}'
+    wrong-command: "&cWrong variables: Type &7/clan rank <Spieler> <Rang>"
+
+  rename:
+    # Special tag:
+    # => %old%   = Alter Clanname
+    renamed: "&aDer Clan %old% wurde in %party% umgenannt"
+    broadcast: "&6Dein Clan wurde in %party% umgenannt!"
+    wrong-command: "&cFalsche Variablen: Nutze &7/clan rename <Neuer Name>"
+    wrong-command-admin: "&cWrong variables: nUTZE &7/CLAN rename <Clan> <Neuer Name>"
+
+  spy:
+    enabled: "&7Du bist nun ein Spoin!"
+    disabled: "&7Du bist nicht länger ein Spion"
+    wrong-command: "&cFalsch Variablen: Nutze &7/clan spy [on/off]"
+
+  version:
+    # Special tags:
+    # => %version%    = Clanversion
+    # => %newversion% = Letzte Clanversion
+    # => %platform%   = Plattform des Plugins (e.g. Bukkit, BungeeCord)
+    updated: "&b&lClan &b%version% &7(%platform%) - Übersetzt &6101ProCraft und bluefighter_10"
+    outdated: "&b&lClan &b%version% &7(%platform%) - Übersetzt von &6101ProCraft und bluefighter_10\n&aNeue Verion gefunden: &2%newversion%"
+
+
+# / = = = = = = = = = = = = = = = = \
+# |  Zusätzliche Befehlsnachrichten |
+# \ = = = = = = = = = = = = = = = = /
+additional-commands:
+  claim:
+    claimed: "&aDie Berechtigung wurde dem Clan erteilt"
+    removed: "&aDie Berechtigung wurde vom Clan entfernt"
+    no-manager: "&cDu musst der Manager des Claims sein"
+    claim-no-exists: "&cClaim nicht gefunden"
+    wrong-command: "&cFalsche Variablen: Type &7/clan claim <Permission>\n&cPermissions: trust, container & access"
+
+  color:
+    info: "&bDeine Clanfarbe ist: %color_code%%color_command%"
+    empty: "&bDein CLan hat keine Clanfarbe"
+    changed: "&bDie Clanfarbe wurde in %color_command% gewechselt"
+    removed: "&bClanfarbe entfernt"
+    broadcast: ""
+    wrong-color: "&cFarbe nicht gefunden. Du kannst wählen: Rot, Grün oder Spezial!"
+    wrong-command: "&cFalsche Variablen: Nutze &7/clan color <Farbe>"
+
+  desc:
+    changed: "&bDie Clanbeschreibung wurde geändert"
+    removed: "&bDie Clanbeschriebung wurde entfernt"
+    broadcast: ""
+    invalid-chars: "&cUngültige Zeichen. Nutze: a-Z oder 0-9. Min 3 and max 16 Zeichen."
+    censored: "&cDie Beschreibung beinhaltet zensierte Wörter!"
+    wrong-command: "&cFalsche Variablen: Nutze &7/clan desc <Beschreibung/remove>"
+
+  exp:
+    # Special tags:
+    # => %exp%        = gesammelte Erfahrung
+    # => %total_exp%  = gesamte gedroppte Erfahrung
+    party:
+      gained: "&bDu hast %exp% Erfahrung für deinen Clan gesammelt (Mob)"
+    normal:
+      gained-killer: "&bDu hast %exp% Erfahrung gesammelt (Mob)"
+      gained-others: "&b%player% hat einen Mob getötet, du bekommst %exp% Erfarung"
+    skillapi:
+      gained-killer: "&bDu hast %exp% Erfarung gesammelt (Mob)"
+      gained-others: "&b%player% hat einen Mob getötet, du bekommst %exp% Erfarung"
+
+  follow:
+    toggle-on: "&aJetzt werden die Clanmitglieder dem Chef folgen"
+    toggle-off: "&aDein Clanmitglied möchte dem Chef nicht mehr folgen"
+    wrong-command: "&cFalsche Variablen: Nutze &7/clan follow [on/off]"
+
+  home:
+    teleported: "&7Du wurdest zu Clanhome teleportiert"
+    # Special tag: %time% = Zeit der Abklingzeit
+    teleport-in: "&7Du wirst in %time% Sekunden teleportiert..."
+    teleport-denied: "&7Teleport abgelehnt"
+    teleport-waiting: "&cDu wartest schon auf einen Teleport!"
+    no-home: "&cDort ist noch kein Home"
+    no-exists: "&cDer Clan %party% existiert nicht"
+    wrong-command: "&cFalsche Variablen: Nutze &7/clan home"
+    wrong-command-admin: "&cFalsche Variablen: Nutze &7/clan home [Clan]"
+
+  join:
+    joined: "&aDu bist dem Clan %party% beigetreten"
+    player-joined: "&b&l%player% ist dem Clan beigetreten"
+    wrong-password: "&cFalsches Passwort!"
+    wrong-command: "&cFalsche Variablen: Nutze &7/clan join <Clan> [Passwort]"
+
+  list:
+    # Special tags:
+    # => %number%    = Anzahl der Aktiven Clans
+    # => %page%      = Aktuelle Seite der Liste
+    # => %maxpages%  = Alle Seiten
+    header: "&b============ &lAktive Clans-Liste &r&b============"
+    footer: "&b================ &lSeite %page% von %maxpages% &r&b================"
+    no-one: "&7Niemand"
+    format-party: '[{"text":"%party%","color":"aqua","clickEvent":{"action":"run_command","value":"/clan info %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Show info","color":"gold"}]}}},{"text":" [","color":"gray"},{"text":"Online %online_number%","color":"gold"},{"text":"] %desc%","color":"gray"}]'
+    wrong-command: "&cFalsche Variablen: Nutze &7/clan list [Seite]"
+
+  motd:
+    changed: "&bClan MOTD geändert"
+    removed: "&bClan MOTD entfernt"
+    broadcast: ""
+    content:
+    - "&bClan MOTD:"
+    - "&b%motd%"
+    invalid-chars: "&cUngültige Zeichen. Du kannst auch '. , /' nutzen. Min 3 und max 100 Zeichen."
+    censored: "&cDie MOTD beinhaltet zensierte Wörter!"
+    wrong-command: "&cFalsche Variablen: Nutze &7/clan motd <motd/remove>"
+
+  mute:
+    toggle-on: "&7Du hast die Benachrichtigungen deakiviert!"
+    toggle-off: "&7Du hast die Benachrichtigungen aktiviert!"
+    wrong-command: "&cFalsche Variablen: Nutze &7/clan mute [on/off]"
+
+  password:
+    changed: "&aClanpasswort geändert"
+    removed: "&aClanpasswort entfernt"
+    broadcast: ""
+    invalid-chars: "&cUngülte Zeichen. Nutze: a-Z oder 0-9. Min 1 und max 16 Zeichen."
+    wrong-command: "&cFalsche Variablen: Nutze &7/clan password <Passwort/remove>"
+
+  protection:
+    toggle-on: "&aDein Clan ist jetzt geschützt"
+    toggle-off: "&aDein Clan ist jetzt nicht mehr geschützt"
+    protected: "&cDu kannst deine Clanmitglieder nicht schlagen"
+    warn-on-attack: "&c%player% veruchte %victim% zu schlagen!"
+    wrong-command: "&cFalsche Variablen: Nutze &7/clan protection [on/off]"
+
+  sethome:
+    changed: ""
+    removed: "&bClanhome entfernt"
+    broadcast: "&aEin neues Clanhome wurde gesetzt!"
+    wrong-command: "&cFalsche Variablen: Nutze &7/clan sethome [remove]"
+
+  teleport:
+    teleporting: "&7Teleportiere dein Clan hierhin!"
+    player-teleported: "&bTeleportiert zu %player%"
+    # Special tag: %seconds% = Verbleibende Zeit in Sekunden
+    cooldown: "&cDu musst noch %seconds% Sekunden warten!"
+
+  vault:
+    # Special tag: %price% = Preis des Befehls
+    no-money:
+      claim: "&cDu hast nich genug Geld um den Claim auszuführen [%price%$]"
+      color: "&cDu hast nich genug Geld um den Farbbefehl auszuführen [%price%$]"
+      create: "&cDu hast nich genug Geld um ein Clan zu erstellen [%price%$]"
+      desc: "&cDu hast nich genug Geld um eine Beschreibung zu erstellen [%price%$]"
+      home: "&cDu hast nich genug Geld um den Home-Command zu nutzen [%price%$]"
+      join: "&cDu hast nich genug Geld um du hast nicht genug Geld um dem Clan beizutreten [%price%$]"
+      motd: "&cDu hast nich genug Geld um die MOTD zu erstellen [%price%$]"
+      sethome: "&cDu hast nich genug Geld um ein Home zu setzen [%price%$]"
+      teleport: "&cDu hast nich genug Geld um dich zu teleportieren [%price%$]"
+    confirm:
+        warn-onbuy: '[{"text":"Command %cmd% costs %price%$.\n","color":"green"},{"text":"Kliche hier zum annehmen","color":"dark_green","bold":true,"clickEvent":{"action":"run_command","value":"/party confirm"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Pay the command","color":"gold"}]}}},{"text":" or type ","color":"green","bold":false},{"text":"/party confirm","color":"gray"},{"text":" to use it.","color":"green"}]'
+        confirmed: "&aAusführen des Befehls."
+        no-cmd: "&cEs gibt keinen Befehl zum Bestätigen"
+
+
+# / = = = = = = = = = = = = = = = = \
+# |        Andere Nachrichten       |
+# \ = = = = = = = = = = = = = = = = /
+other:
+  follow:
+    # Special tags: %world% = Neue Welt
+    following-world: "&7Folge %player% in %world%"
+
+  fixed-parties:
+    # Beitritt in deinen Standard-Clan
+    default-join: "&bDu bist dem Clan %party% beigetreten"
+
+  join-leave:
+    server-join: "&b%player% ist Online!"
+    server-leave: "&7%player% is Offline!"
+
+
+# / = = = = = = = = = = = = = = = = \
+# |        Hilfenachrichten         |
+# \ = = = = = = = = = = = = = = = = /
+help:
+  header: "&b================= &lClanhilfe %page%/%maxpages% &r&b================="
+  footer: ""
+  console-help:
+  - "Du kannst nur diese Befehle ausführen:"
+  - " > clan create <Name> fixed - Erstelle einen neuen Clan"
+  - " > clan delete <Clan> - Lösche einen Clan"
+  - " > clan info <Clan> - Zeige die Claninformationen"
+  - " > clan list - Liste der aktiven Clans"
+  - " > clan kick <Spieler> - Werfe einen Spieler aus dem Clan"
+  - " > clan rank <Spieler> <Rang> - Ändere den Rang von dem Spieler"
+  - " > clan reload - Lade die Clan-Konfigurationsdateien neu"
+  - " > clan rename <Clan> <Name> - Nenne den Clan um"
+  - " > clan version - Zeige die Claninformationen"
+  main-commands:
+    help: '{"text":"","extra":[{"text":"/clan help [Seite]","color":"aqua"},{"text":" - Zeige Hilfeseiten","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan help "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    accept: '{"text":"","extra":[{"text":"/clan accept","color":"aqua"},{"text":" - Nehme eine Claneinladung an","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan accept"},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    chat: '{"text":"","extra":[{"text":"/clan chat [on/off]","color":"aqua"},{"text":" - Schalte den Clanchat um","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan chat "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    create: '{"text":"","extra":[{"text":"/clan create <Name>","color":"aqua"},{"text":" - Erstelle einen neuen Clan","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan create "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    delete: '{"text":"","extra":[{"text":"/clan delete <Clan>","color":"aqua"},{"text":" - Lösche einen Clan","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan delete "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    deny: '{"text":"","extra":[{"text":"/clan deny","color":"aqua"},{"text":" - Lehne eine CLaneinladung ab","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan deny"},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    ignore: '{"text":"","extra":[{"text":"/clan ignore [Clan]","color":"aqua"},{"text":" - füge hinzu/entferne/zeige ignorierte Clans","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan ignore "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    info: '{"text":"","extra":[{"text":"/clan info [Clan]","color":"aqua"},{"text":" - Zeige die Claninformationen","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan info "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    invite: '{"text":"","extra":[{"text":"/clan invite <Spieler>","color":"aqua"},{"text":" - Lade einen Spieler in deinen Clan ein","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan invite "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    kick: '{"text":"","extra":[{"text":"/clan kick <Spieler>","color":"aqua"},{"text":" - Werfe einen Spieler aus deinem CLan","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan kick "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    leave: '{"text":"","extra":[{"text":"/clan leave","color":"aqua"},{"text":" - Verlasse deinen Clan","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan leave "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    p: '{"text":"","extra":[{"text":"/p <message>","color":"aqua"},{"text":" - Sende eine Nachricht an deinen Clan","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/p "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    rank: '{"text":"","extra":[{"text":"/clan rank <Spieler> <Rang>","color":"aqua"},{"text":" - Ändere den Rang eines Spielers","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan rank "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    reload: '{"text":"","extra":[{"text":"/clan reload","color":"aqua"},{"text":" - Lade die Clan-Konfiguartionsdateien neu","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan reload"},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    rename: '{"text":"","extra":[{"text":"/clan rename [Clan] <newname>","color":"aqua"},{"text":" - Nenne deinen Clan um","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan rename "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    spy: '{"text":"","extra":[{"text":"/clan spy [on/off]","color":"aqua"},{"text":" - Spioniere Nachrichten anderer Clans aus","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan spy "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    version: '{"text":"","extra":[{"text":"/clan version","color":"aqua"},{"text":" - Zeige Claninformationen","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan version"},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+  additional-commands:
+    claim: '{"text":"","extra":[{"text":"/clan claim <permission>","color":"aqua"},{"text":" - Berechtigung zu dem Claim erteilen","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan claim "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    color: '{"text":"","extra":[{"text":"/clan color <color>","color":"aqua"},{"text":" - Ändere die Clanfarbe","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan color "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    desc: '{"text":"","extra":[{"text":"/clan desc <description/remove>","color":"aqua"},{"text":" - füge hinzu/entferne eine Clanfarbe","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan desc "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    follow: '{"text":"","extra":[{"text":"/clan follow [on/off]","color":"aqua"},{"text":" - Ändere den nachfolgenden Chef","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan follow "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    home: '{"text":"","extra":[{"text":"/clan home [Clan]","color":"aqua"},{"text":" - Teleportiere zu dem Clanhome","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan home "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    join: '{"text":"","extra":[{"text":"/clan join <Clan> [password]","color":"aqua"},{"text":" - Tritt dem Clan bei","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan join "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    list: '{"text":"","extra":[{"text":"/clan list [Seite]","color":"aqua"},{"text":" - Liste der Aktiven Clans","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan list "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    motd: '{"text":"","extra":[{"text":"/clan motd <motd/remove>","color":"aqua"},{"text":" - füge hinzu/entferne die Clan motd","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan motd "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    mute: '{"text":"","extra":[{"text":"/clan mute [on/off]","color":"aqua"},{"text":" - Benachrichtigungen umschalten","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan mute "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    password: '{"text":"","extra":[{"text":"/clan password <Pw/remove>","color":"aqua"},{"text":" - Ändere das Clanpasswort","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan password "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    protection: '{"text":"","extra":[{"text":"/clan protection [on/off]","color":"aqua"},{"text":" - Ändere den Schutz","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan protection "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    sethome: '{"text":"","extra":[{"text":"/clan sethome [remove]","color":"aqua"},{"text":" - füge hinzu/entferne das Clanhome","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan sethome "},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+    teleport: '{"text":"","extra":[{"text":"/clan teleport","color":"aqua"},{"text":" - Teleportiere deinen Clan zu dir","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/clan teleport"},"hoverEvent":{"action":"show_text","value":{"text":"Führe den Befehl aus","color":"gold"}}}'
+
+dont-edit-this:
+  version: 10

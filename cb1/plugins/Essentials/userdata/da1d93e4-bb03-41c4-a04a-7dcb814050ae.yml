@@ -1,0 +1,29 @@
+lastAccountName: Florianratzebub
+timestamps:
+  login: 1591644141479
+  lastteleport: 1591644683643
+  logout: 1591644818089
+ipAddress: 84.190.234.24
+lastlocation:
+  world: plotworld
+  x: 121.48750001192093
+  y: 66.5
+  z: 313.1385872062765
+  yaw: 22.150707
+  pitch: 34.19992
+money: '801.0'
+logoutlocation:
+  world: plotworld
+  x: 132.44286409081982
+  y: 87.30121691448838
+  z: 320.3394341499539
+  yaw: 76.45093
+  pitch: 87.60002
+homes:
+  home:
+    world: plotworld
+    x: 116.29040915302946
+    y: 51.0
+    z: 326.25437477711665
+    yaw: 250.30011
+    pitch: 48.15001

@@ -1,0 +1,21 @@
+lastAccountName: IchMagKekse2
+timestamps:
+  login: 1591695473574
+  logout: 1591695665307
+  lastteleport: 1591645217266
+ipAddress: 77.12.149.198
+lastlocation:
+  world: plotworld
+  x: 141.69348431738732
+  y: 65.5
+  z: -142.85959950119732
+  yaw: 282.59985
+  pitch: 29.849958
+logoutlocation:
+  world: plotworld
+  x: 135.4530083109405
+  y: 65.0
+  z: -112.62965248368685
+  yaw: 179.09949
+  pitch: 25.199993
+money: '58000.0'

@@ -1,0 +1,20 @@
+lastAccountName: Old_Gregg
+timestamps:
+  login: 1588853052965
+  logout: 1588853139805
+ipAddress: 127.0.0.1
+lastlocation:
+  world: plotworld
+  x: 61.0
+  y: 65.0
+  z: 256.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: plotworld
+  x: 112.43473355244431
+  y: 65.0
+  z: 328.06628217642856
+  yaw: -357.29993
+  pitch: -5.5500755
+money: '500.0'

@@ -1,0 +1,587 @@
+[23:35:00] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[23:35:00] [Server thread/INFO]: Loading properties
+[23:35:00] [Server thread/INFO]: Default game type: SURVIVAL
+[23:35:00] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-79a30d7-acbc348 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[23:35:00] [Server thread/INFO]: Debug logging is disabled
+[23:35:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:35:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:35:00] [Server thread/INFO]: Generating keypair
+[23:35:01] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25566
+[23:35:01] [Server thread/INFO]: Using default channel type
+[23:35:01] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[23:35:01] [Server thread/INFO]: [AAC] Attempting to inject into PlayerConnection
+[23:35:01] [User Authenticator #1/INFO]: UUID of player YukiHai is 49236a04-234c-3295-9319-e2f2408ac97f
+[23:35:02] [Server thread/INFO]: [AAC] Successfully injected.
+[23:35:02] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.6
+[23:35:02] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.1.6
+[23:35:02] [Server thread/INFO]: [sTablist] Loading sTablist v3.0.0-pre5
+[23:35:02] [Server thread/INFO]: [AntiAFKPlus] Loading AntiAFKPlus v3.02
+[23:35:02] [Server thread/INFO]: [ChatControl] Loading ChatControl v5.8.7
+[23:35:02] [Server thread/INFO]: [CommandToItem] Loading CommandToItem v2.4.2
+[23:35:02] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
+[23:35:02] [Server thread/INFO]: [EasySetSpawn] Loading EasySetSpawn v3.2
+[23:35:02] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.8.7
+[23:35:02] [Server thread/INFO]: [PlayerRanks] Loading PlayerRanks v2.1
+[23:35:02] [Server thread/INFO]: [BuycraftX] Loading BuycraftX v12.0.6
+[23:35:02] [Server thread/INFO]: [EntityDetection] Loading EntityDetection v1.1.3 (build #21)
+[23:35:02] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.5.0
+[23:35:02] [Server thread/INFO]: [NoCheatPlus] Loading NoCheatPlus v3.16.0-RC-sMD5NET-b1134
+[23:35:02] [Server thread/INFO]: [NoCheatPlus] onLoad: Early set up of static API, configuration, logging.
+[23:35:02] [Server thread/INFO]: [NoCheatPlus] Logging system initialized.
+[23:35:02] [Server thread/INFO]: [NoCheatPlus] Detected Minecraft version: 1.12.2
+[23:35:02] [Server thread/INFO]: [AAC] Loading AAC v4.3.12
+[23:35:02] [Server thread/INFO]: [SignPlugin] Loading SignPlugin v1.1
+[23:35:02] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5
+[23:35:02] [Server thread/INFO]: [Booster] Loading Booster v2.3.0
+[23:35:02] [Server thread/INFO]: [Dice] Loading Dice v0.1
+[23:35:02] [Server thread/INFO]: [IPWhitelist] Loading IPWhitelist v1.7
+[23:35:02] [Server thread/INFO]: [ImageOnMap] Loading ImageOnMap v3.1
+[23:35:02] [Server thread/INFO]: [InstantSmelt] Loading InstantSmelt v1.2.1
+[23:35:02] [Server thread/INFO]: [ConditionalCommands] Loading ConditionalCommands v1.4
+[23:35:02] [Server thread/INFO]: [PlotBorder] Loading PlotBorder v1.4.5-Legacy
+[23:35:02] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[23:35:02] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[23:35:02] [Server thread/INFO]: [CrazyCrates] Loading CrazyCrates v1.10-RELEASE
+[23:35:02] [Server thread/INFO]: [Orebfuscator4] Loading Orebfuscator4 v4.4.3
+[23:35:02] [Server thread/INFO]: [LastLoginAPI] Loading LastLoginAPI v1.3.5
+[23:35:02] [Server thread/INFO]: [MysqlEcoBridge] Loading MysqlEcoBridge v3.4.1
+[23:35:02] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.0
+[23:35:02] [Server thread/INFO]: [CustomOreGen] Loading CustomOreGen v1.3.27-SNAPSHOT
+[23:35:02] [Server thread/INFO]: [Parties] Loading Parties v2.6.14
+[23:35:02] [Server thread/INFO]: [HeadDatabase] Loading HeadDatabase v4.12.3
+[23:35:02] [Server thread/INFO]: [PlotSquared] Loading PlotSquared v20.03.28-71943e6-796
+[23:35:02] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5.0-b727
+[23:35:02] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.24-SNAPSHOT (build 1605)
+[23:35:02] [Server thread/INFO]: [TimeIsMoney] Loading TimeIsMoney v1.9.6.11
+[23:35:02] [Server thread/INFO]: [InfiniteScoreboard] Loading InfiniteScoreboard v2.0.4
+[23:35:02] [Server thread/INFO]: [BuyPlots] Loading BuyPlots v1.2
+[23:35:02] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.2.0
+[23:35:02] [Server thread/INFO]: [dtlTraders] Loading dtlTraders v6.0.6
+[23:35:02] [Server thread/INFO]: [UltimateStacker] Loading UltimateStacker v1.11.12
+[23:35:03] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[23:35:03] [Server thread/INFO]: [antiRedstoneClock] Loading antiRedstoneClock v1.0.7
+[23:35:03] [Server thread/INFO]: [EditableSign] Loading EditableSign v7.0.4
+[23:35:03] [Server thread/INFO]: [EpicHoppers] Loading EpicHoppers v4.6.3
+[23:35:03] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.0
+[23:35:03] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[23:35:03] [Server thread/INFO]: [AAC] Enabling AAC v4.3.12
+[23:35:03] [Server thread/INFO]: [AAC] Hooked into PlaceholderAPI
+[23:35:03] [Server thread/INFO]: [AAC] AAC is up to date
+[23:35:03] [Server thread/INFO]: [AAC] Compressing 1 log file
+[23:35:03] [Server thread/INFO]: [AAC] Enabled: [combat.Criticals, combat.Hitbox, combat.FastBow, combat.FightSpeed, combat.Regen, combat.FastUse, combat.Killaura, movement.Timer, movement.Phase, movement.Move, movement.NoFall, movement.Derp, world.BadPackets, world.FastBreak, world.FastPlace, world.Interact]
+[23:35:03] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5
+[23:35:03] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m ====== UPGRADE TO 64-BIT JAVA ======[m
+[23:35:03] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m You are running 32-bit Java on a 64-bit machine[m
+[23:35:03] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m  - This is only a recommendation[m
+[23:35:03] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m ====================================[m
+[23:35:03] [Server thread/INFO]: ====== USE PAPER ======[m
+[23:35:03] [Server thread/INFO]: DOWNLOAD: https://ci.destroystokyo.com/job/PaperSpigot/[m
+[23:35:03] [Server thread/INFO]: GUIDE: https://www.spigotmc.org/threads/21726/[m
+[23:35:03] [Server thread/INFO]:  - This is only a recommendation[m
+[23:35:03] [Server thread/INFO]: ==============================[m
+[23:35:03] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[23:35:03] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[23:35:03] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[23:35:03] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[23:35:03] [Server thread/INFO]: [Orebfuscator4] Enabling Orebfuscator4 v4.4.3
+[23:35:03] [Server thread/INFO]: [OFC] World type 'Default' has been read.
+[23:35:03] [Server thread/INFO]: [OFC] World type 'Normal' has been read.
+[23:35:03] [Server thread/INFO]: [OFC] World type 'TheEnd' has been read.
+[23:35:03] [Server thread/INFO]: [OFC] World type 'Nether' has been read.
+[23:35:03] [Server thread/INFO]: [OFC] World name 'farmwelt' has been read.
+[23:35:03] [Server thread/INFO]: [OFC] Proximity Hider is Enabled
+[23:35:03] [Server thread/INFO]: [MysqlEcoBridge] Enabling MysqlEcoBridge v3.4.1
+[23:35:03] [Server thread/INFO]: [MysqlEcoBridge] Using economy system: Essentials Economy
+[23:35:03] [Server thread/INFO]: [MysqlEcoBridge] Loading the config file...
+[23:35:03] [Server thread/INFO]: [MysqlEcoBridge] Connecting to the database...
+[23:35:08] [Server thread/ERROR]: [MysqlEcoBridge] Could not connect to mysql database! Error: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+[23:35:08] [Server thread/INFO]: [MysqlEcoBridge] Data save task is enabled.
+[23:35:08] [Server thread/INFO]: [MysqlEcoBridge] MysqlEcoBridge loaded successfully!
+[23:35:08] [Server thread/INFO]: [PlotSquared] Enabling PlotSquared v20.03.28-71943e6-796
+[23:35:08] [Server thread/INFO]: Version is PlotSquared-20.3.28-71943e6-796
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mFailed to open DATABASE connection. The plugin will disable itself.[m
+[23:35:08] [Server thread/INFO]: [0;36;22mMYSQL[m
+[23:35:08] [Server thread/INFO]: [0;35;1m==== Here is an ugly stacktrace, if you are interested in those things ===[m
+[23:35:08] [Server thread/WARN]: java.sql.SQLException: Access denied for user 'plotuser'@'localhost' (using password: YES)
+[23:35:08] [Server thread/WARN]: 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+[23:35:08] [Server thread/WARN]: 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+[23:35:08] [Server thread/WARN]: 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+[23:35:08] [Server thread/WARN]: 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:873)
+[23:35:08] [Server thread/WARN]: 	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1710)
+[23:35:08] [Server thread/WARN]: 	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+[23:35:08] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188)
+[23:35:08] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2219)
+[23:35:08] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2014)
+[23:35:08] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+[23:35:08] [Server thread/WARN]: 	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+[23:35:08] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[23:35:08] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[23:35:08] [Server thread/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[23:35:08] [Server thread/WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[23:35:08] [Server thread/WARN]: 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+[23:35:08] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+[23:35:08] [Server thread/WARN]: 	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+[23:35:08] [Server thread/WARN]: 	at java.sql.DriverManager.getConnection(Unknown Source)
+[23:35:08] [Server thread/WARN]: 	at java.sql.DriverManager.getConnection(Unknown Source)
+[23:35:08] [Server thread/WARN]: 	at com.intellectualcrafters.plot.database.MySQL.forceConnection(MySQL.java:47)
+[23:35:08] [Server thread/WARN]: 	at com.intellectualcrafters.plot.database.MySQL.openConnection(MySQL.java:56)
+[23:35:08] [Server thread/WARN]: 	at com.intellectualcrafters.plot.database.SQLManager.<init>(SQLManager.java:107)
+[23:35:08] [Server thread/WARN]: 	at com.intellectualcrafters.plot.PS.setupDatabase(PS.java:1516)
+[23:35:08] [Server thread/WARN]: 	at com.intellectualcrafters.plot.PS.<init>(PS.java:121)
+[23:35:08] [Server thread/WARN]: 	at com.plotsquared.bukkit.BukkitMain.onEnable(BukkitMain.java:172)
+[23:35:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[23:35:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[23:35:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[23:35:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[23:35:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[23:35:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[23:35:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[23:35:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[23:35:08] [Server thread/INFO]: [0;35;1m==== End of stacktrace ====[m
+[23:35:08] [Server thread/INFO]: [0;33;22mPlease go to the PlotSquared 'storage.yml' and configure the database correctly.[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;33;22mMetrics enabled.[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m [0;33;22mPlotSquared is using online UUIDs[m
+[23:35:08] [Server thread/INFO]: PlotSquared hooked into WorldEdit.[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mplot-expiry[0;31;1m, Value: [0;33;22mfalse[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mkill-road-mobs[0;31;1m, Value: [0;33;22mfalse[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mkill-road-items[0;31;1m, Value: [0;33;22mfalse[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mworlds[0;31;1m, Value: [0;33;22mfalse[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mworldedit-restrictions[0;31;1m, Value: [0;33;22mtrue[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mdatabase-purger[0;31;1m, Value: [0;33;22mfalse[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22meconomy[0;31;1m, Value: [0;33;22mtrue[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mblock-cache[0;31;1m, Value: [0;33;22mtrue[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mkill-road-vehicles[0;31;1m, Value: [0;33;22mfalse[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mpersistent-meta[0;31;1m, Value: [0;33;22mtrue[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mban-deleter[0;31;1m, Value: [0;33;22mfalse[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mupdater[0;31;1m, Value: [0;33;22mtrue[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mdatabase[0;31;1m, Value: [0;33;22mtrue[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mplotme-converter[0;31;1m, Value: [0;33;22mtrue[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mpermission-cache[0;31;1m, Value: [0;33;22mtrue[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mdisable-fawe-optimization[0;31;1m, Value: [0;33;22mfalse[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mrating-cache[0;31;1m, Value: [0;33;22mtrue[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mcomment-notifier[0;31;1m, Value: [0;33;22mfalse[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mmetrics[0;31;1m, Value: [0;33;22mtrue[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mchunk-processor[0;31;1m, Value: [0;33;22mfalse[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22muuid-cache[0;31;1m, Value: [0;33;22mtrue[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mevents[0;31;1m, Value: [0;33;22mtrue[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mcommands[0;31;1m, Value: [0;33;22mtrue[m
+[23:35:08] [Server thread/INFO]: [0;33;22mPlotSquared is now enabled[m
+[23:35:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:35:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:35:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:35:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:35:08] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[23:35:08] [Server thread/INFO]: Preparing level "plotworld"
+[23:35:08] [Server thread/INFO]: -------- World Settings For [plotworld] --------
+[23:35:08] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:35:08] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:35:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:35:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:35:08] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[23:35:08] [Server thread/INFO]: View Distance: 7
+[23:35:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:35:08] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:35:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[23:35:08] [Server thread/INFO]: Mob Spawn Range: 4
+[23:35:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: Max TNT Explosions: 100
+[23:35:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:35:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[23:35:08] [Server thread/INFO]: Random Lighting Updates: false
+[23:35:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:35:08] [Server thread/INFO]: Structure Info Saving: true
+[23:35:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;32;1mDetected world load for 'plotworld'[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;36;22m - generator: [0;37;22mPlotSquared>PlotSquared[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;36;22m - plotworld: [0;37;22mcom.intellectualcrafters.plot.generator.HybridPlotWorld[m
+[23:35:08] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;36;22m - manager: [0;37;22mcom.intellectualcrafters.plot.generator.HybridPlotManager[m
+[23:35:08] [Server thread/INFO]: World possibly already loaded: plotworld[m
+[23:35:08] [Server thread/INFO]: -------- World Settings For [plotworld_the_end] --------
+[23:35:08] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:35:08] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:35:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:35:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:35:08] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[23:35:08] [Server thread/INFO]: View Distance: 7
+[23:35:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:35:08] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:35:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[23:35:08] [Server thread/INFO]: Mob Spawn Range: 4
+[23:35:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:35:08] [Server thread/INFO]: Max TNT Explosions: 100
+[23:35:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:35:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[23:35:08] [Server thread/INFO]: Random Lighting Updates: false
+[23:35:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:35:08] [Server thread/INFO]: Structure Info Saving: true
+[23:35:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[23:35:08] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null[m
+[23:35:08] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3629091386764334346)
+[23:35:09] [Server thread/INFO]: Preparing spawn area: 88%
+[23:35:09] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3629091386764334346)
+[23:35:10] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.6
+[23:35:10] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[23:35:10] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.1.6
+[23:35:10] [Server thread/INFO]: [ClearLag] Loading modules...
+[23:35:10] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[23:35:10] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[23:35:10] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[23:35:10] [Server thread/INFO]: [sTablist] Enabling sTablist v3.0.0-pre5
+[23:35:10] [Thread-79/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.12]...
+[23:35:10] [Server thread/INFO]: [sTablistAPI] TablistAPI Implementation set to NMS. (1.8.X - 1.12.X)
+[23:35:10] [Server thread/WARN]: [sTablist] Could not save groups.yml to plugins\sTablist\Prefixes-And-Suffixes\groups.yml because groups.yml already exists.
+[23:35:10] [Server thread/INFO]: [sTablist-AutoUpdater] Newest Version: 3.0.0-pre5! Current Version: 3.0.0-pre5
+[23:35:10] [Server thread/INFO]: [sTablist] Plugin Update Task was started in 0 Millis!
+[23:35:10] [Server thread/INFO]: [sTablist] Tab Update Task was started in 0 Millis!
+[23:35:10] [Server thread/INFO]: [sTablist] Tag Update Task was started in 0 Millis!
+[23:35:10] [Server thread/INFO]: [sTablist] Started in 183 Millis!
+[23:35:10] [Server thread/INFO]: [AntiAFKPlus] Enabling AntiAFKPlus v3.02
+[23:35:10] [Server thread/INFO]: [ChatControl] Enabling ChatControl v5.8.7
+[23:35:10] [Server thread/INFO]: [0;36;22mHooked into[0;30;1m: [0;37;1mEssentials[m
+[23:35:10] [Server thread/INFO]: [0;36;22mHooked into[0;30;1m: [0;37;1mMultiverse-Core [0;37;22m(World Alias)[m
+[23:35:10] [Server thread/INFO]: [0;36;22mHooked into[0;30;1m: [0;37;1mProtocolLib [0;37;22m(Packet Features)[m
+[23:35:10] [Server thread/INFO]: [0;36;22mHooked into[0;30;1m: [0;37;1mVault[m
+[23:35:10] [Server thread/INFO]: [0;36;22mHooked into[0;30;1m: [0;37;1mPlaceholderAPI[m
+[23:35:10] [Server thread/INFO]: [0;36;22mStarting [0;37;1mchecker listener [0;36;22mwith NORMAL priority[m
+[23:35:10] [Server thread/INFO]: [0;36;22mStarting [0;37;1mformatter listener [0;36;22mwith NORMAL priority[m
+[23:35:10] [Server thread/INFO]: [CommandToItem] Enabling CommandToItem v2.4.2
+[23:35:10] [Server thread/INFO]: [CommandToItem] Metrics started. This can be disabled at /plugins/bStats/config.yml.
+[23:35:10] [Server thread/INFO]: [CommandToItem] Your server is running version v1_12_R1.
+[23:35:10] [Server thread/WARN]: [CommandToItem] Unrecognised enchantment: minecraft
+[23:35:10] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
+[23:35:10] [Server thread/INFO]: [EasySetSpawn] Enabling EasySetSpawn v3.2
+[23:35:10] [Server thread/INFO]: [EasySetSpawn] EasySetSpawn enabled!
+[23:35:10] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.8.7
+[23:35:10] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
+[23:35:10] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[23:35:10] [Server thread/INFO]: [WorldBorder] [CONFIG] World "farmwelt" has border radius 5000 at X: 468,5 Z: -1572,5
+[23:35:10] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 124,0 Y: 64,0 Z: 252,0
+[23:35:10] [Server thread/INFO]: [PlayerRanks] Enabling PlayerRanks v2.1
+[23:35:10] [Server thread/INFO]: [BuycraftX] Enabling BuycraftX v12.0.6
+[23:35:10] [Server thread/INFO]: [BuycraftX] Validating your server key...
+[23:35:10] [Thread-79/INFO]: [ClearLag] No updates found!
+[23:35:11] [Server thread/INFO]: [BuycraftX] Fetching all server packages...
+[23:35:12] [Server thread/INFO]: [EntityDetection] Enabling EntityDetection v1.1.3 (build #21)
+[23:35:12] [Server thread/INFO]: [NoCheatPlus] Enabling NoCheatPlus v3.16.0-RC-sMD5NET-b1134
+[23:35:12] [Server thread/INFO]: [NoCheatPlus] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+[23:35:12] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+[23:35:12] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+[23:35:12] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+[23:35:12] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+[23:35:12] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.9 blocks.
+[23:35:12] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.10 blocks.
+[23:35:12] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.11 blocks.
+[23:35:12] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.12 blocks.
+[23:35:12] [Server thread/INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+[23:35:12] [Server thread/INFO]: [NoCheatPlus] Adding packet level hooks for ProtocolLib (MC 1.12.2)...
+[23:35:12] [Server thread/INFO]: [NoCheatPlus] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+[23:35:12] [Server thread/INFO]: [NoCheatPlus] Force disable FastHeal on Minecraft 1.9 and later.
+[23:35:12] [Server thread/INFO]: [NoCheatPlus] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+[23:35:12] [Server thread/INFO]: [SignPlugin] Enabling SignPlugin v1.1
+[23:35:12] [Server thread/INFO]: -------- [YSign] --------[m
+[23:35:12] [Server thread/INFO]: von YukiHai[m
+[23:35:12] [Server thread/INFO]: 1.0[m
+[23:35:12] [Server thread/INFO]: [m
+[23:35:12] [Server thread/INFO]: darfst das Plugin nicht als deins ausgeben.[m
+[23:35:12] [Server thread/INFO]: darfst das Plugin nicht verkaufen.[m
+[23:35:12] [Server thread/INFO]: [m
+[23:35:12] [Server thread/INFO]: YukiHai[m
+[23:35:12] [Server thread/INFO]: -------- [YSign] --------[m
+[23:35:12] [Server thread/INFO]: [Booster] Enabling Booster v2.3.0
+[23:35:12] [Server thread/INFO]: [Dice] Enabling Dice v0.1
+[23:35:12] [Server thread/INFO]: [IPWhitelist] Enabling IPWhitelist v1.7
+[23:35:12] [Server thread/INFO]: [ImageOnMap] Enabling ImageOnMap v3.1
+[23:35:12] [Server thread/WARN]: [ImageOnMap] The fallback locale de_AT cannot be loaded.
+[23:35:12] [Server thread/WARN]: [ImageOnMap] The primary locale de_AT cannot be loaded.
+[23:35:12] [Server thread/INFO]: [ImageOnMap] Loaded 4 player map files.
+[23:35:12] [Server thread/INFO]: [InstantSmelt] Enabling InstantSmelt v1.2.1
+[23:35:12] [Server thread/INFO]: [InstantSmelt] Your server is running version v1_12_R1
+[23:35:12] [Server thread/INFO]: [InstantSmelt] Loading config for InstantSmelt...
+[23:35:12] [Server thread/INFO]: [InstantSmelt] InstantFurnace has successfully loaded! This plugin is coded by ark9026!
+[23:35:12] [Server thread/INFO]: [ConditionalCommands] Enabling ConditionalCommands v1.4
+[23:35:12] [Server thread/INFO]: [ConditionalCommands] Initializing placeholders...
+[23:35:12] [Server thread/INFO]: [ConditionalCommands] Ready.
+[23:35:12] [Server thread/INFO]: [PlotBorder] Enabling PlotBorder v1.4.5-Legacy
+[23:35:12] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[23:35:12] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[23:35:12] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[23:35:12] [Server thread/INFO]: [CrazyCrates] Enabling CrazyCrates v1.10-RELEASE
+[23:35:12] [Server thread/INFO]: [CrazyCrates] Loading the config.yml
+[23:35:12] [Server thread/INFO]: [CrazyCrates] Successfully loaded config.yml
+[23:35:12] [Server thread/INFO]: [CrazyCrates] Loading the Messages.yml
+[23:35:12] [Server thread/INFO]: [CrazyCrates] Successfully loaded Messages.yml
+[23:35:12] [Server thread/INFO]: [CrazyCrates] Loading the Locations.yml
+[23:35:12] [Server thread/INFO]: [CrazyCrates] Successfully loaded Locations.yml
+[23:35:12] [Server thread/INFO]: [CrazyCrates] Loading the data.yml
+[23:35:12] [Server thread/INFO]: [CrazyCrates] Successfully loaded data.yml
+[23:35:12] [Server thread/INFO]: [CrazyCrates] Loading custom files.
+[23:35:12] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/Basic.yml.
+[23:35:12] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/Classic.yml.
+[23:35:12] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/Crazy.yml.
+[23:35:12] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/Galactic.yml.
+[23:35:12] [Server thread/INFO]: [CrazyCrates] Finished loading custom files.
+[23:35:12] [Server thread/INFO]: [CrazyCrates] Loading all crate information...
+[23:35:13] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_12_R1! Trying to find NMS support
+[23:35:13] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_12_R1' loaded!
+[23:35:13] [Server thread/INFO]: [CrazyCrates] All crate information has been loaded.
+[23:35:13] [Server thread/INFO]: [CrazyCrates] Loading all the physical crate locations.
+[23:35:13] [Server thread/INFO]: [CrazyCrates] Searching for schematics to load.
+[23:35:13] [Server thread/INFO]: [CrazyCrates] classic.schematic was successfully found and loaded.
+[23:35:13] [Server thread/INFO]: [CrazyCrates] nether.schematic was successfully found and loaded.
+[23:35:13] [Server thread/INFO]: [CrazyCrates] outdoors.schematic was successfully found and loaded.
+[23:35:13] [Server thread/INFO]: [CrazyCrates] sea.schematic was successfully found and loaded.
+[23:35:13] [Server thread/INFO]: [CrazyCrates] soul.schematic was successfully found and loaded.
+[23:35:13] [Server thread/INFO]: [CrazyCrates] wooden.schematic was successfully found and loaded.
+[23:35:13] [Server thread/INFO]: [CrazyCrates] All schematics were found and loaded.
+[23:35:13] [Server thread/INFO]: [CrazyCrates] Cleaning up the data.yml file.
+[23:35:13] [Server thread/INFO]: [CrazyCrates] The data.yml file has been cleaned.
+[23:35:13] [Server thread/INFO]: [LastLoginAPI] Enabling LastLoginAPI v1.3.5
+[23:35:13] [Server thread/INFO]: [[33mLastLoginAPI[0m] Initializing LastLoginAPI 1.3.5
+[23:35:13] [Server thread/INFO]: [[33mLastLoginAPI[0m] Hooked into PlaceholderAPI
+[23:35:13] [Server thread/INFO]: [[33mLastLoginAPI[0m] LastLoginAPI v1.3.5 enabled
+[23:35:13] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.0
+[23:35:13] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[23:35:13] [Server thread/INFO]: No kits found to migrate.
+[23:35:13] [Server thread/INFO]: [Essentials] Using legacy item data provider as mob spawner provider.
+[23:35:13] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[23:35:13] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[23:35:13] [Server thread/INFO]: Loaded 852 items from items.csv.
+[23:35:13] [Server thread/INFO]: Using locale de_AT
+[23:35:13] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[23:35:13] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[23:35:13] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[23:35:13] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[23:35:13] [Server thread/INFO]: [CustomOreGen] Enabling CustomOreGen v1.3.27-SNAPSHOT
+[23:35:13] [Server thread/INFO]: [0;33;22m[CustomOreGen] [0;32;1mUsing PlotSquared as SkyBlock-Plugin, hook class: xyz.spaceio.hooks.HookPlotSquaredLegacy[m
+[23:35:13] [Server thread/INFO]: [0;33;22m[CustomOreGen] [0;31;1mConfig error: generator generator1 does not have a total chance of 100.0! Total chance is: 66,200000[m
+[23:35:13] [Server thread/INFO]: [0;33;22m[CustomOreGen] [0;32;1mLoaded [0;31;1m1 [0;32;1mgenerators![m
+[23:35:13] [Server thread/INFO]: [Parties] Enabling Parties v2.6.14
+[23:35:13] [Server thread/INFO]: [[36mParties[0m] Initializing Parties 2.6.14
+[23:35:13] [Server thread/WARN]: [Server thread] INFO com.zaxxer.hikari.HikariDataSource - parties - Starting...
+[23:35:13] [Server thread/WARN]: [Server thread] ERROR com.zaxxer.hikari.pool.HikariPool - parties - Exception during pool initialization.
+[23:35:13] [Server thread/WARN]: java.sql.SQLException: Access denied for user 'clansuser'@'localhost' (using password: YES)
+[23:35:13] [Server thread/WARN]: 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+[23:35:13] [Server thread/WARN]: 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+[23:35:13] [Server thread/WARN]: 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+[23:35:13] [Server thread/WARN]: 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:873)
+[23:35:13] [Server thread/WARN]: 	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1710)
+[23:35:13] [Server thread/WARN]: 	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+[23:35:13] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188)
+[23:35:13] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2219)
+[23:35:13] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2014)
+[23:35:13] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+[23:35:13] [Server thread/WARN]: 	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+[23:35:13] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[23:35:13] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[23:35:13] [Server thread/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[23:35:13] [Server thread/WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[23:35:13] [Server thread/WARN]: 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+[23:35:13] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+[23:35:13] [Server thread/WARN]: 	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+[23:35:13] [Server thread/WARN]: 	at com.mysql.jdbc.jdbc2.optional.MysqlDataSource.getConnection(MysqlDataSource.java:428)
+[23:35:13] [Server thread/WARN]: 	at com.mysql.jdbc.jdbc2.optional.MysqlDataSource.getConnection(MysqlDataSource.java:136)
+[23:35:13] [Server thread/WARN]: 	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+[23:35:13] [Server thread/WARN]: 	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+[23:35:13] [Server thread/WARN]: 	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+[23:35:13] [Server thread/WARN]: 	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+[23:35:13] [Server thread/WARN]: 	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+[23:35:13] [Server thread/WARN]: 	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+[23:35:13] [Server thread/WARN]: 	at com.alessiodp.parties.core.common.storage.sql.mysql.MySQLHikariConfiguration.setup(MySQLHikariConfiguration.java:48)
+[23:35:13] [Server thread/WARN]: 	at com.alessiodp.parties.core.common.storage.sql.mysql.MySQLDao.initSQL(MySQLDao.java:35)
+[23:35:13] [Server thread/WARN]: 	at com.alessiodp.parties.common.storage.dispatchers.PartiesSQLDispatcher.init(PartiesSQLDispatcher.java:61)
+[23:35:13] [Server thread/WARN]: 	at com.alessiodp.parties.common.storage.PartiesDatabaseManager.initializeDispatcher(PartiesDatabaseManager.java:46)
+[23:35:13] [Server thread/WARN]: 	at com.alessiodp.parties.core.common.storage.DatabaseManager.reload(DatabaseManager.java:47)
+[23:35:13] [Server thread/WARN]: 	at com.alessiodp.parties.common.PartiesPlugin.loadCore(PartiesPlugin.java:67)
+[23:35:13] [Server thread/WARN]: 	at com.alessiodp.parties.bukkit.BukkitPartiesPlugin.loadCore(BukkitPartiesPlugin.java:55)
+[23:35:13] [Server thread/WARN]: 	at com.alessiodp.parties.core.common.ADPPlugin.handle(ADPPlugin.java:115)
+[23:35:13] [Server thread/WARN]: 	at com.alessiodp.parties.core.common.ADPPlugin.enabling(ADPPlugin.java:60)
+[23:35:13] [Server thread/WARN]: 	at com.alessiodp.parties.core.bukkit.bootstrap.ADPBukkitBootstrap.onEnable(ADPBukkitBootstrap.java:27)
+[23:35:13] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[23:35:13] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[23:35:13] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[23:35:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[23:35:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[23:35:13] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422)
+[23:35:13] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383)
+[23:35:13] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338)
+[23:35:13] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272)
+[23:35:13] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[23:35:13] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[23:35:13] [Server thread/WARN]: [[36mParties[0m] [31mFailed to initialize MySQL driver: Failed to initialize pool: Access denied for user 'clansuser'@'localhost' (using password: YES)[0m
+[23:35:13] [Server thread/WARN]: [[36mParties[0m] [31mFailed to initialize the storage, stopping plugin![0m
+[23:35:13] [Server thread/INFO]: [Parties] Disabling Parties v2.6.14
+[23:35:13] [Server thread/INFO]: [[36mParties[0m] Disabling Parties
+[23:35:13] [Server thread/ERROR]: Error occurred while disabling Parties v2.6.14 (Is it up to date?)
+java.lang.NullPointerException: null
+	at com.alessiodp.parties.common.parties.PartyManager.resetPendingPartyTask(PartyManager.java:144) ~[?:?]
+	at com.alessiodp.parties.common.PartiesPlugin.onDisabling(PartiesPlugin.java:54) ~[?:?]
+	at com.alessiodp.parties.core.common.ADPPlugin.disabling(ADPPlugin.java:79) ~[?:?]
+	at com.alessiodp.parties.core.bukkit.bootstrap.ADPBukkitBootstrap.onDisable(ADPBukkitBootstrap.java:32) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:361) [spigot.jar:git-Spigot-79a30d7-acbc348]
+	at com.alessiodp.parties.core.bukkit.bootstrap.ADPBukkitBootstrap.stopPlugin(ADPBukkitBootstrap.java:62) [Parties-2.6.14.jar:?]
+	at com.alessiodp.parties.core.common.ADPPlugin.handle(ADPPlugin.java:119) [Parties-2.6.14.jar:?]
+	at com.alessiodp.parties.core.common.ADPPlugin.enabling(ADPPlugin.java:60) [Parties-2.6.14.jar:?]
+	at com.alessiodp.parties.core.bukkit.bootstrap.ADPBukkitBootstrap.onEnable(ADPBukkitBootstrap.java:27) [Parties-2.6.14.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) [spigot.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [spigot.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403) [spigot.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381) [spigot.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_251]
+[23:35:13] [Server thread/INFO]: [HeadDatabase] Enabling HeadDatabase v4.12.3
+[23:35:13] [Server thread/INFO]: [HeadDatabase] §bUsing default §3"en_US.lang" §bcreated by §6Arcaniax
+[23:35:13] [Server thread/INFO]: [HeadDatabase] Economy succesfully setup!
+[23:35:13] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5.0-b727
+[23:35:14] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: farmwelt
+[23:35:14] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[23:35:14] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: plotworld_nether
+[23:35:14] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[23:35:14] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: ADMINWORLD
+[23:35:14] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[23:35:14] [Server thread/INFO]: [Multiverse-Core] 2 - World(s) loaded.
+[23:35:14] [Server thread/INFO]: [Multiverse-Core] Version 2.5.0-b727 (API v20) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[23:35:14] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.24-SNAPSHOT (build 1605)
+[23:35:14] [Server thread/INFO]: [TimeIsMoney] Enabling TimeIsMoney v1.9.6.11
+[23:35:14] [Server thread/INFO]: [TimeIsMoney] [0;32;1mLoaded 3 Payouts![m
+[23:35:14] [Server thread/INFO]: Time is Money: Essentials found. Hook in it -> Will use Essentials's AFK feature if afk is enabled.[m
+[23:35:14] [Server thread/INFO]: [0;32;1mTime is Money [0;32;22mv1.9.6.11 [0;32;1mstarted.[m
+[23:35:14] [Server thread/INFO]: [InfiniteScoreboard] Enabling InfiniteScoreboard v2.0.4
+[23:35:14] [Server thread/INFO]: [BuyPlots] Enabling BuyPlots v1.2
+[23:35:14] [Server thread/INFO]: [BuyPlots] §aVault dependency found!
+[23:35:14] [Server thread/INFO]: [BuyPlots] Enabled: true
+[23:35:14] [Server thread/INFO]: [BuyPlots] Plot price: 3000
+[23:35:14] [Server thread/INFO]: [BuyPlots] §aPlotSquared found!
+[23:35:14] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.2.0
+[23:35:14] [Server thread/INFO]: [dtlTraders] Enabling dtlTraders v6.0.6
+[23:35:14] [Server thread/INFO]: [0;36;1mdtlTraders> [0;36;22mWelcome to dtlTraders v6.0.6![m
+[23:35:14] [Server thread/INFO]: [0;36;1mdtlTraders> [0;36;1mFound economy plugin: [0;36;22mEssentials Economy[m
+[23:35:14] [Server thread/INFO]: [0;36;1mdtlTraders> [0;32;1mLoaded 2 guis from the guis config![m
+[23:35:14] [Server thread/INFO]: [0;36;1mdtlTraders> [0;32;1mHooking into Citizens![m
+[23:35:14] [Server thread/INFO]: [0;36;1mdtlTraders> [0;31;1mdtlTraders is managed by Degitise. [0;36;1mwww.degitise.com[m
+[23:35:14] [Server thread/INFO]: [0;36;1mdtlTraders> [0;31;1mUnlock premium features with [0;33;22mdtlTradersPlus![m
+[23:35:14] [Server thread/INFO]: [0;36;1mdtlTraders> [0;31;1mBuy your copy at: [0;36;1mhttps://www.spigotmc.org/resources/dtltradersplus.63690/[m
+[23:35:14] [Server thread/INFO]: [UltimateStacker] Enabling UltimateStacker v1.11.12
+[23:35:14] [Server thread/INFO]:  [m
+[23:35:14] [Server thread/INFO]: [0;32;1m=============================[m
+[23:35:14] [Server thread/INFO]: [0;37;22mUltimateStacker 1.11.12 by [0;35;22mSongoda <3![m
+[23:35:14] [Server thread/INFO]: [0;37;22mAction: [0;32;1mEnabling[0;37;22m...[m
+[23:35:14] [Server thread/INFO]: [UltimateStacker] Loaded locale "en_US"
+[23:35:14] [Server thread/INFO]: [SongodaCore] Hooked UltimateStacker.
+[23:35:14] [Server thread/INFO]: [UltimateStacker] Loaded locale "de_DE"
+[23:35:14] [Server thread/INFO]: [UltimateStacker] Data handler connected using SQLite.
+[23:35:14] [Server thread/INFO]: [0;32;1m=============================[m
+[23:35:14] [Server thread/INFO]:  [m
+[23:35:14] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[23:35:15] [Server thread/INFO]: [WorldGuard] (plotworld) TNT ignition is PERMITTED.
+[23:35:15] [Server thread/INFO]: [WorldGuard] (plotworld) Lighters are PERMITTED.
+[23:35:15] [Server thread/INFO]: [WorldGuard] (plotworld) Lava fire is blocked.
+[23:35:15] [Server thread/INFO]: [WorldGuard] (plotworld) Fire spread is UNRESTRICTED.
+[23:35:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'plotworld'
+[23:35:15] [Server thread/INFO]: [WorldGuard] (plotworld_the_end) TNT ignition is PERMITTED.
+[23:35:15] [Server thread/INFO]: [WorldGuard] (plotworld_the_end) Lighters are PERMITTED.
+[23:35:15] [Server thread/INFO]: [WorldGuard] (plotworld_the_end) Lava fire is blocked.
+[23:35:15] [Server thread/INFO]: [WorldGuard] (plotworld_the_end) Fire spread is UNRESTRICTED.
+[23:35:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'plotworld_the_end'
+[23:35:15] [Server thread/INFO]: [WorldGuard] Loading region data...
+[23:35:15] [Server thread/INFO]: [antiRedstoneClock] Enabling antiRedstoneClock v1.0.7
+[23:35:15] [Server thread/INFO]: [antiRedstoneClock] Enabling Metrics
+[23:35:15] [Server thread/INFO]: [antiRedstoneClock] Metrics loaded
+[23:35:15] [Server thread/INFO]: [antiRedstoneClock] WorldGuard 6 found
+[23:35:15] [Server thread/WARN]: [antiRedstoneClock] PlotSquared 20is not supported
+[23:35:15] [Server thread/INFO]: [antiRedstoneClock] Plugin loaded in 19 ms
+[23:35:15] [Server thread/INFO]: [EditableSign] Enabling EditableSign v7.0.4
+[23:35:15] [Server thread/INFO]: [32m[VKLib] [VKLib:AddOn.loadAddOns()] 0 addon modules found! Loading them up![0m
+[23:35:15] [Server thread/INFO]: [32m[EditableSign] EditableSign version 7.0.4 is Enabled[0m
+[23:35:15] [Server thread/INFO]: [EpicHoppers] Enabling EpicHoppers v4.6.3
+[23:35:15] [Server thread/INFO]:  [m
+[23:35:15] [Server thread/INFO]: [0;32;1m=============================[m
+[23:35:15] [Server thread/INFO]: [0;37;22mEpicHoppers 4.6.3 by [0;35;22mSongoda <3![m
+[23:35:15] [Server thread/INFO]: [0;37;22mAction: [0;32;1mEnabling[0;37;22m...[m
+[23:35:15] [Server thread/INFO]: [EpicHoppers] Loaded locale "en_US"
+[23:35:15] [Server thread/INFO]: [SongodaCore] Hooked EpicHoppers.
+[23:35:15] [Server thread/INFO]: [EpicHoppers] Loaded locale "de_DE"
+[23:35:15] [Server thread/INFO]: [EpicHoppers] Data handler connected using SQLite.
+[23:35:15] [Server thread/INFO]: [0;32;1m=============================[m
+[23:35:15] [Server thread/INFO]:  [m
+[23:35:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:35:15] [Server thread/INFO]: Done (7,321s)! For help, type "help" or "?"
+[23:35:16] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Plugin 'WorldGuard' found. Using it now.[m
+[23:35:16] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Optimizing PlotSquared[m
+[23:35:16] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m  - QueueProvider: class com.boydti.fawe.regions.general.plot.FaweLocalBlockQueue[m
+[23:35:16] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m  - HybridPlotManager.REGENERATIVE_CLEAR: false[m
+[23:35:16] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m  - SchematicHandler: com.boydti.fawe.regions.general.plot.FaweSchematicHandler@1d7b016[m
+[23:35:16] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m  - ChunkManager: com.boydti.fawe.regions.general.plot.FaweChunkManager@e4ef1d[m
+[23:35:16] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Plugin 'PlotSquared' found. Using it now.[m
+[23:35:16] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Detected class org.bukkit.event.block.BlockExplodeEvent[m
+[23:35:16] [Server thread/INFO]: [PlayerRanks] Searching for an update on 'spigotmc.org'..
+[23:35:16] [Craft Scheduler Thread - 4/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;33;22mCached a total of: 74 UUIDs[m
+[23:35:16] [Server thread/INFO]: [PlayerRanks] The plugin is up to date.
+[23:35:16] [Craft Scheduler Thread - 3/INFO]: [NoCheatPlus] Added hook: AllViolations(NCP) [1.0].
+[23:35:16] [Server thread/INFO]: [NoCheatPlus] Post-enable running...
+[23:35:16] [Craft Scheduler Thread - 6/INFO]: [PlaceholderAPI] 175 placeholder expansions are available on the cloud.
+[23:35:17] [Server thread/INFO]: [NoCheatPlus] Post-enable finished.
+[23:35:17] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[23:35:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[23:35:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
+[23:35:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[23:35:17] [Server thread/INFO]: [Citizens] 27 NPCs geladen.
+[23:35:17] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[23:35:18] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@167bc09[id=49236a04-234c-3295-9319-e2f2408ac97f,name=YukiHai,properties={},legacy=false] (/127.0.0.1:51131): §cYou have to join through the proxy.
+[23:35:18] [Server thread/INFO]: Starting UUID caching[m
+[23:35:18] [Craft Scheduler Thread - 5/INFO]: [BuycraftX] Fetching all due players...
+[23:35:18] [Craft Scheduler Thread - 3/WARN]: [Vault] Stable Version: 1.7.2 is out! You are still running version: 1.5.6
+[23:35:18] [Craft Scheduler Thread - 3/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[23:35:18] [Craft Scheduler Thread - 5/INFO]: [BuycraftX] Fetched due players (1 found).
+[23:35:18] [Server thread/WARN]: [InfiniteScoreboard] --------------------------------
+[23:35:18] [Server thread/WARN]: [InfiniteScoreboard] World not found exception:
+[23:35:18] [Server thread/WARN]: [InfiniteScoreboard] Cannot find a world with the name 'farmwelt'!
+[23:35:18] [Server thread/WARN]: [InfiniteScoreboard] Will try again in 15 seconds...
+[23:35:18] [Server thread/WARN]: [InfiniteScoreboard] --------------------------------
+[23:35:18] [Server thread/WARN]: [InfiniteScoreboard] --------------------------------
+[23:35:18] [Server thread/WARN]: [InfiniteScoreboard] World not found exception:
+[23:35:18] [Server thread/WARN]: [InfiniteScoreboard] Cannot find a world with the name 'plotworld_nether'!
+[23:35:18] [Server thread/WARN]: [InfiniteScoreboard] Will try again in 15 seconds...
+[23:35:18] [Server thread/WARN]: [InfiniteScoreboard] --------------------------------
+[23:35:18] [Server thread/INFO]: [0;30;1m=========================================[m
+[23:35:18] [Server thread/INFO]: [0;32;22mInfinite Scoreboard [0;33;1m2.0.4[m
+[23:35:18] [Server thread/INFO]: [0;37;22mInfinite Scoreboard has been [0;32;22mEnabled[m
+[23:35:18] [Server thread/INFO]: [0;30;1m=========================================[m
+[23:35:19] [Craft Scheduler Thread - 8/INFO]: [HeadDatabase] Succesfully loaded 30536 heads!
+[23:35:19] [Craft Scheduler Thread - 8/INFO]: [HeadDatabase] Successfully loaded 18 featured tags!
+[23:35:19] [Server thread/INFO]: [0;37;1m[21m----------------[0;31;22mBooster[0;37;1m[21m----------------[m
+[23:35:19] [Server thread/INFO]:  [m
+[23:35:19] [Server thread/INFO]:  [m
+[23:35:19] [Server thread/INFO]: [0;31;22mBooster [0;30;1m: [0;37;1m[0;32;1mDas [0;31;22mBooster [0;32;1mPlugin wurde geladen![m
+[23:35:19] [Server thread/INFO]: [0;31;22mBooster [0;30;1m: [0;37;1m[0;37;1mcodet by [0;31;22m _JuL1En_[m
+[23:35:19] [Server thread/INFO]: [0;31;22mBooster [0;30;1m: [0;37;1m[0;32;1mversion: [0;33;22m2.3.0 [0;32;1mist aktuell[m
+[23:35:19] [Server thread/INFO]:  [m
+[23:35:19] [Server thread/INFO]:  [m
+[23:35:19] [Server thread/INFO]: [0;37;1m[21m----------------[0;31;22mBooster[0;37;1m[21m----------------[m
+[23:35:21] [User Authenticator #2/INFO]: UUID of player YukiHai is 49236a04-234c-3295-9319-e2f2408ac97f
+[23:35:21] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@11195b[id=49236a04-234c-3295-9319-e2f2408ac97f,name=YukiHai,properties={},legacy=false] (/127.0.0.1:51223): §cYou have to join through the proxy.
+[23:35:26] [User Authenticator #3/INFO]: UUID of player YukiHai is 49236a04-234c-3295-9319-e2f2408ac97f
+[23:35:26] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@96245[id=49236a04-234c-3295-9319-e2f2408ac97f,name=YukiHai,properties={},legacy=false] (/127.0.0.1:51266): §cYou have to join through the proxy.

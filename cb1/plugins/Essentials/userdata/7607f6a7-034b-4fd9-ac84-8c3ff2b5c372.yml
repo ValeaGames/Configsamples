@@ -1,0 +1,31 @@
+lastAccountName: MeLoveMinekraft
+timestamps:
+  login: 1591564575915
+  logout: 1591565557788
+  jail: 0
+  lastteleport: 1591564849532
+ipAddress: 79.223.21.130
+lastlocation:
+  world: plotworld
+  x: 123.74712414702387
+  y: 65.0
+  z: 331.4732368703394
+  yaw: 140.48671
+  pitch: 52.600327
+logoutlocation:
+  world: plotworld
+  x: 68.24081131400226
+  y: 65.0
+  z: 324.11997141914776
+  yaw: -123.9306
+  pitch: -85.59722
+money: '2000.0'
+jailed: false
+homes:
+  home:
+    world: plotworld
+    x: -21.808649288242194
+    y: 65.0
+    z: 103.09571957457558
+    yaw: 0.55436254
+    pitch: 5.753072

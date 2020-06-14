@@ -1,0 +1,221 @@
+Crate:
+  CrateType: CSGO
+  CrateName: '&8Basic Crate'
+  Preview-Name: '&8Basic Crate Preview'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 21
+  OpeningBroadCast: true
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &7&lBasic Chest&7.'
+  Item: CHEST
+  Glowing: false
+  Name: '&7&lBasic Chest'
+  Lore:
+  - '&7This crate contains strange objects.'
+  - '&7You have &6%Keys% keys &7to open this crate with.'
+  - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  Preview:
+    Toggle: true
+    ChestLines: 6
+    Glass:
+      Toggle: true
+      Item: STAINED_GLASS_PANE:7
+  PhysicalKey:
+    Name: '&7&lBasic Crate &b&lKey'
+    Lore:
+    - '&7A special Key'
+    - '&7For a special Crate.'
+    Item: TRIPWIRE_HOOK
+    Glowing: true
+  Hologram:
+    Toggle: true
+    Height: 1.5
+    Message:
+    - '&7&lBasic Chest'
+  Prizes:
+    '1':
+      DisplayName: '&7&lBasic Grass'
+      DisplayItem: GRASS
+      DisplayAmount: 1
+      Lore:
+      - '&7Win some grass for your fields.'
+      - '&6&lChance: &c&l40%'
+      DisplayEnchantments:
+      - PROTECTION_ENVIRONMENTAL:1
+      - OXYGEN:1
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      HideItemFlags: false
+      Items:
+      - Item:GRASS, Amount:32, Name:&7&lBasic Grass
+      Commands:
+      - broadcast &6&l%Player% &7has just won some Basic Grass.
+      Messages:
+      - '&7You just won a &7&lBasic Grass&7.'
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Messages: []
+        Commands: []
+        Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §9§eBlueNori§6's head
+          internal: H4sIAAAAAAAAAFVSya6jVhClW4n0+imfkR1qAReMzeItsI0x2Mzz3TGbyczjt+QT8pHx624lyqZKqjpV59TwjiDvyB9GMZal2tVJVsZvyFchQv6MDjHF7Mnw+27vR98p/2UYEIbfQ5z08T1J0xFFvCPvr6Im7oYs7r8hb0O8DGMX9+8Ignx5Q74ZWfr0PyNf/+7o01a1Lry0SxXTLtpNc3o/c3KAORDjH7Tl9AfF9x88faOIbqhTfiPMuE6lcuHUvW6IhjqN2eF57gpQ6T0sDv5gMht2pBMSxNFCqU3gmFxGF+pGcZ3AuCwr4XvxgooatR4xsSmNRLw5Q33VAIgs8hIfishWsfZew+Oux54OQ83ZWm/PJIpnW+BUNZZcRyxIQSdiiUCXtDikzBAfFZ+j1KRlRTpgzYurtXRKXQIuB1Tbl/KM585eh5Tl5TeMTtfcrKammuZBzYvAZfbMfpj8gn1u97xyW2G6p0R1uF8e9V463qx+bjQZ9pxMRMzaYNHReGIYSYRD72/gkTA+R+4D50zpBF5u9zjetqzhT6i9DpuYMV4wlyo9luwaGCy14BRK4MNTtHYn7qBUGg5b4vGEzwfrtuiKyhEui9oxB7k9THEaNxGht7wpe6jrrWgaxbgfpueZvY/GzEN93+spSI+qciPBiok038EDdYU7iO4yFcW4qeXM3CtQeWgScAcMLijA8LxFk+cxUCty5BgA10zuDYYe3MNocDiF5751rIICKLmSniGRQHsspsQRsd3VbZ9SgapafE/oW7o1SbgbsxO2wmqhOZYWT8TrM1uKiWp+KnvqkPCl3C2Htaj1U3ehVN0OjvYGozuH8bm1w0110YI6XmCn7e00ARsR3uhdIlI0XozbmZBQFnjlDtYfb8jvtl+O8Ze/4rlOhZOI+w5RhqT+CFw2E86vrzStnWSGm7Rps5R7pJTNN+HEZuFVnGBV9tAqCyFj6VdtofAWrryw3maRnqPhnnMpFFPMPSDNEuBmeZOA/DqOZAj9KWNT4XlcAwCbgLcV78X7q88puNqlWTGr/y9ObiDYPaKrvUJbLEPXbsLK/sl71dfIsX7h9DK+6sQrt/3M9Z9aP+cyDbxU/h/7xNtrcBJSJWMz/6rj4bme7uR/Pe4V0QSVnYfVpYpOuxG62hTxNvVDh8E8ZDN6yECi5E0gpS197cfOZQAfnimWnikAqdIIyGuE7HC4bKYLdDzSqwRK4T3cA5fMc6xF4YUZngUgn8tMcixKSOsf2hLt5a/4LdE+PhDkDflN9qsYeTu+jiXXXYYg/wDH4F5NzwQAAA==
+          skull-owner: BlueNori
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §9§eBlueNori§6's head
+          internal: H4sIAAAAAAAAAFVSya6jVhClW4n0+imfkR1qAReMzeItsI0x2Mzz3TGbyczjt+QT8pHx624lyqZKqjpV59TwjiDvyB9GMZal2tVJVsZvyFchQv6MDjHF7Mnw+27vR98p/2UYEIbfQ5z08T1J0xFFvCPvr6Im7oYs7r8hb0O8DGMX9+8Ignx5Q74ZWfr0PyNf/+7o01a1Lry0SxXTLtpNc3o/c3KAORDjH7Tl9AfF9x88faOIbqhTfiPMuE6lcuHUvW6IhjqN2eF57gpQ6T0sDv5gMht2pBMSxNFCqU3gmFxGF+pGcZ3AuCwr4XvxgooatR4xsSmNRLw5Q33VAIgs8hIfishWsfZew+Oux54OQ83ZWm/PJIpnW+BUNZZcRyxIQSdiiUCXtDikzBAfFZ+j1KRlRTpgzYurtXRKXQIuB1Tbl/KM585eh5Tl5TeMTtfcrKammuZBzYvAZfbMfpj8gn1u97xyW2G6p0R1uF8e9V463qx+bjQZ9pxMRMzaYNHReGIYSYRD72/gkTA+R+4D50zpBF5u9zjetqzhT6i9DpuYMV4wlyo9luwaGCy14BRK4MNTtHYn7qBUGg5b4vGEzwfrtuiKyhEui9oxB7k9THEaNxGht7wpe6jrrWgaxbgfpueZvY/GzEN93+spSI+qciPBiok038EDdYU7iO4yFcW4qeXM3CtQeWgScAcMLijA8LxFk+cxUCty5BgA10zuDYYe3MNocDiF5751rIICKLmSniGRQHsspsQRsd3VbZ9SgapafE/oW7o1SbgbsxO2wmqhOZYWT8TrM1uKiWp+KnvqkPCl3C2Htaj1U3ehVN0OjvYGozuH8bm1w0110YI6XmCn7e00ARsR3uhdIlI0XozbmZBQFnjlDtYfb8jvtl+O8Ze/4rlOhZOI+w5RhqT+CFw2E86vrzStnWSGm7Rps5R7pJTNN+HEZuFVnGBV9tAqCyFj6VdtofAWrryw3maRnqPhnnMpFFPMPSDNEuBmeZOA/DqOZAj9KWNT4XlcAwCbgLcV78X7q88puNqlWTGr/y9ObiDYPaKrvUJbLEPXbsLK/sl71dfIsX7h9DK+6sQrt/3M9Z9aP+cyDbxU/h/7xNtrcBJSJWMz/6rj4bme7uR/Pe4V0QSVnYfVpYpOuxG62hTxNvVDh8E8ZDN6yECi5E0gpS197cfOZQAfnimWnikAqdIIyGuE7HC4bKYLdDzSqwRK4T3cA5fMc6xF4YUZngUgn8tMcixKSOsf2hLt5a/4LdE+PhDkDflN9qsYeTu+jiXXXYYg/wDH4F5NzwQAAA==
+          skull-owner: BlueNori
+    '2':
+      DisplayName: '&7&l Kopf von PxxLLL'
+      DisplayItem: SKULL
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §fSkull of PxxLLL
+          internal: H4sIAAAAAAAAAF1QyZKjVhBkJmxHT4c/wzdFR4PYDz4ghBDLA4lFLDce64OHQAKExDfNR/lTrO6Zw9iHioqozMrKrFeCeCX+dJsJ48O1KxDOX4ivWkb8RRVizlIi/SYKa/GNIXPxTaRy/g3yEPIsmbI0W7wSr8+lPr+OKB++ES9jfh+naz68EgTx5YX45qLynHxMvn7vxO4cbrC0FWy+SUHlZUJfWUPgiKf0ysVSPsZZgUOL5tFSFaU6JZSRH9KaFhmvsaFNNayvnYEGw0txRzks5c27ujIEqpSTdTrFKx0KBplVU2O0+lRdzImsyJoSeuO+8KF5LtIJh3eZnOfJyTt+ONWUeqp92jmaZ24liv37vtx0qC87PZSl9Ti7khI8Ku+IZZsGvAOnRElWnZtUSy00XB+QcjmoUjReVS7izuTBgJnAr1Il91esRBpMpCOpyPPS26HtOpyb/a0OR03btvkN8PA9t6EQ2uHVDUpOT2XoT96pfacPFwDt7faZrnUvo4t897DOpMIk2UvMW5LN8Fwhb8VbWlJAQdg3CtM971JObNm4p2JwHTa3S8d3AzgPdL+OlQ0U6kEdPasR96nCzFlEbshSd3elO4iddXqwEWucNCjmXZC8W7tdRmIFmF2T1S1XdjtsIKBQzJA2W+/q9X5vkIuY0b6RhhRfAs5mjO20Xw4JTOfbJBar2/yQb47os7IiLty2tUzIbBCTuJ507R6VsjImx6NY1ESrI7AWjxfgdFAyOl9xg2/toRKrRkKPKcsfglbWkzCH05hKh8syq1Qf3kTu8Fj4cSfs26VsZD3EpWFdLVK+6I5pLGpWUU7AtC6SDuy6iXZMd70jwEU0S5UBU41tmJXaxtBwpeCQByWY0Du8sIFdFJwhKCxK/34hfj8leMq//JPPXanJOpkEFE5pp4KhhLRtVwLPZ4GXLmA5zpbXMNZjNjRZQulev8UtHmIfNxqSOE3W7nGNseUpLFgaBtQNCVSftb0dttYaHbUabXmb2vIAFSNtkJFUaufNA67jHqonO3re/aGjH/N9BTxlRqb06WlJgmyKQodK25MbhzsqCXUcy1ppow2Znk/4J4+Mw4rMnlj6+MT4zxtPrz456h76z+yD/9SbPzNq7XNvL3HmQ/xFgx2TgMURrVfx+TjB9kSatIPz/YcP/2Z7VhvV4G7V0d1SFSYKtIe1pLO9Ve7RcqSjOmui9a6KaoW0VQdZAVhbi09a2/IBWkDHtbJES4zjrb9EHkagTulnpuEXf2McOlWs7sjI/b/3Z7XULVZPw8+fLVDFo1Z2P/GN+IP7oxfHXiSIF+I3K2lz4o/D/W6aJkH8C7pY80cRBQAA
+          skull-owner: PxxLLL
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §fSkull of PxxLLL
+          internal: H4sIAAAAAAAAAF1QyZKjVhBkJmxHT4c/wzdFR4PYDz4ghBDLA4lFLDce64OHQAKExDfNR/lTrO6Zw9iHioqozMrKrFeCeCX+dJsJ48O1KxDOX4ivWkb8RRVizlIi/SYKa/GNIXPxTaRy/g3yEPIsmbI0W7wSr8+lPr+OKB++ES9jfh+naz68EgTx5YX45qLynHxMvn7vxO4cbrC0FWy+SUHlZUJfWUPgiKf0ysVSPsZZgUOL5tFSFaU6JZSRH9KaFhmvsaFNNayvnYEGw0txRzks5c27ujIEqpSTdTrFKx0KBplVU2O0+lRdzImsyJoSeuO+8KF5LtIJh3eZnOfJyTt+ONWUeqp92jmaZ24liv37vtx0qC87PZSl9Ti7khI8Ku+IZZsGvAOnRElWnZtUSy00XB+QcjmoUjReVS7izuTBgJnAr1Il91esRBpMpCOpyPPS26HtOpyb/a0OR03btvkN8PA9t6EQ2uHVDUpOT2XoT96pfacPFwDt7faZrnUvo4t897DOpMIk2UvMW5LN8Fwhb8VbWlJAQdg3CtM971JObNm4p2JwHTa3S8d3AzgPdL+OlQ0U6kEdPasR96nCzFlEbshSd3elO4iddXqwEWucNCjmXZC8W7tdRmIFmF2T1S1XdjtsIKBQzJA2W+/q9X5vkIuY0b6RhhRfAs5mjO20Xw4JTOfbJBar2/yQb47os7IiLty2tUzIbBCTuJ507R6VsjImx6NY1ESrI7AWjxfgdFAyOl9xg2/toRKrRkKPKcsfglbWkzCH05hKh8syq1Qf3kTu8Fj4cSfs26VsZD3EpWFdLVK+6I5pLGpWUU7AtC6SDuy6iXZMd70jwEU0S5UBU41tmJXaxtBwpeCQByWY0Du8sIFdFJwhKCxK/34hfj8leMq//JPPXanJOpkEFE5pp4KhhLRtVwLPZ4GXLmA5zpbXMNZjNjRZQulev8UtHmIfNxqSOE3W7nGNseUpLFgaBtQNCVSftb0dttYaHbUabXmb2vIAFSNtkJFUaufNA67jHqonO3re/aGjH/N9BTxlRqb06WlJgmyKQodK25MbhzsqCXUcy1ppow2Znk/4J4+Mw4rMnlj6+MT4zxtPrz456h76z+yD/9SbPzNq7XNvL3HmQ/xFgx2TgMURrVfx+TjB9kSatIPz/YcP/2Z7VhvV4G7V0d1SFSYKtIe1pLO9Ve7RcqSjOmui9a6KaoW0VQdZAVhbi09a2/IBWkDHtbJES4zjrb9EHkagTulnpuEXf2McOlWs7sjI/b/3Z7XULVZPw8+fLVDFo1Z2P/GN+IP7oxfHXiSIF+I3K2lz4o/D/W6aJkH8C7pY80cRBQAA
+          skull-owner: PxxLLL
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '3':
+      DisplayName: '&7Auto Generated Prize #&63'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §fSkull of YukiHai
+          internal: H4sIAAAAAAAAAFVSSbKjVhCkO+zw7x8+hneKH2IQAhZeIJCYxGOe3o5ZTEJihpP0IXxI63f3wl5VRFZlZlVGvSPIO/KnVY11rXdtVtTpG/JVSpC/4uiARyhJfZAZk34cUCL5iCKK+kiPeJKSaRqGEfWOvL9Ij7QbirT/hrwN6TKMXdq/Iwjy5Q35ZhX5PfxEvv7jHKk5cBdttCmobcLMOVkfFJqo6DdsJRQNtYGXxRj1uBOkKNAFTp4w8wy7St9jB5/MbDoAkWix8gN4joeuNN5kzHR47Gch9EVmGOkVHjdd8PK6lKVnRZkQrtMztU1pIQwqLac6ko+HMqBJKgOj2SbHRdld5skbpP4xx+uthIwDux1LYbXCVYbPGx7E0HqRlAVVygk+GWKCMc0nHVzG51Ya9nLhDaW/DZ2ZnHtFF6GrK72A2lGYGaKLmYLN2gxpmLTv9Gs7Ah3HY9y1fbbWk10RlufRw/1Ev2di+jy0FzVLF67JG8Ejckd3ejs/1oJ/Q+PFVEjNm9ptLEhc5XZHXZFo5vYYSf2FKpM+piTkdJPA9+75ma/zaehwQyYqrp2utzG8jbuTfAG7ppiO4SNYEvo4mlcP44OmsrUs2IdL19CqvYdOy55A6pzYehiinelOiUy1Cw2pWPVmNiHFig+ViBjFQz+zlQV7g9rFZCMq5my1+D7dClm+mmdzHClP3inraTmEFrbOlABCyeUT6gDGCDC5VQkdl853wdxbOjBsnkHx563I27iWnYZbr1c60PY7PLhObcr6/ezVe7PPMjA3Q6VaT2gRZNZ1l3HF+DaKKU3CLkzqzk7zdCjJVYW8ZKT9szEqP7JVTQ2BfTZIvmLbK9a64ynwff0+dM66uW66V+NwiDg9tE52n6jG32/I725Yj+mX7+nc5hIno6GH1TFh3iKfLSS+zVXbIVU73tTNWNSNRcE6KxLHFrEoT7Cpe+jUlVSwxxe3DEpjDUoWA5vbaJ6DqjyogkYiAO7gamPWwHPrwLsUYJV6rmBz6X5aIxw+IsHVgpfvLx2YeMPDEi4Pqfjlhdf3qLmgiS/XTuMuiVev0DN+7JeIMgatn3OJ4B4S0V2hr/7o/bzp5VODq+Uc/o99zvty/8uzTURz1gp6+o/GGHn1CD2wBh5Erw1ZJxyDwtebfu5x3XIMNrBRS7cCZUCoJYvDUq4BDyvAv3LAgw3Yt0LFgwV66gbK86bx6meWmOrJN9C4FSwrHHiwCbZ8C8ocV3m1+JELd2I+a2Y8GAR5Q34DYZMifwRjVYhhgSD/Aj2xYS/KBAAA
+          skull-owner: YukiHai
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §fSkull of PxxLLL
+          internal: H4sIAAAAAAAAAF1QyZKjVhBkJmxHT4c/wzdFR4PYDz4ghBDLA4lFLDce64OHQAKExDfNR/lTrO6Zw9iHioqozMrKrFeCeCX+dJsJ48O1KxDOX4ivWkb8RRVizlIi/SYKa/GNIXPxTaRy/g3yEPIsmbI0W7wSr8+lPr+OKB++ES9jfh+naz68EgTx5YX45qLynHxMvn7vxO4cbrC0FWy+SUHlZUJfWUPgiKf0ysVSPsZZgUOL5tFSFaU6JZSRH9KaFhmvsaFNNayvnYEGw0txRzks5c27ujIEqpSTdTrFKx0KBplVU2O0+lRdzImsyJoSeuO+8KF5LtIJh3eZnOfJyTt+ONWUeqp92jmaZ24liv37vtx0qC87PZSl9Ti7khI8Ku+IZZsGvAOnRElWnZtUSy00XB+QcjmoUjReVS7izuTBgJnAr1Il91esRBpMpCOpyPPS26HtOpyb/a0OR03btvkN8PA9t6EQ2uHVDUpOT2XoT96pfacPFwDt7faZrnUvo4t897DOpMIk2UvMW5LN8Fwhb8VbWlJAQdg3CtM971JObNm4p2JwHTa3S8d3AzgPdL+OlQ0U6kEdPasR96nCzFlEbshSd3elO4iddXqwEWucNCjmXZC8W7tdRmIFmF2T1S1XdjtsIKBQzJA2W+/q9X5vkIuY0b6RhhRfAs5mjO20Xw4JTOfbJBar2/yQb47os7IiLty2tUzIbBCTuJ507R6VsjImx6NY1ESrI7AWjxfgdFAyOl9xg2/toRKrRkKPKcsfglbWkzCH05hKh8syq1Qf3kTu8Fj4cSfs26VsZD3EpWFdLVK+6I5pLGpWUU7AtC6SDuy6iXZMd70jwEU0S5UBU41tmJXaxtBwpeCQByWY0Du8sIFdFJwhKCxK/34hfj8leMq//JPPXanJOpkEFE5pp4KhhLRtVwLPZ4GXLmA5zpbXMNZjNjRZQulev8UtHmIfNxqSOE3W7nGNseUpLFgaBtQNCVSftb0dttYaHbUabXmb2vIAFSNtkJFUaufNA67jHqonO3re/aGjH/N9BTxlRqb06WlJgmyKQodK25MbhzsqCXUcy1ppow2Znk/4J4+Mw4rMnlj6+MT4zxtPrz456h76z+yD/9SbPzNq7XNvL3HmQ/xFgx2TgMURrVfx+TjB9kSatIPz/YcP/2Z7VhvV4G7V0d1SFSYKtIe1pLO9Ve7RcqSjOmui9a6KaoW0VQdZAVhbi09a2/IBWkDHtbJES4zjrb9EHkagTulnpuEXf2McOlWs7sjI/b/3Z7XULVZPw8+fLVDFo1Z2P/GN+IP7oxfHXiSIF+I3K2lz4o/D/W6aJkH8C7pY80cRBQAA
+          skull-owner: PxxLLL
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '4':
+      DisplayName: '&7Auto Generated Prize #&64'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §fSkull of 101Procraft
+          internal: H4sIAAAAAAAAAGVUyY7bRhCljQQYT/IZuQkDNSX2kDz4QDXFRRL3vW9cJa6ixE3kN/nD8hnR2DGMIKcG6r2qevWq0K8E8Ur8aZVDVen3a5ZX6QvxWU6Iv0gWwiymkzeQJNQblabsG0NF9BsLNvQmYSEI2eyVeH0mtem9z9PuC/HSp49+uKfdK0EQn16IL1Z+bsKPyOdv1matUpy3VrQcKhp6RO5g5QdEXVMTF+11RKdMBc5agNt+PxbhyanKm3YThKMO+jO3vw/jeby5DM2GS24c1yM5dzYLH2Fx3vrXPrBk93DaODDKJ5jztkpHyM5MPTuAmzrJLEZVD2WUOCLasUPo0rwNuLIOSgEms3w3lQLvHWvmaeGSKkxYXlRREJwyiMKyXooj08G2fDeHeYV8jexX9BBwFd3vFrNflJYJHU3izdzZjfpWK7KxxVtX8BEPyxUl3SJZbGa6Hcyyq52SfHiM1E7C4/yQ3pvHJJhHNDgBVdoujJjbKhzVPh3a5r4mWTVPV0NsDibTSOm8ws32FAabxVdUkKsqCY6M9RwkGFr3tlqPpsFCadccdksT64hzqGt21mVuOd+RzbAB5wfmvsqs5hYsXNHIgO2y4T6yu9YMaypuO2ldm113Vee7JVNWQPoqfc8MhpPSeCD7A4vlSx2uSLhfnCYxfTPkeJtUS8lr0HQaJ1Vg4eWkxcZgPGLDSEWgt9tj4lyZqycc3DLft6GDb3uXDUVy38/22eQCtTi9p26ju0hiDSNnS0Mhp13DckIBaavj7ATDyls7nqCTZMyiqBTxNZOFmpfh7mgcfIQWNxZPwooXA8anU2q9yvX6cOSq95W10fvLJUpBaiQ964SXRdGVG4SPlQ4GQ9VOzVBUh1Y7L0iy30HNl83SI1R+fSF+d8NqSD/9nU7Xs4wOIPTIKt6al8jncpm/nhXbgYodL8pizApfPhRrOsqIy2PpMOK66vDzfOWce5eR/NBsh8S1ssX8rsS8AbDnQO15LupSTkoRz5gvSUXcQ5zLHcq5s9zs5miD20h0teDZ92cdhReMuGb5uBbqBP3kqi3ewEsiuTN2D1Xsu21cuz96S+aceM6/PLNKJZN8YssPrPvQ+zGbbYFK+2/sg+/OEZLPWs7loWSCmL+Op+2vGqeabKPaLX5ogQP2jTERXeq7Dout1EIBmhdsNTsGGm/MwaIApVAolee2WJS3am3WGh9QuMYFtvck5oNJ4c0iqBWg2jLAojMptUwFtvH0GNeBZwA5n37pq8kqEYUy8M3L/7Q/9xB5bIm96fuunh51oQfy7z584BI4/np3LGrAV4J4IX5Twzol/iAB+fzT0D3MeoL4B8xxnHIeBQAA
+          skull-owner: 101ProCraft
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '5':
+      DisplayName: '&7Auto Generated Prize #&65'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §fSkull of bluefighter_10
+          internal: H4sIAAAAAAAAAFVTy66jRhBlRol05yrKV2RnXZmngcUszMMGfBvMG3oTQfOGNjYG2/A9s8xHxnduoiiLVqmrTp9zqkr9ShCvxG9uO3XdceiLustfiK96RvzBF0jMRKF4E9M8e2OpHL2JSEBvWcLQmyThU4FCr8Tr89E5H8Y6v34jXsb8MU5Dfn0lCOLLC/HNrctT8pH5+teg9rvxorfjUHcLPIGllVI8DwwKlHNh1AXXGU0vkDJpyAtdx4mUmutK9C6JEd4Z1piGa97Hd06eDtIqKPOhVrYVczUD0b5x3vbEN5y4nns5DcT6JNxlMuAja3oAZaNCrecoUI0Y+lrYpXxTri/UxmCaNBi2YpOJ7JGOjVJdWAVhjt8coavQMhOrW41Dy+1CLb7pYnuzaZcMHbSbULhy71VQW1EVLiatCtcPcRmEiR2V0RlVjiu4Aue7DZVi4exnZ3hJfJNrJDdvbKV/nBzE3h3Wvpz2yPVql3+YvOLcSkq3JtOU6n5bW8wg2N3UNGt65W4WTGIMNBi/+/uzchxmJczHNF4daesegvLOnbMkfCzoiOAit7tQioSDWEm+edk3ObgAD6O1jFMhj82CWm3sVVY0NWPagWCzYRX4pMx1sV5WrDVaHTsU/F1cnU5LxqTzupVNt3TWmmPGTF2SsbqhWu9wCRMrZZlqQJd8b1QPKbxWzGRlmoPT6IhNCk2be24WsbugFcnfeE5GlOrPsjdEzr6f+UsBgVklDNWl4Wip5SqqbGNN4nd6FKNR4vNLCKRhFSme2jR4Z6ZSuhKj8uzPnUmTiS7Ywb5ho4Puo5sO0+MiFrF/2AAlkqxWf2g1uzfHKAtzAYZiN8qWI8X+SYzY52xqV2CELa0fEciufFQeiiuzQxL7QEk/q9C9f38hfg2Sbsq//MjvfanLBpmEVIcYp0qjba0rfQk8nwMeWsBiz2BRZ3O+H3R5WyPNuEHcXaHftXq93eiyzkAMOKi0LGy6GoY2CcKgsULAxrRTgUWn41Bl4qZ8xLN+lettqZ+kOaXhOd0HVvzU/eQx6lQLuif3KdGcDnXCA8j/4s0zpLkq04IZBkaHouCMcPCprzlzFvr/4Jwu1xzqWVs+a9cPzx/9eS7ZWf/PfeCDOZX10qq39VOTREp/e2f+43jH1DnFQYPwDmcyN8HIvmX7gP3pwxXmeJFasAczVIzW3MPnAc//qDJQ0SmT1mkQ7jrQZBh4EoZKhYHiL9BTOUtpKfC8W57UxZ6BzdCmYq9lTM+m9LL/6a2wn1EjD4X9/TtBvBC/mAnOid/T59KKuqzGfPiTIgnibzGnOzXdBAAA
+          skull-owner: bluefighter_10
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []

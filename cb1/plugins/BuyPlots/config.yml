@@ -1,0 +1,57 @@
+# BuyPlots 1.1 Config File
+# Spigot: https://www.spigotmc.org/resources/buyplots.43929/ 
+# BukkitDev: https://dev.bukkit.org/projects/buyplots
+
+# Should plugin be enabled?
+enabled: true
+# Enable logging - every when player "successfuly" buy plot an information will appear in log.
+# This can be helpful if player forgot to claim all its plots before buying new (only if using PlotSquared).
+Logging: true
+PlotsSystems:
+    PlotSquared: true
+    PreciousStones: false
+# Here you set plot price (e.g. 1000, 1000.0)
+PlotPrice: 3000.0
+# Discounts 
+Discounts:
+# Global discount - for every player
+    Global:
+        active: false
+        valuePercent: 0.0
+# Group discount - for permissions system groups with given name.  
+    Group:
+        active: false
+        # Max number of groups, default 10. 
+        # If you want more than 10 just increase this value and manually add lines like these below
+        numberGroups: 10
+        Groups:
+            Group1:
+                GroupName: "default"
+                valuePercent: 0.0
+            Group2:
+                GroupName: ""
+                valuePercent: 0.0
+            Group3:
+                GroupName: ""
+                valuePercent: 0.0
+            Group4:
+                GroupName: ""
+                valuePercent: 0.0
+            Group5:
+                GroupName: ""
+                valuePercent: 0.0
+            Group6:
+                GroupName: ""
+                valuePercent: 0.0
+            Group7:
+                GroupName: ""
+                valuePercent: 0.0
+            Group8:
+                GroupName: ""
+                valuePercent: 0.0
+            Group9:
+                GroupName: ""
+                valuePercent: 0.0
+            Group10:
+                GroupName: ""
+                valuePercent: 0.0

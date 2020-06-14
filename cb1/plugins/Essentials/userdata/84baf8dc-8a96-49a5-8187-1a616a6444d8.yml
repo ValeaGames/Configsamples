@@ -1,0 +1,32 @@
+lastAccountName: Notclaire
+timestamps:
+  login: 1592155401823
+  lastteleport: 1592156884946
+  logout: 1592157260328
+  jail: 0
+ipAddress: 88.66.82.99
+lastlocation:
+  world: plotworld
+  x: 384.15868838664164
+  y: 72.11282781143494
+  z: 400.0758713009311
+  yaw: -335.6964
+  pitch: 36.30003
+money: '46011.0'
+homes:
+  home:
+    world: ADMINWORLD
+    x: 122.63687998377829
+    y: 4.0
+    z: 281.91075858078824
+    yaw: -16.974274
+    pitch: 28.743114
+logoutlocation:
+  world: plotworld
+  x: 435.30000001192093
+  y: 77.99287173698366
+  z: 408.3484580069504
+  yaw: 67.4999
+  pitch: 44.699974
+jailed: false
+godmode: false

@@ -1,0 +1,24 @@
+messages:
+  prefix: '&7[&aUnterschrift&7]'
+  nopermission: '&cDu hast dazu keine Rechte.'
+  success: '&aDein Item wurde signiert.'
+  ItemSignTrue: '&cDas Item ist bereits signiert.'
+  set: '&cBitte nutze: &7/sign <Signierung>'
+  noplayer: You can only run this command from ingame!
+  iteminhand: '&cDu musst ein Item in der Hand haben.'
+  unsign: '&aDas Item wurde unsigniert.'
+  unsignown: '&cDieses Item wurde nicht von dir signiert.'
+  unsignyes: '&cDieses Item ist nicht signiert.'
+signature:
+  lengthmsg: ' &cDeine Signierung darf maximal 50 Zeichen lang sein.'
+  length: '50'
+  lines: 'true'
+  line: '---------------------------'
+  user: '&7Signiert von &6%PLAYER% &7am &e%DATE%'
+Blocked:
+  Message:
+    Sign: '&cDu darfst das Item nicht signieren!'
+    UnSign: '&cDu darfst das Item nicht unsignieren!'
+  Items:
+  - GRASS
+  - STONE

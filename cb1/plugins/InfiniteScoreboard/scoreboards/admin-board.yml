@@ -1,0 +1,61 @@
+board:
+  title:
+    lines:
+    - '&l&aValea Games Netzwerk'
+    interval: 5
+  '1':
+    lines:
+    - ' '
+    interval: 200
+    score: 10
+  '2':
+    lines:
+    - '&a&lWillkommen'
+    interval: 5
+    score: 9
+  '3':
+    lines:
+    - '  %player_name%'
+    - '  %player_name%'
+    interval: 5
+    score: 8
+  '4':
+    lines:
+    - ' '
+    interval: 20
+    score: 7
+  '5':
+    lines:
+    - '&aServer:'
+    interval: 60
+    score: 6
+  '6':
+    lines:
+    - '    &6CB1'
+    interval: 60
+    score: 5
+  '7':
+    lines:
+    - '&aSpieler:'
+    interval: 60
+    score: 4
+  '8':
+    lines:
+    - '    &6%server_online% / 250'
+    interval: 60
+    score: 3
+  '9':
+    lines:
+    - '&aDein Geld:'
+    interval: 60
+    score: 2
+  '10':
+    lines:
+    - '    &6%vault_eco_balance_commas%'
+    interval: 60
+    score: 1
+  '11':
+    lines:
+    - ' '
+    interval: 200
+    score: 0

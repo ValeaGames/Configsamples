@@ -1,0 +1,29 @@
+lastAccountName: Cheese_Nugget
+timestamps:
+  login: 1592157765577
+  lastteleport: 1592155999804
+  logout: 1592157831858
+ipAddress: 176.198.202.211
+lastlocation:
+  world: plotworld
+  x: 106.02283703441061
+  y: 72.02696026922561
+  z: -77.96039106323143
+  yaw: 317.6944
+  pitch: 48.77253
+money: '15341.00000000000000000000000000000'
+homes:
+  home:
+    world: ADMINWORLD
+    x: 174.59419183568235
+    y: 5.324999982118607
+    z: 148.6114677074047
+    yaw: -174.1302
+    pitch: 27.906
+logoutlocation:
+  world: plotworld
+  x: 122.95750751126587
+  y: 68.0
+  z: 319.2511709517495
+  yaw: -40.28026
+  pitch: 44.40006

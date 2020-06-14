@@ -1,0 +1,20 @@
+lastAccountName: FernadeZTV
+timestamps:
+  login: 1591451872185
+  logout: 1591451904966
+ipAddress: 127.0.0.1
+lastlocation:
+  world: plotworld
+  x: 61.0
+  y: 65.0
+  z: 256.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: plotworld
+  x: 367.28929277540067
+  y: 50.0
+  z: 331.6855133309521
+  yaw: 269.02917
+  pitch: 9.759937
+money: '500.0'

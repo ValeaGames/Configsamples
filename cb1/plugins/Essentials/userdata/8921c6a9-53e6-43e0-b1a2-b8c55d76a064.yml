@@ -1,0 +1,50 @@
+lastAccountName: LordTheTiger
+timestamps:
+  login: 1592153263097
+  lastteleport: 1592156440860
+  logout: 1592157537489
+ipAddress: 87.170.239.141
+lastlocation:
+  world: plotworld_nether
+  x: -59.61059795560564
+  y: 86.22882489820394
+  z: -1111.6487322675846
+  yaw: 337.63086
+  pitch: 28.949612
+logoutlocation:
+  world: plotworld
+  x: 124.39802318163623
+  y: 69.02442408821369
+  z: 321.1076773787814
+  yaw: -138.27881
+  pitch: -28.19671
+money: '1870.0'
+homes:
+  mine:
+    world: farmwelt
+    x: -7317.347539810717
+    y: 26.0
+    z: 7545.649891266047
+    yaw: 176.77243
+    pitch: 11.099938
+  festung:
+    world: plotworld_nether
+    x: -164.16857122424517
+    y: 55.66949996368436
+    z: -626.8814614018271
+    yaw: 359.1043
+    pitch: 15.29926
+  base:
+    world: plotworld
+    x: 28.99405258112917
+    y: 66.0
+    z: -632.5081465537386
+    yaw: 275.65222
+    pitch: 35.100346
+  vi:
+    world: farmwelt
+    x: 7339.076144432456
+    y: 71.0
+    z: -10625.699999988079
+    yaw: -4.2133174
+    pitch: 27.150059

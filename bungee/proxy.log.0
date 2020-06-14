@@ -1,0 +1,1546 @@
+20:08:39 [INFORMATION] Using standard Java JCE cipher.
+20:08:39 [INFORMATION] Using standard Java compressor.
+20:08:39 [INFORMATION] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:b85df4f:1495
+20:08:39 [INFORMATION] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+20:08:39 [INFORMATION] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+20:08:39 [INFORMATION] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+20:08:39 [INFORMATION] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+20:08:39 [INFORMATION] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+20:08:39 [INFORMATION] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+20:08:39 [INFORMATION] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:08:40 [INFORMATION] Loaded plugin LuckPerms version 5.0.147 by Luck
+20:08:40 [INFORMATION] Loaded plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+20:08:40 [INFORMATION] Loaded plugin AdvancedBanAutoBan version 1.0.2 by james090500
+20:08:40 [INFORMATION] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:08:40 [INFORMATION] Loaded plugin BungeeAnnounce version 7.0 by Asynchronous
+20:08:40 [INFORMATION] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:08:40 [INFORMATION] Loaded plugin AdvancedBan version 2.1.9 by Leoko
+20:08:40 [INFORMATION] Loaded plugin HubCommand version 0.1 by HobbitCode
+20:08:40 [INFORMATION] Loaded plugin ValeaBungee version 1.0 by null
+20:08:40 [INFORMATION] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:08:40 [INFORMATION] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:08:40 [INFORMATION] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:08:40 [WARNUNG] Forced host server pvp is not defined
+20:08:40 [INFORMATION] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:08:40 [INFORMATION] §b       §3 __    
+20:08:40 [INFORMATION] §b  |    §3|__)   §2LuckPerms §bv5.0.147
+20:08:40 [INFORMATION] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+20:08:40 [INFORMATION] 
+20:08:40 [INFORMATION] [LuckPerms] Loading configuration...
+20:08:41 [INFORMATION] [LuckPerms] Loading storage provider... [MARIADB]
+20:08:41 [SCHWERWIEGEND] [LuckPerms] Failed to init storage implementation
+20:08:41 [SCHWERWIEGEND] java.lang.NullPointerException: database
+20:08:41 [SCHWERWIEGEND] 	at java.util.Objects.requireNonNull(Unknown Source)
+20:08:41 [INFORMATION] [LuckPerms] Loading messaging service... [PLUGINMSG]
+20:08:41 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.misc.StorageCredentials.getDatabase(StorageCredentials.java:60)
+20:08:41 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.appendConfigurationInfo(HikariConnectionFactory.java:69)
+20:08:41 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.init(HikariConnectionFactory.java:79)
+20:08:41 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.init(SqlStorage.java:151)
+20:08:41 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.init(Storage.java:114)
+20:08:41 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.StorageFactory.getInstance(StorageFactory.java:88)
+20:08:41 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.enable(AbstractLuckPermsPlugin.java:145)
+20:08:41 [SCHWERWIEGEND] 	at me.lucko.luckperms.bungee.LPBungeeBootstrap.onEnable(LPBungeeBootstrap.java:148)
+20:08:41 [SCHWERWIEGEND] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:250)
+20:08:41 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:286)
+20:08:41 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+20:08:41 [SCHWERWIEGEND] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+20:08:41 [INFORMATION] [LuckPerms] Loading internal permission managers...
+20:08:41 [INFORMATION] [LuckPerms] Performing initial data load...
+20:08:41 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+20:08:41 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$1(Storage.java:103)
+20:08:41 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+20:08:41 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+20:08:41 [INFORMATION] [LuckPerms] Successfully enabled. (took 754ms)
+20:08:41 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+20:08:41 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+20:08:41 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+20:08:41 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+20:08:41 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+20:08:41 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.loadAllGroups(SqlStorage.java:432)
+20:08:41 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$loadAllGroups$10(Storage.java:194)
+20:08:41 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$1(Storage.java:98)
+20:08:41 [SCHWERWIEGEND] 	... 5 more
+20:08:41 [INFORMATION] Enabled plugin LuckPerms version 5.0.147 by Luck
+20:08:41 [INFORMATION] Enabled plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+20:08:41 [INFORMATION] [AdvancedBanAutoBan] Plugin Loaded
+20:08:41 [INFORMATION] [AdvancedBanAutoBan] This plugin is in early alpha! Please report any bugs!
+20:08:41 [INFORMATION] Enabled plugin AdvancedBanAutoBan version 1.0.2 by james090500
+20:08:41 [INFORMATION] Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:08:41 [INFORMATION] [BungeeAnnounce] 2 scheduled announcements were correctly loaded.
+20:08:41 [WARNUNG] [BungeeAnnounce] Broadcast server "Hub-1" for player "Welcome" doesn't exist. Skipping it ...
+20:08:41 [INFORMATION] [BungeeAnnounce] 1 automatic player join announcement was correctly loaded.
+20:08:41 [INFORMATION] [BungeeAnnounce] 3 automatic player left announcements were correctly loaded.
+20:08:41 [INFORMATION] [BungeeAnnounce] Channel "ADMIN" successfully registred !
+20:08:41 [INFORMATION] [BungeeAnnounce] Channel "FACTION" successfully registred !
+20:08:41 [INFORMATION] Enabled plugin BungeeAnnounce version 7.0 by Asynchronous
+20:08:41 [INFORMATION] Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:08:41 [SCHWERWIEGEND] [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:09:21 [INFORMATION] Using standard Java JCE cipher.
+20:09:21 [INFORMATION] Using standard Java compressor.
+20:09:21 [INFORMATION] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:b85df4f:1495
+20:09:21 [INFORMATION] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+20:09:21 [INFORMATION] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+20:09:21 [INFORMATION] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+20:09:21 [INFORMATION] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+20:09:21 [INFORMATION] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+20:09:21 [INFORMATION] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+20:09:21 [INFORMATION] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:09:21 [INFORMATION] Loaded plugin LuckPerms version 5.0.147 by Luck
+20:09:21 [INFORMATION] Loaded plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+20:09:21 [INFORMATION] Loaded plugin AdvancedBanAutoBan version 1.0.2 by james090500
+20:09:21 [INFORMATION] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:09:21 [INFORMATION] Loaded plugin BungeeAnnounce version 7.0 by Asynchronous
+20:09:21 [INFORMATION] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:09:21 [INFORMATION] Loaded plugin AdvancedBan version 2.1.9 by Leoko
+20:09:21 [INFORMATION] Loaded plugin HubCommand version 0.1 by HobbitCode
+20:09:21 [INFORMATION] Loaded plugin ValeaBungee version 1.0 by null
+20:09:21 [INFORMATION] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:09:21 [INFORMATION] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:09:21 [INFORMATION] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:09:21 [WARNUNG] Forced host server pvp is not defined
+20:09:21 [INFORMATION] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:09:21 [INFORMATION] §b       §3 __    
+20:09:21 [INFORMATION] §b  |    §3|__)   §2LuckPerms §bv5.0.147
+20:09:21 [INFORMATION] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+20:09:21 [INFORMATION] 
+20:09:21 [INFORMATION] [LuckPerms] Loading configuration...
+20:09:22 [INFORMATION] [LuckPerms] Loading storage provider... [MARIADB]
+20:09:22 [SCHWERWIEGEND] [LuckPerms] Failed to init storage implementation
+20:09:22 [SCHWERWIEGEND] java.lang.NullPointerException: database
+20:09:22 [INFORMATION] [LuckPerms] Loading messaging service... [PLUGINMSG]
+20:09:22 [SCHWERWIEGEND] 	at java.util.Objects.requireNonNull(Unknown Source)
+20:09:22 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.misc.StorageCredentials.getDatabase(StorageCredentials.java:60)
+20:09:22 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.appendConfigurationInfo(HikariConnectionFactory.java:69)
+20:09:22 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.init(HikariConnectionFactory.java:79)
+20:09:22 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.init(SqlStorage.java:151)
+20:09:22 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.init(Storage.java:114)
+20:09:22 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.StorageFactory.getInstance(StorageFactory.java:88)
+20:09:22 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.enable(AbstractLuckPermsPlugin.java:145)
+20:09:22 [SCHWERWIEGEND] 	at me.lucko.luckperms.bungee.LPBungeeBootstrap.onEnable(LPBungeeBootstrap.java:148)
+20:09:22 [SCHWERWIEGEND] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:250)
+20:09:22 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:286)
+20:09:22 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+20:09:22 [SCHWERWIEGEND] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+20:09:22 [INFORMATION] [LuckPerms] Loading internal permission managers...
+20:09:22 [INFORMATION] [LuckPerms] Performing initial data load...
+20:09:22 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+20:09:22 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$1(Storage.java:103)
+20:09:22 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+20:09:22 [INFORMATION] [LuckPerms] Successfully enabled. (took 494ms)
+20:09:22 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+20:09:22 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+20:09:22 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+20:09:22 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+20:09:22 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+20:09:22 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+20:09:22 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.loadAllGroups(SqlStorage.java:432)
+20:09:22 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$loadAllGroups$10(Storage.java:194)
+20:09:22 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$1(Storage.java:98)
+20:09:22 [SCHWERWIEGEND] 	... 5 more
+20:09:22 [INFORMATION] [AdvancedBanAutoBan] Plugin Loaded
+20:09:22 [INFORMATION] Enabled plugin LuckPerms version 5.0.147 by Luck
+20:09:22 [INFORMATION] [AdvancedBanAutoBan] This plugin is in early alpha! Please report any bugs!
+20:09:22 [INFORMATION] Enabled plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+20:09:22 [INFORMATION] Enabled plugin AdvancedBanAutoBan version 1.0.2 by james090500
+20:09:22 [INFORMATION] Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:09:22 [INFORMATION] [BungeeAnnounce] 2 scheduled announcements were correctly loaded.
+20:09:22 [WARNUNG] [BungeeAnnounce] Broadcast server "Hub-1" for player "Welcome" doesn't exist. Skipping it ...
+20:09:22 [INFORMATION] [BungeeAnnounce] 1 automatic player join announcement was correctly loaded.
+20:09:22 [INFORMATION] [BungeeAnnounce] 3 automatic player left announcements were correctly loaded.
+20:09:22 [INFORMATION] [BungeeAnnounce] Channel "ADMIN" successfully registred !
+20:09:22 [INFORMATION] [BungeeAnnounce] Channel "FACTION" successfully registred !
+20:09:22 [INFORMATION] Enabled plugin BungeeAnnounce version 7.0 by Asynchronous
+20:09:22 [INFORMATION] Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:09:22 [SCHWERWIEGEND] [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:09:27 [SCHWERWIEGEND] [main] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+20:09:27 [SCHWERWIEGEND] com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20:09:27 [SCHWERWIEGEND] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+20:09:27 [SCHWERWIEGEND] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+20:09:27 [SCHWERWIEGEND] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+20:09:27 [SCHWERWIEGEND] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+20:09:27 [SCHWERWIEGEND] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+20:09:27 [SCHWERWIEGEND] 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+20:09:27 [SCHWERWIEGEND] 	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:335)
+20:09:27 [SCHWERWIEGEND] 	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2187)
+20:09:27 [SCHWERWIEGEND] 	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2220)
+20:09:27 [SCHWERWIEGEND] 	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2015)
+20:09:27 [SCHWERWIEGEND] 	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:768)
+20:09:27 [SCHWERWIEGEND] 	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+20:09:27 [SCHWERWIEGEND] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+20:09:27 [SCHWERWIEGEND] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+20:09:27 [SCHWERWIEGEND] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+20:09:27 [SCHWERWIEGEND] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+20:09:27 [SCHWERWIEGEND] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+20:09:27 [SCHWERWIEGEND] 	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:385)
+20:09:27 [SCHWERWIEGEND] 	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:323)
+20:09:27 [SCHWERWIEGEND] 	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+20:09:27 [SCHWERWIEGEND] 	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+20:09:27 [SCHWERWIEGEND] 	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+20:09:27 [SCHWERWIEGEND] 	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+20:09:27 [SCHWERWIEGEND] 	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+20:09:27 [SCHWERWIEGEND] 	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+20:09:27 [SCHWERWIEGEND] 	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+20:09:27 [SCHWERWIEGEND] 	at me.leoko.advancedban.utils.DynamicDataSource.generateDataSource(DynamicDataSource.java:33)
+20:09:27 [SCHWERWIEGEND] 	at me.leoko.advancedban.manager.DatabaseManager.setup(DatabaseManager.java:51)
+20:09:27 [SCHWERWIEGEND] 	at me.leoko.advancedban.Universal.setup(Universal.java:62)
+20:09:27 [SCHWERWIEGEND] 	at me.leoko.advancedban.bungee.BungeeMain.onEnable(BungeeMain.java:23)
+20:09:27 [SCHWERWIEGEND] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:250)
+20:09:27 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:286)
+20:09:27 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+20:09:27 [SCHWERWIEGEND] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+20:09:27 [SCHWERWIEGEND] Caused by: java.net.ConnectException: Connection refused: connect
+20:09:27 [SCHWERWIEGEND] 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+20:09:27 [SCHWERWIEGEND] 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+20:09:27 [SCHWERWIEGEND] 	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+20:09:27 [SCHWERWIEGEND] 	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+20:09:27 [SCHWERWIEGEND] 	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+20:09:27 [SCHWERWIEGEND] 	at java.net.PlainSocketImpl.connect(Unknown Source)
+20:09:27 [SCHWERWIEGEND] 	at java.net.SocksSocketImpl.connect(Unknown Source)
+20:09:27 [SCHWERWIEGEND] 	at java.net.Socket.connect(Unknown Source)
+20:09:27 [SCHWERWIEGEND] 	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+20:09:27 [SCHWERWIEGEND] 	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:299)
+20:09:27 [SCHWERWIEGEND] 	... 27 more
+20:09:27 [INFORMATION] §8[§cAdvancedBan§8] §7Failed enabling database-manager...
+20:09:27 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+20:09:27 [INFORMATION] §f
+ 
+§8[]=====[§7Enabling AdvancedBan§8]=====[]
+§8| §cInformation:
+§8|   §cName: §7AdvancedBan
+§8|   §cDeveloper: §7Leoko
+§8|   §cVersion: §72.1.9
+§8|   §cStorage: §7MySQL (external)
+§8| §cSupport:
+§8|   §cGithub: §7https://github.com/DevLeoko/AdvancedBan/issues
+§8|   §cDiscord: §7https://discord.gg/ycDG6rS
+§8| §cTwitter: §7@LeokoGar
+§8| §cUpdate:
+§8|   §7You have the newest version
+§8[]================================[]§f
+ 
+20:09:27 [INFORMATION] Enabled plugin AdvancedBan version 2.1.9 by Leoko
+20:09:27 [INFORMATION] Enabled plugin HubCommand version 0.1 by HobbitCode
+20:09:27 [INFORMATION] Enabled plugin ValeaBungee version 1.0 by null
+20:09:27 [INFORMATION] Enabled plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:09:27 [INFORMATION] Enabled plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:09:27 [INFORMATION] Enabled plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+20:09:27 [INFORMATION] Listening on /127.0.0.1:25565
+20:09:53 [INFORMATION] [/127.0.0.1:64096] <-> InitialHandler has pinged
+20:10:59 [INFORMATION] [/127.0.0.1:64163] <-> InitialHandler has connected
+20:11:00 [INFORMATION] YukiHai is not using a VPN or Proxy.
+20:11:00 [WARNUNG] Event PreLoginEvent(cancelled=false, cancelReasonComponents=null, connection=[YukiHai,/127.0.0.1:64163] <-> InitialHandler) took 426ms to process!
+20:11:00 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+20:11:00 [WARNUNG] Error dispatching event LoginEvent(cancelled=false, cancelReasonComponents=null, connection=[YukiHai,/127.0.0.1:64163] <-> InitialHandler) to listener com.james090500.Bungee.Listeners.BanListnerBungee@1bda97b
+java.lang.NullPointerException
+	at me.leoko.advancedban.manager.PunishmentManager.getPunishments(PunishmentManager.java:135)
+	at me.leoko.advancedban.manager.PunishmentManager.getBan(PunishmentManager.java:236)
+	at me.leoko.advancedban.manager.PunishmentManager.isBanned(PunishmentManager.java:258)
+	at com.james090500.Bungee.Listeners.BanListnerBungee.onConnect(BanListnerBungee.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:399)
+	at net.md_5.bungee.connection.InitialHandler.finish(InitialHandler.java:560)
+	at net.md_5.bungee.connection.InitialHandler.access$700(InitialHandler.java:70)
+	at net.md_5.bungee.connection.InitialHandler$5.done(InitialHandler.java:453)
+	at net.md_5.bungee.connection.InitialHandler$5.done(InitialHandler.java:441)
+	at net.md_5.bungee.http.HttpHandler.done(HttpHandler.java:68)
+	at net.md_5.bungee.http.HttpHandler.channelRead0(HttpHandler.java:59)
+	at net.md_5.bungee.http.HttpHandler.channelRead0(HttpHandler.java:14)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1518)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1267)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1314)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:501)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:440)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.lang.Thread.run(Unknown Source)
+20:11:00 [SCHWERWIEGEND] [LuckPerms] Exception occurred whilst loading data for cb42b057-5f9e-403d-bb77-e62de5eeaab7 - YukiHai
+20:11:00 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+20:11:00 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:90)
+20:11:00 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+20:11:00 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+20:11:00 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+20:11:00 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+20:11:00 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+20:11:00 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+20:11:00 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+20:11:00 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.getPlayerName(SqlStorage.java:679)
+20:11:00 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.savePlayerData(SqlStorage.java:609)
+20:11:00 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$savePlayerData$20(Storage.java:258)
+20:11:00 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:85)
+20:11:00 [SCHWERWIEGEND] 	... 5 more
+20:11:00 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+20:11:00 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+20:11:02 [INFORMATION] [/127.0.0.1:64171] <-> InitialHandler has pinged
+20:11:04 [INFORMATION] [YukiHai,/127.0.0.1:64174] <-> InitialHandler has connected
+20:11:04 [INFORMATION] YukiHai is not using a VPN or Proxy.
+20:11:04 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+20:11:04 [SCHWERWIEGEND] [LuckPerms] Exception occurred whilst loading data for cb42b057-5f9e-403d-bb77-e62de5eeaab7 - YukiHai
+20:11:04 [WARNUNG] Error dispatching event LoginEvent(cancelled=false, cancelReasonComponents=null, connection=[YukiHai,/127.0.0.1:64174] <-> InitialHandler) to listener com.james090500.Bungee.Listeners.BanListnerBungee@1bda97b
+java.lang.NullPointerException
+	at me.leoko.advancedban.manager.PunishmentManager.getPunishments(PunishmentManager.java:135)
+	at me.leoko.advancedban.manager.PunishmentManager.getBan(PunishmentManager.java:236)
+	at me.leoko.advancedban.manager.PunishmentManager.isBanned(PunishmentManager.java:258)
+	at com.james090500.Bungee.Listeners.BanListnerBungee.onConnect(BanListnerBungee.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:399)
+	at net.md_5.bungee.connection.InitialHandler.finish(InitialHandler.java:560)
+	at net.md_5.bungee.connection.InitialHandler.access$700(InitialHandler.java:70)
+	at net.md_5.bungee.connection.InitialHandler$5.done(InitialHandler.java:453)
+	at net.md_5.bungee.connection.InitialHandler$5.done(InitialHandler.java:441)
+	at net.md_5.bungee.http.HttpHandler.done(HttpHandler.java:68)
+	at net.md_5.bungee.http.HttpHandler.channelRead0(HttpHandler.java:59)
+	at net.md_5.bungee.http.HttpHandler.channelRead0(HttpHandler.java:14)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1518)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1267)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1314)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:501)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:440)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.lang.Thread.run(Unknown Source)
+20:11:04 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+20:11:04 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+20:11:04 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+20:11:04 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:90)
+20:11:04 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+20:11:04 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+20:11:04 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+20:11:04 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+20:11:04 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+20:11:04 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+20:11:04 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+20:11:04 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.getPlayerName(SqlStorage.java:679)
+20:11:04 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.savePlayerData(SqlStorage.java:609)
+20:11:04 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$savePlayerData$20(Storage.java:258)
+20:11:04 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:85)
+20:11:04 [SCHWERWIEGEND] 	... 5 more
+20:11:10 [INFORMATION] [YukiHai,/127.0.0.1:64186] <-> InitialHandler has connected
+20:11:10 [INFORMATION] YukiHai is not using a VPN or Proxy.
+20:11:10 [WARNUNG] Event PreLoginEvent(cancelled=false, cancelReasonComponents=null, connection=[YukiHai,/127.0.0.1:64186] <-> InitialHandler) took 253ms to process!
+20:11:11 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+20:11:11 [INFORMATION] [LuckPerms] Another plugin has cancelled the connection for cb42b057-5f9e-403d-bb77-e62de5eeaab7 - YukiHai. No permissions data will be loaded.
+20:11:11 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+20:11:11 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+20:11:11 [WARNUNG] Error dispatching event LoginEvent(cancelled=true, cancelReasonComponents=[TextComponent{text=[AdvancedBan] Failed to load player data!, BaseComponent(color=§f, bold=null, italic=null, underlined=null, strikethrough=null, obfuscated=null, insertion=null, extra=null, clickEvent=null, hoverEvent=null)}], connection=[YukiHai,/127.0.0.1:64186] <-> InitialHandler) to listener com.james090500.Bungee.Listeners.BanListnerBungee@1bda97b
+java.lang.NullPointerException
+	at me.leoko.advancedban.manager.PunishmentManager.getPunishments(PunishmentManager.java:135)
+	at me.leoko.advancedban.manager.PunishmentManager.getBan(PunishmentManager.java:236)
+	at me.leoko.advancedban.manager.PunishmentManager.isBanned(PunishmentManager.java:258)
+	at com.james090500.Bungee.Listeners.BanListnerBungee.onConnect(BanListnerBungee.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:399)
+	at net.md_5.bungee.connection.InitialHandler.finish(InitialHandler.java:560)
+	at net.md_5.bungee.connection.InitialHandler.access$700(InitialHandler.java:70)
+	at net.md_5.bungee.connection.InitialHandler$5.done(InitialHandler.java:453)
+	at net.md_5.bungee.connection.InitialHandler$5.done(InitialHandler.java:441)
+	at net.md_5.bungee.http.HttpHandler.done(HttpHandler.java:68)
+	at net.md_5.bungee.http.HttpHandler.channelRead0(HttpHandler.java:59)
+	at net.md_5.bungee.http.HttpHandler.channelRead0(HttpHandler.java:14)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1518)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1267)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1314)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:501)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:440)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.lang.Thread.run(Unknown Source)
+20:12:25 [INFORMATION] [/127.0.0.1:64325] <-> InitialHandler has pinged
+20:12:25 [INFORMATION] [YukiHai,/127.0.0.1:64326] <-> InitialHandler has connected
+20:12:26 [INFORMATION] YukiHai is not using a VPN or Proxy.
+20:12:26 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+20:12:26 [WARNUNG] Error dispatching event LoginEvent(cancelled=false, cancelReasonComponents=null, connection=[YukiHai,/127.0.0.1:64326] <-> InitialHandler) to listener com.james090500.Bungee.Listeners.BanListnerBungee@1bda97b
+java.lang.NullPointerException
+	at me.leoko.advancedban.manager.PunishmentManager.getPunishments(PunishmentManager.java:135)
+	at me.leoko.advancedban.manager.PunishmentManager.getBan(PunishmentManager.java:236)
+	at me.leoko.advancedban.manager.PunishmentManager.isBanned(PunishmentManager.java:258)
+	at com.james090500.Bungee.Listeners.BanListnerBungee.onConnect(BanListnerBungee.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:399)
+	at net.md_5.bungee.connection.InitialHandler.finish(InitialHandler.java:560)
+	at net.md_5.bungee.connection.InitialHandler.access$700(InitialHandler.java:70)
+	at net.md_5.bungee.connection.InitialHandler$5.done(InitialHandler.java:453)
+	at net.md_5.bungee.connection.InitialHandler$5.done(InitialHandler.java:441)
+	at net.md_5.bungee.http.HttpHandler.done(HttpHandler.java:68)
+	at net.md_5.bungee.http.HttpHandler.channelRead0(HttpHandler.java:59)
+	at net.md_5.bungee.http.HttpHandler.channelRead0(HttpHandler.java:14)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1518)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1267)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1314)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:501)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:440)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.lang.Thread.run(Unknown Source)
+20:12:26 [SCHWERWIEGEND] [LuckPerms] Exception occurred whilst loading data for cb42b057-5f9e-403d-bb77-e62de5eeaab7 - YukiHai
+20:12:26 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+20:12:26 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+20:12:26 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+20:12:26 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:90)
+20:12:26 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+20:12:26 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+20:12:26 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+20:12:26 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+20:12:26 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+20:12:26 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+20:12:26 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+20:12:26 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.getPlayerName(SqlStorage.java:679)
+20:12:26 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.savePlayerData(SqlStorage.java:609)
+20:12:26 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$savePlayerData$20(Storage.java:258)
+20:12:26 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:85)
+20:12:26 [SCHWERWIEGEND] 	... 5 more
+23:25:32 [INFORMATION] Using standard Java JCE cipher.
+23:25:32 [INFORMATION] Using standard Java compressor.
+23:25:32 [INFORMATION] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:b85df4f:1495
+23:25:32 [INFORMATION] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+23:25:32 [INFORMATION] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+23:25:32 [INFORMATION] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+23:25:32 [INFORMATION] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+23:25:32 [INFORMATION] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+23:25:32 [INFORMATION] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:25:33 [INFORMATION] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:25:33 [INFORMATION] Loaded plugin LuckPerms version 5.0.147 by Luck
+23:25:33 [INFORMATION] Loaded plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+23:25:33 [INFORMATION] Loaded plugin AdvancedBanAutoBan version 1.0.2 by james090500
+23:25:33 [INFORMATION] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:25:33 [INFORMATION] Loaded plugin BungeeAnnounce version 7.0 by Asynchronous
+23:25:33 [INFORMATION] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:25:33 [INFORMATION] Loaded plugin AdvancedBan version 2.1.9 by Leoko
+23:25:33 [INFORMATION] Loaded plugin HubCommand version 0.1 by HobbitCode
+23:25:33 [INFORMATION] Loaded plugin ValeaBungee version 1.0 by null
+23:25:33 [INFORMATION] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:25:33 [INFORMATION] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:25:33 [INFORMATION] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:25:33 [WARNUNG] Forced host server pvp is not defined
+23:25:33 [INFORMATION] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:25:33 [INFORMATION] §b       §3 __    
+23:25:33 [INFORMATION] §b  |    §3|__)   §2LuckPerms §bv5.0.147
+23:25:33 [INFORMATION] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+23:25:33 [INFORMATION] 
+23:25:33 [INFORMATION] [LuckPerms] Loading configuration...
+23:25:34 [INFORMATION] [LuckPerms] Loading storage provider... [MARIADB]
+23:25:34 [SCHWERWIEGEND] [LuckPerms] Failed to init storage implementation
+23:25:34 [SCHWERWIEGEND] java.lang.NullPointerException: database
+23:25:34 [INFORMATION] [LuckPerms] Loading messaging service... [PLUGINMSG]
+23:25:34 [SCHWERWIEGEND] 	at java.util.Objects.requireNonNull(Unknown Source)
+23:25:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.misc.StorageCredentials.getDatabase(StorageCredentials.java:60)
+23:25:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.appendConfigurationInfo(HikariConnectionFactory.java:69)
+23:25:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.init(HikariConnectionFactory.java:79)
+23:25:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.init(SqlStorage.java:151)
+23:25:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.init(Storage.java:114)
+23:25:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.StorageFactory.getInstance(StorageFactory.java:88)
+23:25:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.enable(AbstractLuckPermsPlugin.java:145)
+23:25:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.bungee.LPBungeeBootstrap.onEnable(LPBungeeBootstrap.java:148)
+23:25:34 [SCHWERWIEGEND] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:250)
+23:25:34 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:286)
+23:25:34 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+23:25:34 [SCHWERWIEGEND] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:25:34 [INFORMATION] [LuckPerms] Loading internal permission managers...
+23:25:34 [INFORMATION] [LuckPerms] Performing initial data load...
+23:25:34 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:25:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$1(Storage.java:103)
+23:25:34 [INFORMATION] [LuckPerms] Successfully enabled. (took 739ms)
+23:25:34 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+23:25:34 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+23:25:34 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+23:25:34 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+23:25:34 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+23:25:34 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:25:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+23:25:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.loadAllGroups(SqlStorage.java:432)
+23:25:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$loadAllGroups$10(Storage.java:194)
+23:25:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$1(Storage.java:98)
+23:25:34 [SCHWERWIEGEND] 	... 5 more
+23:25:34 [INFORMATION] Enabled plugin LuckPerms version 5.0.147 by Luck
+23:25:34 [INFORMATION] Enabled plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+23:25:34 [INFORMATION] [AdvancedBanAutoBan] Plugin Loaded
+23:25:34 [INFORMATION] [AdvancedBanAutoBan] This plugin is in early alpha! Please report any bugs!
+23:25:34 [INFORMATION] Enabled plugin AdvancedBanAutoBan version 1.0.2 by james090500
+23:25:34 [INFORMATION] Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:25:34 [INFORMATION] [BungeeAnnounce] 2 scheduled announcements were correctly loaded.
+23:25:34 [WARNUNG] [BungeeAnnounce] Broadcast server "Hub-1" for player "Welcome" doesn't exist. Skipping it ...
+23:25:34 [INFORMATION] [BungeeAnnounce] 1 automatic player join announcement was correctly loaded.
+23:25:34 [INFORMATION] [BungeeAnnounce] 3 automatic player left announcements were correctly loaded.
+23:25:34 [INFORMATION] [BungeeAnnounce] Channel "ADMIN" successfully registred !
+23:25:34 [INFORMATION] [BungeeAnnounce] Channel "FACTION" successfully registred !
+23:25:34 [INFORMATION] Enabled plugin BungeeAnnounce version 7.0 by Asynchronous
+23:25:34 [INFORMATION] Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:25:34 [SCHWERWIEGEND] [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:25:35 [SCHWERWIEGEND] [main] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+23:25:35 [SCHWERWIEGEND] java.sql.SQLException: Access denied for user 'Unknown'@'localhost' (using password: YES)
+23:25:35 [SCHWERWIEGEND] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+23:25:35 [SCHWERWIEGEND] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+23:25:35 [SCHWERWIEGEND] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+23:25:35 [SCHWERWIEGEND] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:864)
+23:25:35 [SCHWERWIEGEND] 	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1707)
+23:25:35 [SCHWERWIEGEND] 	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1217)
+23:25:35 [SCHWERWIEGEND] 	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2189)
+23:25:35 [SCHWERWIEGEND] 	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2220)
+23:25:35 [SCHWERWIEGEND] 	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2015)
+23:25:35 [SCHWERWIEGEND] 	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:768)
+23:25:35 [SCHWERWIEGEND] 	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+23:25:35 [SCHWERWIEGEND] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+23:25:35 [SCHWERWIEGEND] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+23:25:35 [SCHWERWIEGEND] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+23:25:35 [SCHWERWIEGEND] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+23:25:35 [SCHWERWIEGEND] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+23:25:35 [SCHWERWIEGEND] 	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:385)
+23:25:35 [SCHWERWIEGEND] 	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:323)
+23:25:35 [SCHWERWIEGEND] 	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+23:25:35 [SCHWERWIEGEND] 	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+23:25:35 [SCHWERWIEGEND] 	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+23:25:35 [SCHWERWIEGEND] 	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+23:25:35 [SCHWERWIEGEND] 	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+23:25:35 [SCHWERWIEGEND] 	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+23:25:35 [SCHWERWIEGEND] 	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+23:25:35 [SCHWERWIEGEND] 	at me.leoko.advancedban.utils.DynamicDataSource.generateDataSource(DynamicDataSource.java:33)
+23:25:35 [SCHWERWIEGEND] 	at me.leoko.advancedban.manager.DatabaseManager.setup(DatabaseManager.java:51)
+23:25:35 [SCHWERWIEGEND] 	at me.leoko.advancedban.Universal.setup(Universal.java:62)
+23:25:35 [SCHWERWIEGEND] 	at me.leoko.advancedban.bungee.BungeeMain.onEnable(BungeeMain.java:23)
+23:25:35 [SCHWERWIEGEND] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:250)
+23:25:35 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:286)
+23:25:35 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+23:25:35 [SCHWERWIEGEND] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:25:35 [INFORMATION] §8[§cAdvancedBan§8] §7Failed enabling database-manager...
+23:25:35 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+23:25:35 [INFORMATION] §f
+ 
+§8[]=====[§7Enabling AdvancedBan§8]=====[]
+§8| §cInformation:
+§8|   §cName: §7AdvancedBan
+§8|   §cDeveloper: §7Leoko
+§8|   §cVersion: §72.1.9
+§8|   §cStorage: §7MySQL (external)
+§8| §cSupport:
+§8|   §cGithub: §7https://github.com/DevLeoko/AdvancedBan/issues
+§8|   §cDiscord: §7https://discord.gg/ycDG6rS
+§8| §cTwitter: §7@LeokoGar
+§8| §cUpdate:
+§8|   §7You have the newest version
+§8[]================================[]§f
+ 
+23:25:35 [INFORMATION] Enabled plugin AdvancedBan version 2.1.9 by Leoko
+23:25:35 [INFORMATION] Enabled plugin HubCommand version 0.1 by HobbitCode
+23:25:35 [INFORMATION] Enabled plugin ValeaBungee version 1.0 by null
+23:25:35 [INFORMATION] Enabled plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:25:35 [INFORMATION] Enabled plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:25:35 [INFORMATION] Enabled plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:25:36 [INFORMATION] Listening on /127.0.0.1:25565
+23:25:40 [INFORMATION] [/127.0.0.1:49180] <-> InitialHandler has pinged
+23:25:41 [INFORMATION] [/127.0.0.1:49182] <-> InitialHandler has pinged
+23:25:42 [INFORMATION] [/127.0.0.1:49183] <-> InitialHandler has connected
+23:25:42 [INFORMATION] YukiHai is not using a VPN or Proxy.
+23:25:43 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+23:25:43 [WARNUNG] Error dispatching event LoginEvent(cancelled=false, cancelReasonComponents=null, connection=[YukiHai,/127.0.0.1:49183] <-> InitialHandler) to listener com.james090500.Bungee.Listeners.BanListnerBungee@1bda97b
+java.lang.NullPointerException
+	at me.leoko.advancedban.manager.PunishmentManager.getPunishments(PunishmentManager.java:135)
+	at me.leoko.advancedban.manager.PunishmentManager.getBan(PunishmentManager.java:236)
+	at me.leoko.advancedban.manager.PunishmentManager.isBanned(PunishmentManager.java:258)
+	at com.james090500.Bungee.Listeners.BanListnerBungee.onConnect(BanListnerBungee.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:399)
+	at net.md_5.bungee.connection.InitialHandler.finish(InitialHandler.java:560)
+	at net.md_5.bungee.connection.InitialHandler.access$700(InitialHandler.java:70)
+	at net.md_5.bungee.connection.InitialHandler$5.done(InitialHandler.java:453)
+	at net.md_5.bungee.connection.InitialHandler$5.done(InitialHandler.java:441)
+	at net.md_5.bungee.http.HttpHandler.done(HttpHandler.java:68)
+	at net.md_5.bungee.http.HttpHandler.channelRead0(HttpHandler.java:59)
+	at net.md_5.bungee.http.HttpHandler.channelRead0(HttpHandler.java:14)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1518)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1267)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1314)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:501)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:440)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.lang.Thread.run(Unknown Source)
+23:25:43 [SCHWERWIEGEND] [LuckPerms] Exception occurred whilst loading data for cb42b057-5f9e-403d-bb77-e62de5eeaab7 - YukiHai
+23:25:43 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:25:43 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:90)
+23:25:43 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+23:25:43 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+23:25:43 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+23:25:43 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+23:25:43 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+23:25:43 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:25:43 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+23:25:43 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.getPlayerName(SqlStorage.java:679)
+23:25:43 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.savePlayerData(SqlStorage.java:609)
+23:25:43 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$savePlayerData$20(Storage.java:258)
+23:25:43 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:85)
+23:25:43 [SCHWERWIEGEND] 	... 5 more
+23:25:43 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+23:25:43 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+23:27:27 [INFORMATION] [/127.0.0.1:49286] <-> InitialHandler has pinged
+23:27:28 [INFORMATION] [/127.0.0.1:49292] <-> InitialHandler has connected
+23:27:28 [INFORMATION] YukiHai is not using a VPN or Proxy.
+23:27:29 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+23:27:29 [WARNUNG] Error dispatching event LoginEvent(cancelled=false, cancelReasonComponents=null, connection=[YukiHai,/127.0.0.1:49292] <-> InitialHandler) to listener com.james090500.Bungee.Listeners.BanListnerBungee@1bda97b
+java.lang.NullPointerException
+	at me.leoko.advancedban.manager.PunishmentManager.getPunishments(PunishmentManager.java:135)
+	at me.leoko.advancedban.manager.PunishmentManager.getBan(PunishmentManager.java:236)
+	at me.leoko.advancedban.manager.PunishmentManager.isBanned(PunishmentManager.java:258)
+	at com.james090500.Bungee.Listeners.BanListnerBungee.onConnect(BanListnerBungee.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:399)
+	at net.md_5.bungee.connection.InitialHandler.finish(InitialHandler.java:560)
+	at net.md_5.bungee.connection.InitialHandler.access$700(InitialHandler.java:70)
+	at net.md_5.bungee.connection.InitialHandler$5.done(InitialHandler.java:453)
+	at net.md_5.bungee.connection.InitialHandler$5.done(InitialHandler.java:441)
+	at net.md_5.bungee.http.HttpHandler.done(HttpHandler.java:68)
+	at net.md_5.bungee.http.HttpHandler.channelRead0(HttpHandler.java:59)
+	at net.md_5.bungee.http.HttpHandler.channelRead0(HttpHandler.java:14)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1518)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1267)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1314)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:501)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:440)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.lang.Thread.run(Unknown Source)
+23:27:29 [SCHWERWIEGEND] [LuckPerms] Exception occurred whilst loading data for cb42b057-5f9e-403d-bb77-e62de5eeaab7 - YukiHai
+23:27:29 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+23:27:29 [INFORMATION] §8[§cAdvancedBan§8] §7An unexpected error has occurred connecting to the database
+Check if your MySQL data is correct and if your MySQL-Server is online
+Please check the plugins/AdvancedBan/logs/§7latest.log§7 file and report this error in: §7https://github.com/DevLeoko/AdvancedBan/issues§7
+23:27:29 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:27:29 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:90)
+23:27:29 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+23:27:29 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+23:27:29 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+23:27:29 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+23:27:29 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+23:27:29 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:27:29 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+23:27:29 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.getPlayerName(SqlStorage.java:679)
+23:27:29 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.savePlayerData(SqlStorage.java:609)
+23:27:29 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$savePlayerData$20(Storage.java:258)
+23:27:29 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:85)
+23:27:29 [SCHWERWIEGEND] 	... 5 more
+23:27:57 [INFORMATION] §cCommand not found
+23:27:57 [INFORMATION] §cCommand not found
+23:27:59 [INFORMATION] §cCommand not found
+23:28:01 [INFORMATION] §a[lobby] §e(0): §r
+23:28:01 [INFORMATION] §a[cb1] §e(0): §r
+23:28:01 [INFORMATION] Total players online: 0
+23:28:56 [INFORMATION] [/127.0.0.1:49339] <-> InitialHandler has pinged
+23:29:17 [INFORMATION] Using standard Java JCE cipher.
+23:29:17 [INFORMATION] Using standard Java compressor.
+23:29:17 [INFORMATION] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:b85df4f:1495
+23:29:17 [INFORMATION] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+23:29:17 [INFORMATION] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+23:29:17 [INFORMATION] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+23:29:17 [INFORMATION] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+23:29:17 [INFORMATION] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+23:29:17 [INFORMATION] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:29:17 [INFORMATION] Loaded plugin BungeeAnnounce version 7.0 by Asynchronous
+23:29:17 [INFORMATION] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:29:17 [INFORMATION] Loaded plugin LuckPerms version 5.0.147 by Luck
+23:29:17 [INFORMATION] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:29:17 [INFORMATION] Loaded plugin HubCommand version 0.1 by HobbitCode
+23:29:17 [INFORMATION] Loaded plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+23:29:17 [INFORMATION] Loaded plugin ValeaBungee version 1.0 by null
+23:29:17 [INFORMATION] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:29:17 [INFORMATION] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:29:17 [INFORMATION] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:29:17 [INFORMATION] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:29:17 [WARNUNG] Forced host server pvp is not defined
+23:29:17 [INFORMATION] [BungeeAnnounce] 2 scheduled announcements were correctly loaded.
+23:29:17 [WARNUNG] [BungeeAnnounce] Broadcast server "Hub-1" for player "Welcome" doesn't exist. Skipping it ...
+23:29:17 [INFORMATION] [BungeeAnnounce] 1 automatic player join announcement was correctly loaded.
+23:29:17 [INFORMATION] [BungeeAnnounce] 3 automatic player left announcements were correctly loaded.
+23:29:17 [INFORMATION] [BungeeAnnounce] Channel "ADMIN" successfully registred !
+23:29:17 [INFORMATION] [BungeeAnnounce] Channel "FACTION" successfully registred !
+23:29:17 [INFORMATION] Enabled plugin BungeeAnnounce version 7.0 by Asynchronous
+23:29:17 [INFORMATION] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:29:17 [INFORMATION] §b       §3 __    
+23:29:17 [INFORMATION] §b  |    §3|__)   §2LuckPerms §bv5.0.147
+23:29:17 [INFORMATION] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+23:29:17 [INFORMATION] [LuckPerms] Loading configuration...
+23:29:17 [INFORMATION] 
+23:29:18 [INFORMATION] [LuckPerms] Loading storage provider... [MARIADB]
+23:29:18 [SCHWERWIEGEND] [LuckPerms] Failed to init storage implementation
+23:29:18 [SCHWERWIEGEND] java.lang.NullPointerException: database
+23:29:18 [INFORMATION] [LuckPerms] Loading messaging service... [PLUGINMSG]
+23:29:18 [SCHWERWIEGEND] 	at java.util.Objects.requireNonNull(Unknown Source)
+23:29:18 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.misc.StorageCredentials.getDatabase(StorageCredentials.java:60)
+23:29:18 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.appendConfigurationInfo(HikariConnectionFactory.java:69)
+23:29:18 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.init(HikariConnectionFactory.java:79)
+23:29:18 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.init(SqlStorage.java:151)
+23:29:18 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.init(Storage.java:114)
+23:29:18 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.StorageFactory.getInstance(StorageFactory.java:88)
+23:29:18 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.enable(AbstractLuckPermsPlugin.java:145)
+23:29:18 [SCHWERWIEGEND] 	at me.lucko.luckperms.bungee.LPBungeeBootstrap.onEnable(LPBungeeBootstrap.java:148)
+23:29:18 [SCHWERWIEGEND] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:250)
+23:29:18 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:286)
+23:29:18 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+23:29:18 [SCHWERWIEGEND] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:29:18 [INFORMATION] [LuckPerms] Loading internal permission managers...
+23:29:18 [INFORMATION] [LuckPerms] Performing initial data load...
+23:29:18 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:29:18 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$1(Storage.java:103)
+23:29:18 [INFORMATION] [LuckPerms] Successfully enabled. (took 531ms)
+23:29:18 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+23:29:18 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+23:29:18 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+23:29:18 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+23:29:18 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+23:29:18 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:29:18 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+23:29:18 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.loadAllGroups(SqlStorage.java:432)
+23:29:18 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$loadAllGroups$10(Storage.java:194)
+23:29:18 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$1(Storage.java:98)
+23:29:18 [SCHWERWIEGEND] 	... 5 more
+23:29:18 [INFORMATION] Enabled plugin LuckPerms version 5.0.147 by Luck
+23:29:18 [INFORMATION] Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:29:18 [INFORMATION] Enabled plugin HubCommand version 0.1 by HobbitCode
+23:29:18 [INFORMATION] Enabled plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+23:29:18 [INFORMATION] Enabled plugin ValeaBungee version 1.0 by null
+23:29:18 [INFORMATION] Enabled plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:29:18 [INFORMATION] Enabled plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:29:18 [INFORMATION] Enabled plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:29:18 [INFORMATION] Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:29:18 [INFORMATION] Listening on /127.0.0.1:25565
+23:29:19 [INFORMATION] [/127.0.0.1:49414] <-> InitialHandler has connected
+23:29:20 [INFORMATION] YukiHai is not using a VPN or Proxy.
+23:29:20 [SCHWERWIEGEND] [LuckPerms] Exception occurred whilst loading data for cb42b057-5f9e-403d-bb77-e62de5eeaab7 - YukiHai
+23:29:20 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:29:20 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:90)
+23:29:20 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+23:29:20 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+23:29:20 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+23:29:20 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+23:29:20 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+23:29:20 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:29:20 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+23:29:20 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.getPlayerName(SqlStorage.java:679)
+23:29:20 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.savePlayerData(SqlStorage.java:609)
+23:29:20 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$savePlayerData$20(Storage.java:258)
+23:29:20 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:85)
+23:29:20 [SCHWERWIEGEND] 	... 5 more
+23:29:20 [WARNUNG] [LuckPerms] User cb42b057-5f9e-403d-bb77-e62de5eeaab7 - YukiHai doesn't have data pre-loaded, they have never been processed during pre-login in this session.
+23:29:22 [INFORMATION] [YukiHai] disconnected with: §cCould not connect to a default or fallback server, please try again later: io.netty.channel.AbstractChannel$AnnotatedConnectException
+23:29:22 [INFORMATION] [YukiHai] -> UpstreamBridge has disconnected
+23:30:07 [INFORMATION] Using standard Java JCE cipher.
+23:30:07 [INFORMATION] Using standard Java compressor.
+23:30:07 [INFORMATION] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:b85df4f:1495
+23:30:07 [INFORMATION] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+23:30:07 [INFORMATION] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+23:30:07 [INFORMATION] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+23:30:07 [INFORMATION] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+23:30:07 [INFORMATION] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+23:30:07 [INFORMATION] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:30:07 [INFORMATION] Loaded plugin BungeeAnnounce version 7.0 by Asynchronous
+23:30:07 [INFORMATION] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:07 [INFORMATION] Loaded plugin LuckPerms version 5.0.147 by Luck
+23:30:07 [INFORMATION] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:07 [INFORMATION] Loaded plugin HubCommand version 0.1 by HobbitCode
+23:30:07 [INFORMATION] Loaded plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+23:30:07 [INFORMATION] Loaded plugin ValeaBungee version 1.0 by null
+23:30:07 [INFORMATION] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:07 [INFORMATION] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:07 [INFORMATION] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:07 [INFORMATION] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:07 [WARNUNG] Forced host server pvp is not defined
+23:30:07 [INFORMATION] [BungeeAnnounce] 2 scheduled announcements were correctly loaded.
+23:30:07 [WARNUNG] [BungeeAnnounce] Broadcast server "Hub-1" for player "Welcome" doesn't exist. Skipping it ...
+23:30:07 [INFORMATION] [BungeeAnnounce] 1 automatic player join announcement was correctly loaded.
+23:30:07 [INFORMATION] [BungeeAnnounce] 3 automatic player left announcements were correctly loaded.
+23:30:07 [INFORMATION] [BungeeAnnounce] Channel "ADMIN" successfully registred !
+23:30:07 [INFORMATION] [BungeeAnnounce] Channel "FACTION" successfully registred !
+23:30:07 [INFORMATION] Enabled plugin BungeeAnnounce version 7.0 by Asynchronous
+23:30:07 [INFORMATION] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:07 [INFORMATION] §b       §3 __    
+23:30:07 [INFORMATION] §b  |    §3|__)   §2LuckPerms §bv5.0.147
+23:30:07 [INFORMATION] [LuckPerms] Loading configuration...
+23:30:07 [INFORMATION] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+23:30:07 [INFORMATION] 
+23:30:07 [INFORMATION] [LuckPerms] Loading storage provider... [MARIADB]
+23:30:07 [SCHWERWIEGEND] [LuckPerms] Failed to init storage implementation
+23:30:07 [SCHWERWIEGEND] java.lang.NullPointerException: database
+23:30:07 [INFORMATION] [LuckPerms] Loading messaging service... [PLUGINMSG]
+23:30:07 [SCHWERWIEGEND] 	at java.util.Objects.requireNonNull(Unknown Source)
+23:30:07 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.misc.StorageCredentials.getDatabase(StorageCredentials.java:60)
+23:30:07 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.appendConfigurationInfo(HikariConnectionFactory.java:69)
+23:30:07 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.init(HikariConnectionFactory.java:79)
+23:30:07 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.init(SqlStorage.java:151)
+23:30:07 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.init(Storage.java:114)
+23:30:07 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.StorageFactory.getInstance(StorageFactory.java:88)
+23:30:07 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.enable(AbstractLuckPermsPlugin.java:145)
+23:30:07 [SCHWERWIEGEND] 	at me.lucko.luckperms.bungee.LPBungeeBootstrap.onEnable(LPBungeeBootstrap.java:148)
+23:30:07 [SCHWERWIEGEND] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:250)
+23:30:07 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:286)
+23:30:07 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+23:30:07 [SCHWERWIEGEND] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:30:07 [INFORMATION] [LuckPerms] Loading internal permission managers...
+23:30:07 [INFORMATION] [LuckPerms] Performing initial data load...
+23:30:07 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:30:07 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$1(Storage.java:103)
+23:30:07 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+23:30:07 [INFORMATION] [LuckPerms] Successfully enabled. (took 371ms)
+23:30:07 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+23:30:07 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+23:30:07 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+23:30:07 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+23:30:07 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:30:07 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+23:30:07 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.loadAllGroups(SqlStorage.java:432)
+23:30:07 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$loadAllGroups$10(Storage.java:194)
+23:30:07 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$1(Storage.java:98)
+23:30:07 [SCHWERWIEGEND] 	... 5 more
+23:30:07 [INFORMATION] Enabled plugin LuckPerms version 5.0.147 by Luck
+23:30:07 [INFORMATION] Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:07 [INFORMATION] Enabled plugin HubCommand version 0.1 by HobbitCode
+23:30:07 [INFORMATION] Enabled plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+23:30:07 [INFORMATION] Enabled plugin ValeaBungee version 1.0 by null
+23:30:07 [INFORMATION] Enabled plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:07 [INFORMATION] Enabled plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:07 [INFORMATION] Enabled plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:07 [INFORMATION] Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:08 [INFORMATION] Listening on /127.0.0.1:25565
+23:30:08 [INFORMATION] [/127.0.0.1:49527] <-> InitialHandler has connected
+23:30:08 [INFORMATION] YukiHai is not using a VPN or Proxy.
+23:30:09 [SCHWERWIEGEND] [LuckPerms] Exception occurred whilst loading data for cb42b057-5f9e-403d-bb77-e62de5eeaab7 - YukiHai
+23:30:09 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:30:09 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:90)
+23:30:09 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+23:30:09 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+23:30:09 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+23:30:09 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+23:30:09 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+23:30:09 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:30:09 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+23:30:09 [WARNUNG] [LuckPerms] User cb42b057-5f9e-403d-bb77-e62de5eeaab7 - YukiHai doesn't have data pre-loaded, they have never been processed during pre-login in this session.
+23:30:09 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.getPlayerName(SqlStorage.java:679)
+23:30:09 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.savePlayerData(SqlStorage.java:609)
+23:30:09 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$savePlayerData$20(Storage.java:258)
+23:30:09 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:85)
+23:30:09 [SCHWERWIEGEND] 	... 5 more
+23:30:11 [INFORMATION] [YukiHai] disconnected with: §cCould not connect to a default or fallback server, please try again later: io.netty.channel.AbstractChannel$AnnotatedConnectException
+23:30:11 [INFORMATION] [YukiHai] -> UpstreamBridge has disconnected
+23:30:48 [INFORMATION] Using standard Java JCE cipher.
+23:30:48 [INFORMATION] Using standard Java compressor.
+23:30:48 [INFORMATION] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:b85df4f:1495
+23:30:48 [INFORMATION] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+23:30:48 [INFORMATION] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+23:30:48 [INFORMATION] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+23:30:48 [INFORMATION] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+23:30:48 [INFORMATION] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+23:30:48 [INFORMATION] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:30:48 [INFORMATION] Loaded plugin BungeeAnnounce version 7.0 by Asynchronous
+23:30:48 [INFORMATION] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:48 [INFORMATION] Loaded plugin LuckPerms version 5.0.147 by Luck
+23:30:48 [INFORMATION] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:48 [INFORMATION] Loaded plugin HubCommand version 0.1 by HobbitCode
+23:30:48 [INFORMATION] Loaded plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+23:30:48 [INFORMATION] Loaded plugin ValeaBungee version 1.0 by null
+23:30:48 [INFORMATION] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:48 [INFORMATION] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:48 [INFORMATION] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:48 [INFORMATION] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:48 [WARNUNG] Forced host server pvp is not defined
+23:30:48 [INFORMATION] [BungeeAnnounce] 2 scheduled announcements were correctly loaded.
+23:30:48 [WARNUNG] [BungeeAnnounce] Broadcast server "Hub-1" for player "Welcome" doesn't exist. Skipping it ...
+23:30:48 [INFORMATION] [BungeeAnnounce] 1 automatic player join announcement was correctly loaded.
+23:30:48 [INFORMATION] [BungeeAnnounce] 3 automatic player left announcements were correctly loaded.
+23:30:48 [INFORMATION] [BungeeAnnounce] Channel "ADMIN" successfully registred !
+23:30:48 [INFORMATION] [BungeeAnnounce] Channel "FACTION" successfully registred !
+23:30:48 [INFORMATION] Enabled plugin BungeeAnnounce version 7.0 by Asynchronous
+23:30:48 [INFORMATION] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:48 [INFORMATION] §b       §3 __    
+23:30:48 [INFORMATION] §b  |    §3|__)   §2LuckPerms §bv5.0.147
+23:30:48 [INFORMATION] [LuckPerms] Loading configuration...
+23:30:48 [INFORMATION] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+23:30:48 [INFORMATION] 
+23:30:48 [INFORMATION] [LuckPerms] Loading storage provider... [MARIADB]
+23:30:48 [SCHWERWIEGEND] [LuckPerms] Failed to init storage implementation
+23:30:48 [SCHWERWIEGEND] java.lang.NullPointerException: database
+23:30:48 [INFORMATION] [LuckPerms] Loading messaging service... [PLUGINMSG]
+23:30:48 [SCHWERWIEGEND] 	at java.util.Objects.requireNonNull(Unknown Source)
+23:30:48 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.misc.StorageCredentials.getDatabase(StorageCredentials.java:60)
+23:30:48 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.appendConfigurationInfo(HikariConnectionFactory.java:69)
+23:30:48 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.init(HikariConnectionFactory.java:79)
+23:30:48 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.init(SqlStorage.java:151)
+23:30:48 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.init(Storage.java:114)
+23:30:48 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.StorageFactory.getInstance(StorageFactory.java:88)
+23:30:48 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.enable(AbstractLuckPermsPlugin.java:145)
+23:30:48 [SCHWERWIEGEND] 	at me.lucko.luckperms.bungee.LPBungeeBootstrap.onEnable(LPBungeeBootstrap.java:148)
+23:30:48 [SCHWERWIEGEND] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:250)
+23:30:48 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:286)
+23:30:48 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+23:30:48 [SCHWERWIEGEND] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:30:48 [INFORMATION] [LuckPerms] Loading internal permission managers...
+23:30:48 [INFORMATION] [LuckPerms] Performing initial data load...
+23:30:48 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:30:48 [INFORMATION] [LuckPerms] Successfully enabled. (took 368ms)
+23:30:48 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$1(Storage.java:103)
+23:30:48 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+23:30:48 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+23:30:48 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+23:30:48 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+23:30:48 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+23:30:48 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:30:48 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+23:30:48 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.loadAllGroups(SqlStorage.java:432)
+23:30:48 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$loadAllGroups$10(Storage.java:194)
+23:30:48 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$1(Storage.java:98)
+23:30:48 [SCHWERWIEGEND] 	... 5 more
+23:30:48 [INFORMATION] Enabled plugin LuckPerms version 5.0.147 by Luck
+23:30:48 [INFORMATION] Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:48 [INFORMATION] Enabled plugin HubCommand version 0.1 by HobbitCode
+23:30:48 [INFORMATION] Enabled plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+23:30:48 [INFORMATION] Enabled plugin ValeaBungee version 1.0 by null
+23:30:48 [INFORMATION] Enabled plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:48 [INFORMATION] Enabled plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:48 [INFORMATION] Enabled plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:48 [INFORMATION] Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:30:48 [INFORMATION] Listening on /127.0.0.1:25565
+23:30:49 [INFORMATION] [/127.0.0.1:49642] <-> InitialHandler has pinged
+23:30:50 [INFORMATION] [/127.0.0.1:49645] <-> InitialHandler has connected
+23:30:50 [INFORMATION] YukiHai is not using a VPN or Proxy.
+23:30:50 [WARNUNG] Event PreLoginEvent(cancelled=false, cancelReasonComponents=null, connection=[YukiHai,/127.0.0.1:49645] <-> InitialHandler) took 343ms to process!
+23:30:51 [SCHWERWIEGEND] [LuckPerms] Exception occurred whilst loading data for cb42b057-5f9e-403d-bb77-e62de5eeaab7 - YukiHai
+23:30:51 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:30:51 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:90)
+23:30:51 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+23:30:51 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+23:30:51 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+23:30:51 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+23:30:51 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+23:30:51 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:30:51 [WARNUNG] [LuckPerms] User cb42b057-5f9e-403d-bb77-e62de5eeaab7 - YukiHai doesn't have data pre-loaded, they have never been processed during pre-login in this session.
+23:30:51 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+23:30:51 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.getPlayerName(SqlStorage.java:679)
+23:30:51 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.savePlayerData(SqlStorage.java:609)
+23:30:51 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$savePlayerData$20(Storage.java:258)
+23:30:51 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:85)
+23:30:51 [SCHWERWIEGEND] 	... 5 more
+23:30:53 [INFORMATION] [YukiHai] disconnected with: §cCould not connect to a default or fallback server, please try again later: io.netty.channel.AbstractChannel$AnnotatedConnectException
+23:30:53 [INFORMATION] [YukiHai] -> UpstreamBridge has disconnected
+23:30:54 [INFORMATION] [/127.0.0.1:49656] <-> InitialHandler has pinged
+23:30:55 [INFORMATION] [/127.0.0.1:49658] <-> InitialHandler has connected
+23:30:55 [INFORMATION] YukiHai is not using a VPN or Proxy.
+23:30:55 [SCHWERWIEGEND] [LuckPerms] Exception occurred whilst loading data for cb42b057-5f9e-403d-bb77-e62de5eeaab7 - YukiHai
+23:30:55 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:30:55 [WARNUNG] [LuckPerms] User cb42b057-5f9e-403d-bb77-e62de5eeaab7 - YukiHai doesn't have data pre-loaded, they have never been processed during pre-login in this session.
+23:30:55 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:90)
+23:30:55 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+23:30:55 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+23:30:55 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+23:30:55 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+23:30:55 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+23:30:55 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:30:55 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+23:30:55 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.getPlayerName(SqlStorage.java:679)
+23:30:55 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.savePlayerData(SqlStorage.java:609)
+23:30:55 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$savePlayerData$20(Storage.java:258)
+23:30:55 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:85)
+23:30:55 [SCHWERWIEGEND] 	... 5 more
+23:30:57 [INFORMATION] [YukiHai] disconnected with: §cCould not connect to a default or fallback server, please try again later: io.netty.channel.AbstractChannel$AnnotatedConnectException
+23:30:57 [INFORMATION] [YukiHai] -> UpstreamBridge has disconnected
+23:31:33 [INFORMATION] Using standard Java JCE cipher.
+23:31:33 [INFORMATION] Using standard Java compressor.
+23:31:33 [INFORMATION] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:b85df4f:1495
+23:31:34 [INFORMATION] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+23:31:34 [INFORMATION] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+23:31:34 [INFORMATION] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+23:31:34 [INFORMATION] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+23:31:34 [INFORMATION] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+23:31:34 [INFORMATION] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:31:34 [INFORMATION] Loaded plugin BungeeAnnounce version 7.0 by Asynchronous
+23:31:34 [INFORMATION] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:31:34 [INFORMATION] Loaded plugin LuckPerms version 5.0.147 by Luck
+23:31:34 [INFORMATION] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:31:34 [INFORMATION] Loaded plugin HubCommand version 0.1 by HobbitCode
+23:31:34 [INFORMATION] Loaded plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+23:31:34 [INFORMATION] Loaded plugin ValeaBungee version 1.0 by null
+23:31:34 [INFORMATION] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:31:34 [INFORMATION] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:31:34 [INFORMATION] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:31:34 [INFORMATION] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:31:34 [WARNUNG] Forced host server pvp is not defined
+23:31:34 [INFORMATION] [BungeeAnnounce] 2 scheduled announcements were correctly loaded.
+23:31:34 [WARNUNG] [BungeeAnnounce] Broadcast server "Hub-1" for player "Welcome" doesn't exist. Skipping it ...
+23:31:34 [INFORMATION] [BungeeAnnounce] 1 automatic player join announcement was correctly loaded.
+23:31:34 [INFORMATION] [BungeeAnnounce] 3 automatic player left announcements were correctly loaded.
+23:31:34 [INFORMATION] [BungeeAnnounce] Channel "ADMIN" successfully registred !
+23:31:34 [INFORMATION] [BungeeAnnounce] Channel "FACTION" successfully registred !
+23:31:34 [INFORMATION] Enabled plugin BungeeAnnounce version 7.0 by Asynchronous
+23:31:34 [INFORMATION] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:31:34 [INFORMATION] §b       §3 __    
+23:31:34 [INFORMATION] §b  |    §3|__)   §2LuckPerms §bv5.0.147
+23:31:34 [INFORMATION] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+23:31:34 [INFORMATION] [LuckPerms] Loading configuration...
+23:31:34 [INFORMATION] 
+23:31:34 [INFORMATION] [LuckPerms] Loading storage provider... [MARIADB]
+23:31:34 [SCHWERWIEGEND] [LuckPerms] Failed to init storage implementation
+23:31:34 [SCHWERWIEGEND] java.lang.NullPointerException: database
+23:31:34 [INFORMATION] [LuckPerms] Loading messaging service... [PLUGINMSG]
+23:31:34 [SCHWERWIEGEND] 	at java.util.Objects.requireNonNull(Unknown Source)
+23:31:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.misc.StorageCredentials.getDatabase(StorageCredentials.java:60)
+23:31:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.appendConfigurationInfo(HikariConnectionFactory.java:69)
+23:31:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.init(HikariConnectionFactory.java:79)
+23:31:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.init(SqlStorage.java:151)
+23:31:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.init(Storage.java:114)
+23:31:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.StorageFactory.getInstance(StorageFactory.java:88)
+23:31:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.enable(AbstractLuckPermsPlugin.java:145)
+23:31:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.bungee.LPBungeeBootstrap.onEnable(LPBungeeBootstrap.java:148)
+23:31:34 [SCHWERWIEGEND] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:250)
+23:31:34 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:286)
+23:31:34 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+23:31:34 [SCHWERWIEGEND] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:31:34 [INFORMATION] [LuckPerms] Loading internal permission managers...
+23:31:34 [INFORMATION] [LuckPerms] Performing initial data load...
+23:31:34 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:31:34 [INFORMATION] [LuckPerms] Successfully enabled. (took 384ms)
+23:31:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$1(Storage.java:103)
+23:31:34 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+23:31:34 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+23:31:34 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+23:31:34 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+23:31:34 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+23:31:34 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:31:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+23:31:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.loadAllGroups(SqlStorage.java:432)
+23:31:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$loadAllGroups$10(Storage.java:194)
+23:31:34 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$1(Storage.java:98)
+23:31:34 [SCHWERWIEGEND] 	... 5 more
+23:31:34 [INFORMATION] Enabled plugin LuckPerms version 5.0.147 by Luck
+23:31:34 [INFORMATION] Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:31:34 [INFORMATION] Enabled plugin HubCommand version 0.1 by HobbitCode
+23:31:34 [INFORMATION] Enabled plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+23:31:34 [INFORMATION] Enabled plugin ValeaBungee version 1.0 by null
+23:31:34 [INFORMATION] Enabled plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:31:34 [INFORMATION] Enabled plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:31:34 [INFORMATION] Enabled plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:31:34 [INFORMATION] Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:31:34 [INFORMATION] Listening on /127.0.0.1:25565
+23:31:35 [INFORMATION] [/127.0.0.1:49997] <-> InitialHandler has pinged
+23:31:36 [INFORMATION] [/127.0.0.1:49999] <-> InitialHandler has connected
+23:31:36 [INFORMATION] YukiHai is not using a VPN or Proxy.
+23:31:36 [WARNUNG] Event PreLoginEvent(cancelled=false, cancelReasonComponents=null, connection=[YukiHai,/127.0.0.1:49999] <-> InitialHandler) took 340ms to process!
+23:31:37 [SCHWERWIEGEND] [LuckPerms] Exception occurred whilst loading data for cb42b057-5f9e-403d-bb77-e62de5eeaab7 - YukiHai
+23:31:37 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:31:37 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:90)
+23:31:37 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+23:31:37 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+23:31:37 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+23:31:37 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+23:31:37 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+23:31:37 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:31:37 [WARNUNG] [LuckPerms] User cb42b057-5f9e-403d-bb77-e62de5eeaab7 - YukiHai doesn't have data pre-loaded, they have never been processed during pre-login in this session.
+23:31:37 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+23:31:37 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.getPlayerName(SqlStorage.java:679)
+23:31:37 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.savePlayerData(SqlStorage.java:609)
+23:31:37 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$savePlayerData$20(Storage.java:258)
+23:31:37 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:85)
+23:31:37 [SCHWERWIEGEND] 	... 5 more
+23:31:39 [INFORMATION] [YukiHai] disconnected with: §cCould not connect to a default or fallback server, please try again later: io.netty.channel.AbstractChannel$AnnotatedConnectException
+23:31:39 [INFORMATION] [YukiHai] -> UpstreamBridge has disconnected
+23:32:08 [INFORMATION] Using standard Java JCE cipher.
+23:32:08 [INFORMATION] Using standard Java compressor.
+23:32:08 [INFORMATION] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:b85df4f:1495
+23:32:08 [INFORMATION] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+23:32:08 [INFORMATION] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+23:32:08 [INFORMATION] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+23:32:08 [INFORMATION] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+23:32:08 [INFORMATION] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+23:32:08 [INFORMATION] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:32:08 [INFORMATION] Loaded plugin BungeeAnnounce version 7.0 by Asynchronous
+23:32:08 [INFORMATION] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:32:08 [INFORMATION] Loaded plugin LuckPerms version 5.0.147 by Luck
+23:32:08 [INFORMATION] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:32:08 [INFORMATION] Loaded plugin HubCommand version 0.1 by HobbitCode
+23:32:08 [INFORMATION] Loaded plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+23:32:08 [INFORMATION] Loaded plugin ValeaBungee version 1.0 by null
+23:32:08 [INFORMATION] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:32:08 [INFORMATION] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:32:08 [INFORMATION] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:32:08 [INFORMATION] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:32:08 [SCHWERWIEGEND] Exception in thread "main" 
+23:32:08 [SCHWERWIEGEND] java.lang.IllegalArgumentException: Server lobby (priority 0) is not defined
+23:32:08 [SCHWERWIEGEND] 	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:359)
+23:32:08 [SCHWERWIEGEND] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:135)
+23:32:08 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:273)
+23:32:08 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+23:32:08 [SCHWERWIEGEND] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:32:23 [INFORMATION] Using standard Java JCE cipher.
+23:32:23 [INFORMATION] Using standard Java compressor.
+23:32:23 [INFORMATION] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:b85df4f:1495
+23:32:23 [INFORMATION] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+23:32:23 [INFORMATION] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+23:32:23 [INFORMATION] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+23:32:23 [INFORMATION] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+23:32:23 [INFORMATION] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+23:32:23 [INFORMATION] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:32:23 [INFORMATION] Loaded plugin BungeeAnnounce version 7.0 by Asynchronous
+23:32:23 [INFORMATION] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:32:23 [INFORMATION] Loaded plugin LuckPerms version 5.0.147 by Luck
+23:32:23 [INFORMATION] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:32:23 [INFORMATION] Loaded plugin HubCommand version 0.1 by HobbitCode
+23:32:23 [INFORMATION] Loaded plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+23:32:23 [INFORMATION] Loaded plugin ValeaBungee version 1.0 by null
+23:32:23 [INFORMATION] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:32:23 [INFORMATION] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:32:23 [INFORMATION] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:32:23 [INFORMATION] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:32:24 [SCHWERWIEGEND] Exception in thread "main" 
+23:32:24 [SCHWERWIEGEND] java.lang.IllegalArgumentException: Server lobby (priority 0) is not defined
+23:32:24 [SCHWERWIEGEND] 	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:359)
+23:32:24 [SCHWERWIEGEND] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:135)
+23:32:24 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:273)
+23:32:24 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+23:32:24 [SCHWERWIEGEND] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:32:44 [INFORMATION] Using standard Java JCE cipher.
+23:32:44 [INFORMATION] Using standard Java compressor.
+23:32:44 [INFORMATION] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:b85df4f:1495
+23:32:44 [INFORMATION] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+23:32:44 [INFORMATION] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+23:32:44 [INFORMATION] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+23:32:44 [INFORMATION] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+23:32:44 [INFORMATION] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+23:32:44 [INFORMATION] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:32:45 [INFORMATION] Loaded plugin BungeeAnnounce version 7.0 by Asynchronous
+23:32:45 [INFORMATION] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:32:45 [INFORMATION] Loaded plugin LuckPerms version 5.0.147 by Luck
+23:32:45 [INFORMATION] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:32:45 [INFORMATION] Loaded plugin HubCommand version 0.1 by HobbitCode
+23:32:45 [INFORMATION] Loaded plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+23:32:45 [INFORMATION] Loaded plugin ValeaBungee version 1.0 by null
+23:32:45 [INFORMATION] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:32:45 [INFORMATION] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:32:45 [INFORMATION] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:32:45 [INFORMATION] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:32:45 [SCHWERWIEGEND] Exception in thread "main" 
+23:32:45 [SCHWERWIEGEND] java.lang.IllegalArgumentException: Server lobby (priority 0) is not defined
+23:32:45 [SCHWERWIEGEND] 	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:359)
+23:32:45 [SCHWERWIEGEND] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:135)
+23:32:45 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:273)
+23:32:45 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+23:32:45 [SCHWERWIEGEND] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:33:47 [INFORMATION] Using standard Java JCE cipher.
+23:33:47 [INFORMATION] Using standard Java compressor.
+23:33:47 [INFORMATION] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:b85df4f:1495
+23:33:47 [INFORMATION] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+23:33:47 [INFORMATION] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+23:33:47 [INFORMATION] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+23:33:47 [INFORMATION] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+23:33:47 [INFORMATION] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+23:33:47 [INFORMATION] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:33:47 [INFORMATION] Loaded plugin BungeeAnnounce version 7.0 by Asynchronous
+23:33:47 [INFORMATION] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:33:47 [INFORMATION] Loaded plugin LuckPerms version 5.0.147 by Luck
+23:33:47 [INFORMATION] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:33:47 [INFORMATION] Loaded plugin HubCommand version 0.1 by HobbitCode
+23:33:47 [INFORMATION] Loaded plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+23:33:47 [INFORMATION] Loaded plugin ValeaBungee version 1.0 by null
+23:33:47 [INFORMATION] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:33:47 [INFORMATION] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:33:47 [INFORMATION] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:33:47 [INFORMATION] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:33:47 [SCHWERWIEGEND] Exception in thread "main" 
+23:33:47 [SCHWERWIEGEND] java.lang.IllegalArgumentException: Server lobby (priority 0) is not defined
+23:33:47 [SCHWERWIEGEND] 	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:359)
+23:33:47 [SCHWERWIEGEND] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:135)
+23:33:47 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:273)
+23:33:47 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+23:33:47 [SCHWERWIEGEND] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:34:05 [INFORMATION] Using standard Java JCE cipher.
+23:34:05 [INFORMATION] Using standard Java compressor.
+23:34:05 [INFORMATION] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:b85df4f:1495
+23:34:05 [INFORMATION] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+23:34:05 [INFORMATION] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+23:34:05 [INFORMATION] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+23:34:05 [INFORMATION] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+23:34:05 [INFORMATION] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+23:34:05 [INFORMATION] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:34:05 [INFORMATION] Loaded plugin BungeeAnnounce version 7.0 by Asynchronous
+23:34:05 [INFORMATION] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:05 [INFORMATION] Loaded plugin LuckPerms version 5.0.147 by Luck
+23:34:05 [INFORMATION] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:05 [INFORMATION] Loaded plugin HubCommand version 0.1 by HobbitCode
+23:34:05 [INFORMATION] Loaded plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+23:34:05 [INFORMATION] Loaded plugin ValeaBungee version 1.0 by null
+23:34:05 [INFORMATION] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:05 [INFORMATION] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:05 [INFORMATION] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:05 [INFORMATION] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:05 [WARNUNG] Forced host server pvp is not defined
+23:34:05 [INFORMATION] [BungeeAnnounce] 2 scheduled announcements were correctly loaded.
+23:34:05 [WARNUNG] [BungeeAnnounce] Required server "lobby" for player "Welcome" doesn't exist. Skipping it ...
+23:34:05 [WARNUNG] [BungeeAnnounce] Broadcast server "Hub-1" for player "Welcome" doesn't exist. Skipping it ...
+23:34:05 [INFORMATION] [BungeeAnnounce] 1 automatic player join announcement was correctly loaded.
+23:34:05 [WARNUNG] [BungeeAnnounce] Required server "lobby" for player "YukiHai" doesn't exist. Skipping it ...
+23:34:05 [INFORMATION] [BungeeAnnounce] 3 automatic player left announcements were correctly loaded.
+23:34:05 [INFORMATION] [BungeeAnnounce] Channel "ADMIN" successfully registred !
+23:34:05 [INFORMATION] [BungeeAnnounce] Channel "FACTION" successfully registred !
+23:34:05 [INFORMATION] Enabled plugin BungeeAnnounce version 7.0 by Asynchronous
+23:34:05 [INFORMATION] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:05 [INFORMATION] §b       §3 __    
+23:34:05 [INFORMATION] §b  |    §3|__)   §2LuckPerms §bv5.0.147
+23:34:05 [INFORMATION] [LuckPerms] Loading configuration...
+23:34:05 [INFORMATION] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+23:34:05 [INFORMATION] 
+23:34:06 [INFORMATION] [LuckPerms] Loading storage provider... [MARIADB]
+23:34:06 [SCHWERWIEGEND] [LuckPerms] Failed to init storage implementation
+23:34:06 [SCHWERWIEGEND] java.lang.NullPointerException: database
+23:34:06 [INFORMATION] [LuckPerms] Loading messaging service... [PLUGINMSG]
+23:34:06 [SCHWERWIEGEND] 	at java.util.Objects.requireNonNull(Unknown Source)
+23:34:06 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.misc.StorageCredentials.getDatabase(StorageCredentials.java:60)
+23:34:06 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.appendConfigurationInfo(HikariConnectionFactory.java:69)
+23:34:06 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.init(HikariConnectionFactory.java:79)
+23:34:06 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.init(SqlStorage.java:151)
+23:34:06 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.init(Storage.java:114)
+23:34:06 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.StorageFactory.getInstance(StorageFactory.java:88)
+23:34:06 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.enable(AbstractLuckPermsPlugin.java:145)
+23:34:06 [SCHWERWIEGEND] 	at me.lucko.luckperms.bungee.LPBungeeBootstrap.onEnable(LPBungeeBootstrap.java:148)
+23:34:06 [SCHWERWIEGEND] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:250)
+23:34:06 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:286)
+23:34:06 [SCHWERWIEGEND] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+23:34:06 [SCHWERWIEGEND] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:34:06 [INFORMATION] [LuckPerms] Loading internal permission managers...
+23:34:06 [INFORMATION] [LuckPerms] Performing initial data load...
+23:34:06 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:34:06 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$1(Storage.java:103)
+23:34:06 [INFORMATION] [LuckPerms] Successfully enabled. (took 376ms)
+23:34:06 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+23:34:06 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+23:34:06 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+23:34:06 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+23:34:06 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+23:34:06 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:34:06 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+23:34:06 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.loadAllGroups(SqlStorage.java:432)
+23:34:06 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$loadAllGroups$10(Storage.java:194)
+23:34:06 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$1(Storage.java:98)
+23:34:06 [SCHWERWIEGEND] 	... 5 more
+23:34:06 [INFORMATION] Enabled plugin LuckPerms version 5.0.147 by Luck
+23:34:06 [INFORMATION] Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:06 [INFORMATION] Enabled plugin HubCommand version 0.1 by HobbitCode
+23:34:06 [INFORMATION] Enabled plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+23:34:06 [INFORMATION] Enabled plugin ValeaBungee version 1.0 by null
+23:34:06 [INFORMATION] Enabled plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:06 [INFORMATION] Enabled plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:06 [INFORMATION] Enabled plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:06 [INFORMATION] Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:06 [INFORMATION] Listening on /127.0.0.1:25565
+23:34:07 [INFORMATION] [/127.0.0.1:50957] <-> InitialHandler has pinged
+23:34:08 [INFORMATION] [/127.0.0.1:50959] <-> InitialHandler has connected
+23:34:08 [INFORMATION] YukiHai is not using a VPN or Proxy.
+23:34:08 [WARNUNG] Event PreLoginEvent(cancelled=false, cancelReasonComponents=null, connection=[YukiHai,/127.0.0.1:50959] <-> InitialHandler) took 437ms to process!
+23:34:09 [SCHWERWIEGEND] [LuckPerms] Exception occurred whilst loading data for cb42b057-5f9e-403d-bb77-e62de5eeaab7 - YukiHai
+23:34:09 [SCHWERWIEGEND] java.util.concurrent.CompletionException: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:34:09 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:90)
+23:34:09 [SCHWERWIEGEND] 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+23:34:09 [SCHWERWIEGEND] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+23:34:09 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+23:34:09 [SCHWERWIEGEND] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+23:34:09 [SCHWERWIEGEND] 	at java.lang.Thread.run(Unknown Source)
+23:34:09 [SCHWERWIEGEND] Caused by: java.sql.SQLException: Unable to get a connection from the pool. (hikari is null)
+23:34:09 [WARNUNG] [LuckPerms] User cb42b057-5f9e-403d-bb77-e62de5eeaab7 - YukiHai doesn't have data pre-loaded, they have never been processed during pre-login in this session.
+23:34:09 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:129)
+23:34:09 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.getPlayerName(SqlStorage.java:679)
+23:34:09 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.savePlayerData(SqlStorage.java:609)
+23:34:09 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$savePlayerData$20(Storage.java:258)
+23:34:09 [SCHWERWIEGEND] 	at me.lucko.luckperms.common.storage.Storage.lambda$makeFuture$0(Storage.java:85)
+23:34:09 [SCHWERWIEGEND] 	... 5 more
+23:34:09 [INFORMATION] [YukiHai] <-> ServerConnector [cb1] has connected
+23:34:14 [INFORMATION] [YukiHai] disconnected with: §cKicked whilst connecting to cb1: §7§l[§b§lL§3§lP§7§l] §cA database error occurred whilst loading permissions data. Please try again later. If you are a server admin, please check the console for any errors.
+23:34:14 [INFORMATION] [YukiHai] -> UpstreamBridge has disconnected
+23:34:14 [INFORMATION] [YukiHai] <-> ServerConnector [cb1] has disconnected
+23:34:44 [INFORMATION] Using standard Java JCE cipher.
+23:34:44 [INFORMATION] Using standard Java compressor.
+23:34:44 [INFORMATION] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:b85df4f:1495
+23:34:44 [INFORMATION] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+23:34:44 [INFORMATION] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+23:34:44 [INFORMATION] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+23:34:44 [INFORMATION] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+23:34:44 [INFORMATION] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+23:34:44 [INFORMATION] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:34:44 [INFORMATION] Loaded plugin BungeeAnnounce version 7.0 by Asynchronous
+23:34:44 [INFORMATION] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:44 [INFORMATION] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:44 [INFORMATION] Loaded plugin HubCommand version 0.1 by HobbitCode
+23:34:44 [INFORMATION] Loaded plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+23:34:44 [INFORMATION] Loaded plugin ValeaBungee version 1.0 by null
+23:34:44 [INFORMATION] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:44 [INFORMATION] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:44 [INFORMATION] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:44 [INFORMATION] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:44 [WARNUNG] Forced host server pvp is not defined
+23:34:44 [INFORMATION] [BungeeAnnounce] 2 scheduled announcements were correctly loaded.
+23:34:44 [WARNUNG] [BungeeAnnounce] Required server "lobby" for player "Welcome" doesn't exist. Skipping it ...
+23:34:44 [WARNUNG] [BungeeAnnounce] Broadcast server "Hub-1" for player "Welcome" doesn't exist. Skipping it ...
+23:34:44 [INFORMATION] [BungeeAnnounce] 1 automatic player join announcement was correctly loaded.
+23:34:44 [WARNUNG] [BungeeAnnounce] Required server "lobby" for player "YukiHai" doesn't exist. Skipping it ...
+23:34:44 [INFORMATION] [BungeeAnnounce] 3 automatic player left announcements were correctly loaded.
+23:34:44 [INFORMATION] [BungeeAnnounce] Channel "ADMIN" successfully registred !
+23:34:44 [INFORMATION] [BungeeAnnounce] Channel "FACTION" successfully registred !
+23:34:44 [INFORMATION] Enabled plugin BungeeAnnounce version 7.0 by Asynchronous
+23:34:44 [INFORMATION] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:44 [INFORMATION] Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:44 [INFORMATION] Enabled plugin HubCommand version 0.1 by HobbitCode
+23:34:44 [INFORMATION] Enabled plugin GatekeeperBungee version 1.0-SNAPSHOT by Fozzie
+23:34:44 [INFORMATION] Enabled plugin ValeaBungee version 1.0 by null
+23:34:44 [INFORMATION] Enabled plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:44 [INFORMATION] Enabled plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:44 [INFORMATION] Enabled plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:44 [INFORMATION] Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:b85df4f:1495 by SpigotMC
+23:34:45 [INFORMATION] Listening on /127.0.0.1:25565
+23:34:59 [INFORMATION] [/127.0.0.1:51118] <-> InitialHandler has pinged
+23:34:59 [INFORMATION] [/127.0.0.1:51122] <-> InitialHandler has connected
+23:34:59 [INFORMATION] YukiHai is not using a VPN or Proxy.
+23:34:59 [WARNUNG] Event PreLoginEvent(cancelled=false, cancelReasonComponents=null, connection=[YukiHai,/127.0.0.1:51122] <-> InitialHandler) took 310ms to process!
+23:35:01 [INFORMATION] [YukiHai] <-> ServerConnector [cb1] has connected
+23:35:18 [INFORMATION] [YukiHai] disconnected with: §cKicked whilst connecting to cb1: §cYou have to join through the proxy.
+23:35:18 [INFORMATION] [YukiHai] -> UpstreamBridge has disconnected
+23:35:18 [INFORMATION] [YukiHai] <-> ServerConnector [cb1] has disconnected
+23:35:20 [INFORMATION] [YukiHai,/127.0.0.1:51214] <-> InitialHandler has connected
+23:35:20 [INFORMATION] YukiHai is not using a VPN or Proxy.
+23:35:20 [INFORMATION] [YukiHai] <-> ServerConnector [cb1] has connected
+23:35:21 [INFORMATION] [YukiHai] disconnected with: §cKicked whilst connecting to cb1: §cYou have to join through the proxy.
+23:35:21 [INFORMATION] [YukiHai] -> UpstreamBridge has disconnected
+23:35:21 [INFORMATION] [YukiHai] <-> ServerConnector [cb1] has disconnected
+23:35:26 [INFORMATION] [YukiHai,/127.0.0.1:51262] <-> InitialHandler has connected
+23:35:26 [INFORMATION] YukiHai is not using a VPN or Proxy.
+23:35:26 [INFORMATION] [YukiHai] <-> ServerConnector [cb1] has connected
+23:35:26 [INFORMATION] [YukiHai] disconnected with: §cKicked whilst connecting to cb1: §cYou have to join through the proxy.
+23:35:26 [INFORMATION] [YukiHai] -> UpstreamBridge has disconnected
+23:35:26 [INFORMATION] [YukiHai] <-> ServerConnector [cb1] has disconnected

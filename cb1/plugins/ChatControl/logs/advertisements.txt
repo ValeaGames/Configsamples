@@ -1,0 +1,8 @@
+[06.05.2020 15:36:29] 1WhiteWolf15: [Handler=advertisement, Rule ID=1] -//set 14, 4, 48, 1, 1:5
+[06.05.2020 15:36:41] 1WhiteWolf15: [Handler=advertisement, Rule ID=1] gggdsfses//set 14, 4, 48, 1, 1:5sfefsefsfe
+[06.06.2020 00:20:19] LordTheTiger: [Handler=advertisement, Rule ID=2] /tell YukiHai https://www.google.com/search?q=lordthetiger&rlz=1C1MSIM_enDE891DE891&sxsrf=ALeKk01ghyOUUQOLbms1w1l1kYFBWC6UyQ:1591395603684&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjUhJ7N2uvpAhXMCOwKHTM6B2wQ_AUoA3oECAsQBQ&biw=1920&bih=969#imgrc=NHRs5YPnOcbjsM
+[07.06.2020 01:24:32] IchbinsTim1949: [Handler=advertisement, Rule ID=2] https://www.gutefrage.net/frage/ab-wann-benoetige-ich-ein-gewerbe-fuer-einen-minecraft-server#:~:text=4%20Antworten&text=Ein%20Gewerbeschein%20braucht%20nur%20der,in%20der%20Einkommensteuer%20angegeben%20werden.
+[07.06.2020 01:26:22] IchbinsTim1949: [Handler=advertisement, Rule ID=2] YukiHai Ich werde das zur anzeige bringen schau mal bei gutfrage.net
+[07.06.2020 17:37:15] D0ppe1gaenger: [Handler=advertisement, Rule ID=2] netcup.net,heyda.biz
+[13.06.2020 19:53:41] Cheese_Nugget: [Handler=advertisement, Rule ID=2] /r https://gyazo.com/9772b885ba54cd3355f456491f5d65a6
+[14.06.2020 19:46:28] Cheese_Nugget: [Handler=advertisement, Rule ID=2] /r https://gyazo.com/3f24c0c60b5e5a32dcccee37bc43e18e

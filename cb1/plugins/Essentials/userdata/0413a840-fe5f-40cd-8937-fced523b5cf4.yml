@@ -1,0 +1,29 @@
+lastAccountName: ShowDirzOn
+timestamps:
+  login: 1590947804681
+  lastteleport: 1590948932305
+  logout: 1590949714279
+ipAddress: 94.219.29.111
+lastlocation:
+  world: plotworld
+  x: 127.05570005641174
+  y: 181.0
+  z: 303.81179585557857
+  yaw: 177.80849
+  pitch: 7.8490043
+homes:
+  home:
+    world: farmwelt
+    x: 548.252557892625
+    y: 68.0
+    z: -1735.7237541947597
+    yaw: 164.36334
+    pitch: 8.693766
+money: '10.0'
+logoutlocation:
+  world: farmwelt
+  x: 423.6805559912638
+  y: 75.0
+  z: -1548.445843572122
+  yaw: 290.729
+  pitch: 5.3398066

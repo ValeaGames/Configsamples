@@ -1,0 +1,21 @@
+lastAccountName: Liidaru
+timestamps:
+  login: 1592063515629
+  lastteleport: 1592083219074
+  logout: 1592085396171
+ipAddress: 2.203.193.135
+lastlocation:
+  world: plotworld
+  x: 457.40045530760017
+  y: 59.0
+  z: 303.56520263357805
+  yaw: 14.249902
+  pitch: 20.400053
+money: '2710.0'
+logoutlocation:
+  world: plotworld
+  x: 463.55618494178736
+  y: 65.0
+  z: 306.3642680588061
+  yaw: 226.95033
+  pitch: 14.249955

@@ -1,0 +1,55 @@
+reasons:
+  '1':
+    name: Provocation
+    display: Provocation
+    permission: dkbans.kick.reason.provocation
+    aliases:
+    - provocation
+    - provo
+    hidden: false
+    points:
+      points: 3
+      type: CHAT
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10
+  '2':
+    name: Insult
+    display: Insult
+    permission: dkbans.kick.reason.insult
+    aliases:
+    - insult
+    hidden: false
+    points:
+      points: 5
+      type: CHAT
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10
+  '3':
+    name: Bugusing
+    display: Bugusing
+    permission: dkbans.kick.reason.bugusing
+    aliases:
+    - bug
+    - bugging
+    hidden: false
+    points:
+      points: 3
+      type: NETWORK
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10
+  '4':
+    name: Annoy
+    display: Annoy
+    permission: dkbans.kick.reason.annoy
+    aliases:
+    - annoy
+    hidden: false
+    points:
+      points: 0
+      type: CHAT
+    properties:
+      MyProperty: Hey
+      AnotherProperty: 10

@@ -1,0 +1,20 @@
+lastAccountName: zImBxses
+timestamps:
+  login: 1591277939152
+  logout: 1591278169879
+ipAddress: 80.143.54.240
+lastlocation:
+  world: plotworld
+  x: 61.0
+  y: 65.0
+  z: 256.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: plotworld
+  x: 52.4125375954997
+  y: 65.5
+  z: 207.52897805830685
+  yaw: -2.4396722
+  pitch: 43.359688
+money: '2500'
